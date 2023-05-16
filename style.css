@@ -8,7 +8,19 @@ body {
 }
 .page {
     margin: auto;
+    max-width: 1050px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.page-content {
+    width: -webkit-fill-available;
     max-width: 850px;
+}
+.toc-holder {
+    position: sticky;
+    margin-right: 2em;
+    width: 300px;
 }
 .text-header {
     color: white;
@@ -160,10 +172,10 @@ a:active {
     background: #f9f9f9 none repeat scroll 0 0;
     border: 1px solid #aaa;
     display: table;
-    font-size: 95%;
     margin-bottom: 1em;
-    padding: 20px;
+    padding: 12px;
     width: auto;
+    font-size: smaller;
 }
 
 .toc_title {
