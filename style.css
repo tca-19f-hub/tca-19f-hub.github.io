@@ -22,6 +22,9 @@ body {
     margin-right: 2em;
     width: 300px;
 }
+ul {
+    padding-inline-start: 10px !important;
+}
 .text-header {
     color: white;
     font-size: 220%;
