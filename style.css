@@ -33,6 +33,15 @@ body {
     flex-wrap: nowrap;
     align-items: flex-start;
 }
+@media screen and (min-width: 300px) and (max-width: 570px) and (orientation: portrait) {.text-header1 {
+    font-family: monospace;
+    font-weight: bold;
+    color: #f0f0c0;
+    white-space: nowrap;
+    font-size: small;
+    text-shadow: 1px 1px 3px black;
+} }
+
 .text-header1 {
     font-family: monospace;
     font-weight: bold;
