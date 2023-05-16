@@ -6,7 +6,10 @@ body {
   background-position: top;
   background-repeat: repeat-x !important;
 }
-
+.page {
+    margin: auto;
+    max-width: 850px;
+}
 .text-header {
     color: white;
     font-size: 220%;
