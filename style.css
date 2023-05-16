@@ -1,10 +1,10 @@
 body {
   margin: 20px;
   font-family: system-ui;
-  background-image: url("https://i.ibb.co/VtNRF0G/body-hrp-bg-dark.png") repeat-x;
+  background-image: url("https://i.ibb.co/VtNRF0G/body-hrp-bg-dark.png");
   overflow-y: scroll;
   background-position: top;
-  background-repeat-y: no-repeat;
+  background-repeat: repeat-x !important;
 }
 
 .text-header {
