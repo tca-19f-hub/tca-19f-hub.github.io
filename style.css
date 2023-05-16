@@ -6,6 +6,10 @@ body {
   background-position: top;
   background-repeat: repeat-x !important;
 }
+::selection {
+    background: lightgoldenrodyellow;
+    color: initial;
+  }
 .page {
     margin: auto;
     max-width: 1050px;
@@ -69,7 +73,7 @@ ul {
     font-weight: bold;
     color: #f0f0c0;
     white-space: nowrap;
-    font-size: small;
+    font-size: 87%;
     text-shadow: 1px 1px 3px black;
 } }
 .logo-header {
@@ -177,6 +181,8 @@ a:active {
     margin-bottom: 1em;
     padding: 12px;
     width: auto;
+    position: sticky;
+    top: 20px;
     font-size: smaller;
 }
 
