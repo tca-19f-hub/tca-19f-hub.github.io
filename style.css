@@ -19,11 +19,11 @@ body {
 }
 .toc-holder {
     position: sticky;
-    margin-right: 2em;
-    width: 300px;
+    margin-right: 1em;
+    width: 250px;
 }
 ul {
-    padding-inline-start: 10px !important;
+    padding-inline-start: 20px !important;
 }
 .text-header {
     color: white;
