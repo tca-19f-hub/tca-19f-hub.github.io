@@ -7,9 +7,32 @@ body {
   background-repeat: repeat-x !important;
 }
 ::selection {
-    background: lightgoldenrodyellow;
+    background: orange;
     color: initial;
-  }
+}
+
+nav {
+    color: white;
+    height: 23px;
+    max-width: 800px;
+    margin: auto;
+    font-family: monospace;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-weight: bolder;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+nav .option {
+    d: s;
+}
+
+nav a {
+    color: white !important;
+}
 
 .page {
     margin: auto;
@@ -91,7 +114,7 @@ header {
     padding: 1px 15px;
     max-width: 800px;
     margin: auto;
-    height: 117px;
+    height: 118px;
     text-align: center;
     display: flex;
     flex-direction: row;
