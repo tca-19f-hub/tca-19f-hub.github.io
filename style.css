@@ -25,13 +25,20 @@ nav {
     align-items: center;
     margin-bottom: 1em;
 }
-
 nav .option {
-    d: s;
+    border-left: 1px solid #bbbbbb;
+    padding: 5px;
+    border-right: 1px solid #bbbbbb;
 }
-
+nav .option :hover {
+    background: #bbbbbb;
+    color: black;
+}
 nav a {
-    color: white !important;
+    color: white;
+}
+nav a :hover {
+    color: black;
 }
 
 main {
