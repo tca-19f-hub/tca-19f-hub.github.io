@@ -87,7 +87,7 @@ ul {
     flex-wrap: nowrap;
     align-items: center;
 }
-.header {
+header {
     padding: 1px 15px;
     max-width: 800px;
     margin: auto;
