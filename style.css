@@ -30,14 +30,14 @@ nav .option {
     padding: 5px;
     border-right: 1px solid #bbbbbb;
 }
-nav .option :hover {
+nav .option:hover {
     background: #bbbbbb;
     color: black;
 }
 nav a {
     color: white;
 }
-nav a :hover {
+nav a:hover {
     color: black;
 }
 
