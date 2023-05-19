@@ -33,6 +33,11 @@ nav .option:hover {
     background: #bbbbbb;
     color: black;
 }
+nav .option:active {
+    background: white;
+    color: black !important;
+    filter: none;
+}
 
 main {
     margin: auto;
