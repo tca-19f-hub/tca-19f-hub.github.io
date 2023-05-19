@@ -34,7 +34,7 @@ nav a {
     color: white !important;
 }
 
-.page {
+main {
     margin: auto;
     max-width: 1050px;
     display: flex;
@@ -123,6 +123,16 @@ header {
     justify-content: center;
     align-items: center;
 }
+
+footer {
+    font-size: small;
+    border-top: 1px solid #bbbbbb;
+    padding: 5px;
+    text-align: center;
+    max-width: 1050px;
+    margin: 3em auto 0;
+}
+
 h1 {
     color: saddlebrown;
     padding: 0 0 0.25em;
