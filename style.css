@@ -28,16 +28,11 @@ nav {
 nav .option {
     border-left: 1px solid #bbbbbb;
     padding: 5px;
+    color: white;
     border-right: 1px solid #bbbbbb;
 }
 nav .option:hover {
     background: #bbbbbb;
-    color: black;
-}
-nav a {
-    color: white;
-}
-nav a:hover {
     color: black;
 }
 
