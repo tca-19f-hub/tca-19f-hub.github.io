@@ -26,10 +26,8 @@ nav {
     margin-bottom: 1em;
 }
 nav .option {
-    border-left: 1px solid #bbbbbb;
-    padding: 5px;
+    padding: 5px 15px;
     color: white;
-    border-right: 1px solid #bbbbbb;
 }
 nav .option:hover {
     background: #bbbbbb;
