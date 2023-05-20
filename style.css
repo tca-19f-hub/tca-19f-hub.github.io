@@ -31,6 +31,9 @@ nav {
     align-items: baseline;
     margin-bottom: 1em;
 }
+nav .list {
+    color: black;
+}
 nav .option {
     padding: 4.5px 15px;
     color: white;
