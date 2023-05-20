@@ -92,7 +92,13 @@ nav li a:active {
     filter: none;
     padding: 4.5px 10px;
 }
+a#navdrop {
+    padding: 4.5px 10px;
+}
 nav li.nav-item.dropdown.show {
+    padding: 4.5px 10px
+}
+nav li.nav-item.dropdown {
     padding: 4.5px 10px
 }
 .dropdown, .dropup {
@@ -115,6 +121,9 @@ nav li.nav-item.dropdown.show {
     display: flex!important;
     flex-direction: column;
     flex-wrap: nowrap;
+    background: white;
+    padding: 0 10px;
+    border: 1px solid #6f706f;
 }
 .dropdown-item {
     padding: 5px 0;
