@@ -30,16 +30,15 @@ nav {
     font-weight: bolder;
     align-items: center;
     margin-bottom: 1em;
+    white-space: nowrap;
 }
-nav .list {
-    color: black;
-}
+
 nav li {
     float: left;
     list-style: none;
 }
 nav .option {
-    padding: 4.5px 15px;
+    padding: 4.5px 10px;
     color: white;
 }
 nav .option:hover {
@@ -56,6 +55,7 @@ nav a {
 }
 nav a:hover {
     color: black;
+    background: #bbbbbb;
 }
 nav a:active {
     color: black !important;
