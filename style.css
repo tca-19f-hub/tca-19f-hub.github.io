@@ -51,6 +51,15 @@ nav .option:active {
     color: black !important;
     filter: none;
 }
+nav a {
+    color: white;
+}
+nav a:hover {
+    color: black;
+}
+nav a:active {
+    color: black !important;
+}
 nav.dropdown-menu {
     top: 100%;
     left: 0;
@@ -89,6 +98,10 @@ nav.dropdown-menu {
     flex-direction: column;
     flex-wrap: nowrap;
 }
+.dropdown-item {
+    padding: 5px 0;
+}
+
 main {
     margin: auto;
     max-width: 1050px;
