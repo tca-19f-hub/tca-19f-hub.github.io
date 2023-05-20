@@ -122,12 +122,11 @@ a#navbardrop:hover {
     flex-direction: column;
     flex-wrap: nowrap;
     background: #6f706f;
-    padding: 0 10px;
     border-top: 0;
     border: 1px solid #6f706f;
 }
 .dropdown-item {
-    padding: 5px 0;
+    padding: 5px;
 }
 
 main {
