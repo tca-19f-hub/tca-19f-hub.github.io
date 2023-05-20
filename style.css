@@ -92,6 +92,9 @@ nav li a:active {
     filter: none;
     padding: 4.5px 10px;
 }
+nav li.nav-item.dropdown.show {
+    padding: 4.5px 10px
+}
 .dropdown, .dropup {
     position: relative;
     min-width: 70px;
