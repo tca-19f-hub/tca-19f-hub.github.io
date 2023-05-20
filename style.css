@@ -11,6 +11,12 @@ body {
     color: initial;
 }
 
+blockquote {
+    border: 1px dashed #999;
+    padding: 0.5em 1em;
+    background-color: #f4f4f4;
+}
+
 nav {
     color: white;
     height: 23px;
