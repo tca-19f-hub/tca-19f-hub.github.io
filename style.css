@@ -93,6 +93,15 @@ nav.dropdown-menu {
     display: flex;
     justify-content: center;
 }
+.dropdown .show {
+    display: flex!important;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 5px 10px;
+}
+.dropdown .show a {
+    color: black;
+}
 .show {
     display: flex!important;
     flex-direction: column;
