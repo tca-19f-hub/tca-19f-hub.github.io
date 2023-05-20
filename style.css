@@ -86,6 +86,12 @@ nav.dropdown-menu {
     left: 0px;
     will-change: transform;
 }
+nav li a:active {
+    color: black !important;
+    background: white;
+    filter: none;
+    padding: 4.5px 10px;
+}
 .dropdown, .dropup {
     position: relative;
     min-width: 70px;
@@ -93,16 +99,16 @@ nav.dropdown-menu {
     display: flex;
     justify-content: center;
 }
-.dropdown .show {
+.show li {
     display: flex!important;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     padding: 5px 10px;
 }
-.dropdown .show a {
+.show li a {
     color: black;
 }
-.show {
+.dropdown .show {
     display: flex!important;
     flex-direction: column;
     flex-wrap: nowrap;
