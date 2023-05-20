@@ -90,7 +90,6 @@ nav li a:active {
     color: black !important;
     background: white;
     filter: none;
-    padding: 4.5px 10px;
 }
 a#navbardrop {
     padding: 4.5px 10px;
@@ -100,6 +99,7 @@ a#navbardrop:active {
 }
 a#navbardrop:hover {
     padding: 4.5px 10px;
+    background: #bbbbbb;
 }
 .dropdown, .dropup {
     position: relative;
@@ -121,8 +121,9 @@ a#navbardrop:hover {
     display: flex!important;
     flex-direction: column;
     flex-wrap: nowrap;
-    background: white;
+    background: #6f706f;
     padding: 0 10px;
+    border-top: 0;
     border: 1px solid #6f706f;
 }
 .dropdown-item {
