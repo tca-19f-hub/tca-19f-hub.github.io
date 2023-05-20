@@ -47,26 +47,27 @@ nav .option:active {
     color: black !important;
     filter: none;
 }
-nav li {
+nav.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
     list-style: none;
-}
-nav li ul {
-    border: solid 1px #666;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, .5);
-    border-top: 0;
-    border-width: 0 1px 1px 1px;
-    width: auto;
-    background: #bbbbbb;
-    list-style: none;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 0px;
-}
-nav li ul li {
-    padding: 5px;
-    margin-left: -20px;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
 }
 
 main {
