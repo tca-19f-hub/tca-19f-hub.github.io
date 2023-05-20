@@ -35,7 +35,8 @@ nav .list {
     color: black;
 }
 nav li {
-        float: left;
+    float: left;
+    list-style: none;
 }
 nav .option {
     padding: 4.5px 15px;
@@ -78,9 +79,15 @@ nav.dropdown-menu {
 }
 .dropdown, .dropup {
     position: relative;
+    min-width: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 .show {
-    display: block!important;
+    display: flex!important;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 main {
     margin: auto;
