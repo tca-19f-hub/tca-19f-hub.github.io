@@ -28,7 +28,7 @@ nav {
     flex-direction: row;
     justify-content: flex-end;
     font-weight: bolder;
-    align-items: baseline;
+    align-items: center;
     margin-bottom: 1em;
 }
 nav .list {
