@@ -97,6 +97,10 @@ a#navbardrop {
 a#navbardrop:active {
     padding: 4.5px 10px;
 }
+a#navbardrop:target {
+    padding: 4.5px 10px;
+    background: #6f706f;
+}
 a#navbardrop:hover {
     padding: 4.5px 10px;
     background: #bbbbbb;
