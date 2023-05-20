@@ -92,14 +92,14 @@ nav li a:active {
     filter: none;
     padding: 4.5px 10px;
 }
-a#navdrop {
+a#navbardrop {
     padding: 4.5px 10px;
 }
-nav li.nav-item.dropdown.show {
-    padding: 4.5px 10px
+a#navbardrop:active {
+    padding: 4.5px 10px;
 }
-nav li.nav-item.dropdown {
-    padding: 4.5px 10px
+a#navbardrop:hover {
+    padding: 4.5px 10px;
 }
 .dropdown, .dropup {
     position: relative;
