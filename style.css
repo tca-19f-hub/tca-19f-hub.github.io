@@ -5,6 +5,7 @@ body {
   overflow-y: scroll;
   background-position: top;
   background-repeat: repeat-x !important;
+  background-color: white;
 }
 code {
     background: antiquewhite;
