@@ -7,6 +7,21 @@ body {
   background-repeat: repeat-x !important;
   background-color: white;
 }
+  * {
+    scrollbar-width: auto !important;
+    scrollbar-color: #808080 #e0e0e0 !important;
+  }
+  *::-webkit-scrollbar {
+    width: 15px !important;
+  }
+  *::-webkit-scrollbar-track {
+    background: #e0e0e0 !important; 
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: #808080 !important;
+    border-radius: 0px !important;
+    border: 2px inset #ffffff !important;
+  }
 code {
     background: antiquewhite;
     padding: 2px;
