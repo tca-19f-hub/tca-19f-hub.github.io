@@ -13,22 +13,21 @@
 	 $(function() {
 		$("#includeHtml").load("https://tca-19f-hub.github.io/topbar-navigation.html");
 	 });
+
+	$(function(){
+    $("#header-load").load("https://tca-19f-hub.github.io/header.html"); 
+    });
   </script>
 </head>
 <html>
 <body>
-<header>
-  <div class="hold1">
-    <div class='logo-header'><img src="https://i.ibb.co/5kMbCgs/19f.png" width="90px" border="0"></div>
-    <div class='header-flex'><div class='text-header'>Containment Area-19F</div><div class='text-header1'>Хаб Участка Временного Содержания 19F</div></div>
-  </div>
-  <div class="hold2">
-  </div>
-</header>
-
+<!-- Header Start -->
+    <div style ='max-width: 800px;margin: auto;height: 120px;'id="header-load"></div>
+<!-- Header End -->
 <!-- Navigation Start -->
-<div style='height: 23px;margin-bottom: 1em;' id="includeHtml"></div>
+	<div style='height: 23px;margin-bottom: 1em;' id="includeHtml"></div>
 <!-- Navigation End -->
+
 
 <main>
 <div class="toc-holder">
