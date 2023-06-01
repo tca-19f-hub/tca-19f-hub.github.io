@@ -38,6 +38,7 @@ code {
 
 blockquote {
     border: 1px dashed #999;
+    margin: 1em 0em !important;
     padding: 0.5em 1em;
     background-color: #f4f4f4;
 }
