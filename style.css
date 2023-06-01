@@ -22,6 +22,10 @@ body {
     border-radius: 0px !important;
     border: 2px inset #ffffff !important;
   }
+mark {
+    color: black;
+    background-color: black;
+}
 code {
     background: antiquewhite;
     padding: 2px;
