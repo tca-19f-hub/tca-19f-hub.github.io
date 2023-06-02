@@ -265,6 +265,20 @@ h1 {
     font-weight: normal;
     border-bottom: 1px solid #bbb;
 }
+h2 {
+    color: sienna;
+    font-size: 160%;
+    margin-top: 0.7em;
+    padding: 0;
+    font-weight: 650;
+}
+h3 {
+    font-weight: normal;
+    font-size: 130%;
+    margin: 0.5em 0 0.4em;
+    padding: 0;
+    letter-spacing: 1px;
+}
 .box {
     border: solid 1px #888880;
     border-radius: 10px;
