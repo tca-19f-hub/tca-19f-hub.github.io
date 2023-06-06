@@ -415,7 +415,7 @@ a:active {
 }
 code {
     font: inherit;
-    animation: glitch 1.4s linear infinite;
+    animation: glitch 0.7s linear infinite;
 }
 @keyframes glitch {
     0% {
