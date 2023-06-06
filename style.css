@@ -26,11 +26,6 @@ mark {
     color: black;
     background-color: black;
 }
-code {
-    background: antiquewhite;
-    padding: 2px;
-    border-radius: 5px;
-}
 ::selection {
     background: orange;
     color: initial;
@@ -417,4 +412,34 @@ a:active {
     opacity: 40%;
     filter: blur(0px);
 }
+}
+code {
+    font: inherit;
+    animation: glitch 1.4s linear infinite;
+}
+@keyframes glitch {
+    0% {
+        -webkit-text-security: square;
+        font: inherit;
+    }
+    20% {
+        -webkit-text-security: circle;
+        font: inherit;
+    }
+    40% {
+        -webkit-text-security: square;
+        font: inherit;
+    }
+    60% {
+        -webkit-text-security: disc;
+        font: inherit;
+    }
+    80% {
+        -webkit-text-security: none;
+        font: inherit;
+    }
+    100% {
+        -webkit-text-security: disc;
+        font: inherit;
+    }
 }
