@@ -397,4 +397,21 @@ a:active {
               transform: rotate(360deg);
     }
   }
-  
+.pulse {
+    animation: pulse 4s linear infinite;
+}
+
+@-webkit-keyframes "pulse" {
+0% {
+    opacity: 100%
+}
+50% {
+    opacity: 90%
+}
+80% {
+    opacity: 60%
+}
+100% {
+    opacity: 40%
+}
+}
