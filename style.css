@@ -398,20 +398,23 @@ a:active {
     }
   }
 .pulse {
-    animation: pulse 4s linear infinite;
+    animation: pulse 1s linear infinite;
 }
 
-@-webkit-keyframes "pulse" {
+@keyframes pulse {
 0% {
-    opacity: 100%
+    opacity: 100%;
+    filter: blur(0px);
 }
 50% {
-    opacity: 90%
+    opacity: 90%;
+    filter: blur(1px);
 }
 80% {
-    opacity: 60%
+    opacity: 60%;
 }
 100% {
-    opacity: 40%
+    opacity: 40%;
+    filter: blur(0px);
 }
 }
