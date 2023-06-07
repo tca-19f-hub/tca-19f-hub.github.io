@@ -18,19 +18,20 @@
     $("#header-load").load("https://tca-19f-hub.github.io/header.html"); 
     });
 
-    var coll = document.getElementsByClassName("collapsible");
-var i;
+    function toggleMe(a) {
+   var e = document.getElementById(a);
+   var toggleIcon = document.getElementById('toggle-icon');
+   if(!e) return true;
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "none") {
-      content.style.display = "initial";
-    } else {
-      content.style.display = "none";
-    }
-  });
+   if(e.style.display == "none") {
+      e.style.display = "block";
+      toggleIcon.innerHTML = '&nbsp';
+   }
+   else {
+      e.style.display = "none";
+      toggleIcon.innerHTML = '&nbsp;';
+   }
+   return true;
 }
 </script>
 </head>
@@ -73,7 +74,8 @@ for (i = 0; i < coll.length; i++) {
 
 <center>
   <p style="font-weight: bolder;">[НАЧАТЬ ПРИНУДИТЕЛЬНОЕ ВОССТАНОВЛЕНИЕ?]</p><br>
-<button type="button" class="collapsible">ВОССТАНОВИТЬ</button>
+  <button class="button-0" onclick="return toggleMe('para1')">НАЧАТЬ</button>
+  <div class="button-1"id="toggle-icon">&nbsp;</div>
 </center>
 <div class="content">
   <p>ВКЛЮЧЕНИЕ...<br>
