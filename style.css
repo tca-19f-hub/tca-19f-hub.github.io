@@ -446,6 +446,7 @@ code {
 .collapsible {
     border: 1px solid black;
     font-variant-caps: all-petite-caps;
+    font-size: large;
 }
 .collapsible:hover {
     border: 1px solid black;
@@ -467,5 +468,34 @@ code {
 .content {
     display: none;
     overflow: hidden;
-  }
+    font-family: monospace;
+    font-size: larger;
+}
+.flicker-1 {
+  animation: flicker 1s linear 1s both;
+}
+@keyframes flicker {
+    0% {
+      display: 0;
+    }
+    100% {
+      display: 1;
+    }
+}
+.flicker-2 {
+    animation: flicker 1s linear 3s both;
+}
+  .flicker-3 {
+    animation: flicker 1s linear 4s both;
+}
+  .flicker-4 {
+    animation: flicker 1s linear 6s both;
+}
+  .flicker-5 {
+    animation: flicker 1s linear 7s both;
+}
+  .flicker-6 {
+    animation: flicker 1s linear 8s both;
+}
+
 
