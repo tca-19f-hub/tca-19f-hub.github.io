@@ -472,30 +472,57 @@ code {
     font-size: larger;
 }
 .flicker-1 {
-  animation: flicker 1s linear 1s both;
+  animation: flicker 0s linear 1s both;
 }
 @keyframes flicker {
     0% {
-      display: 0;
+      opacity: 0;
     }
     100% {
-      display: 1;
+      opacity: 1;
     }
 }
 .flicker-2 {
-    animation: flicker 1s linear 3s both;
+    animation: flicker 0s linear 2s both;
 }
   .flicker-3 {
-    animation: flicker 1s linear 4s both;
+    animation: flicker 0s linear 6s both;
 }
   .flicker-4 {
-    animation: flicker 1s linear 6s both;
+    animation: flicker 0s linear 7s both;
 }
   .flicker-5 {
-    animation: flicker 1s linear 7s both;
+    animation: flicker 0s linear 8s both;
 }
   .flicker-6 {
-    animation: flicker 1s linear 8s both;
+    animation: flicker 0s linear 10s both;
 }
-
+.flicker-7 {
+    animation: flicker 0s linear 10.6s both;
+}
+.flicker-8 {
+    animation: flicker 0s linear 11s both;
+}
+.flicker-8 {
+    animation: flicker 0s linear 11.2s both;
+}
+.progress {
+    border: black 2px outset;
+    height: 10px;
+    width: -webkit-fill-available;
+    padding: 3px;
+}
+.bar {
+    background: black;
+    height: 100%;
+    animation: progress-bar 6s linear 11.4 both;
+}
+@keyframes progress-bar {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 55%;
+    }
+}
 
