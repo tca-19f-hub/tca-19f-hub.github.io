@@ -443,3 +443,18 @@ code {
         font: inherit;
     }
 }
+.standard-button {
+    border: 1px solid black;
+    font-variant-caps: all-petite-caps;
+}
+.standard-button:hover {
+    border: 1px solid black;
+    font-variant-caps: all-petite-caps;
+    background-color: #999;
+}
+.standard-button:active {
+    border: 1px solid black;
+    font-variant-caps: all-petite-caps;
+    background-color: #444;
+    color: white;
+}
