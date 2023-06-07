@@ -443,16 +443,16 @@ code {
         font: inherit;
     }
 }
-.standard-button {
+.collapsible {
     border: 1px solid black;
     font-variant-caps: all-petite-caps;
 }
-.standard-button:hover {
+.collapsible:hover {
     border: 1px solid black;
     font-variant-caps: all-petite-caps;
     background-color: #999;
 }
-.standard-button:active {
+.collapsible:active {
     border: 1px solid black;
     font-variant-caps: all-petite-caps;
     background-color: #444;
@@ -462,28 +462,3 @@ code {
     display: none;
     overflow: hidden;
   }
-  .progress {
-    --progress: 0%;
-    
-    max-width: 500px;
-    height: 10px;
-    margin: 1em auto;
-    border: 1px solid #fff;
-    padding: 5px 5px;
-    border: 1px outset black;
-  }
-  .progress .bar {
-    width: var(--progress);
-    height: 100%;
-    background: black;
-    background-repeat: repeat;
-    animation:
-      shine 4s ease-in infinite,
-      end 1s ease-out 1 7s;
-    transition: width 3s ease 3s;
-  }
-@property --progress {
-    syntax: "length";
-    initial-value: 0%;
-    inherits: true;
-}
