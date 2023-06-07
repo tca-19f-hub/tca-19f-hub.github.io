@@ -38,33 +38,6 @@ setTimeout(() => {
   bar.style.setProperty("--progress", "75%");
 }, 500);
 </script>
-<style>
-  body {
-  background: white;
-}
-
-.progress {
-  --progress: 0%;
-  
-  max-width: 500px;
-  height: 10px;
-  margin: 1em auto;
-  border: 1px solid #fff;
-  padding: 5px 5px;
-  border: 1px outset black;
-}
-
-.progress .bar {
-  width: var(--progress);
-  height: 100%;
-  background: black;
-  background-repeat: repeat;
-  animation: 
-    shine 4s ease-in infinite,
-    end 1s ease-out 1 7s;
-  transition: width 3s ease 3s;
-}
-</style>
 </head>
 <html>
 <body>
@@ -94,15 +67,17 @@ setTimeout(() => {
 <div class="page-content">
 <h1 id="Главная">Главная</h1>
 
-<div class="pulse"><image src='https://i.ibb.co/X47x3H8/logo.png' width="100px"></image></div>
+<div style='margin: auto;'class="pulse"><image src='https://i.ibb.co/X47x3H8/logo.png' width="60px"></image></div>
+
 <div style="text-align:center; font-family:monospace; border: 3px outset black; padding: 10px; margin:auto; width:max-content;">
   <span style="font-size: x-large; color: orangered;">ВНИМАНИЕ!</span><br>
   ПРЕДУПРЕЖДЕНИЕ ОТ АПАИБ<BR>
   <span style="font-size: large">СЛЕДУЮЩАЯ ИНФОРМАЦИЯ ВРЕМЕННО НЕДОСТУПНА</span><BR>
   ВЕДЁТСЯ РАБОТА ПО ВОССТАНОВЛЕНИЮ
 </div>
+
 <center>
-  <span style="font-weight: bolder;">[НАЧАТЬ ПРИНУДИТЕЛЬНОЕ ВОССТАНОВЛЕНИЕ?]</span><br>
+  <p style="font-weight: bolder;">[НАЧАТЬ ПРИНУДИТЕЛЬНОЕ ВОССТАНОВЛЕНИЕ?]</p><br>
 <button type="button" class="collapsible">Open Collapsible</button>
 </center>
 <div class="content">
