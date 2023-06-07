@@ -530,9 +530,11 @@ code {
 @keyframes progress-bar {
     0% {
       width: 0%;
+      background: BLACK;
     }
     99% {
       width: 55%;
+      background: BLACK;
     }
     100% {
         width: 55%;
