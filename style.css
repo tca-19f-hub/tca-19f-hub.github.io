@@ -458,6 +458,12 @@ code {
     background-color: #444;
     color: white;
 }
+.collapsible:after {
+    border: 1px solid black;
+    font-variant-caps: all-petite-caps;
+    background-color: #444;
+    color: white;
+}
 .content {
     display: none;
     overflow: hidden;

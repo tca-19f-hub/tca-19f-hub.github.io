@@ -17,6 +17,21 @@
 	$(function(){
     $("#header-load").load("https://tca-19f-hub.github.io/header.html"); 
     });
+
+    var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "initial") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "initial";
+    }
+  });
+}
 </script>
 </head>
 <html>
@@ -55,15 +70,12 @@
   <span style="font-size: large">СЛЕДУЮЩАЯ ИНФОРМАЦИЯ ВРЕМЕННО НЕДОСТУПНА</span><BR>
   ВЕДЁТСЯ РАБОТА ПО ВОССТАНОВЛЕНИЮ
 </div>
-<script>
-  function display(display)
-  document.getElementById("p2").style.display = "initial";
-</script>
+
 <center>
   <p style="font-weight: bolder;">[НАЧАТЬ ПРИНУДИТЕЛЬНОЕ ВОССТАНОВЛЕНИЕ?]</p><br>
-<button onclick="functionToExecute(display)" class="collapsible">ВОССТАНОВИТЬ</button>
+<button class="collapsible">ВОССТАНОВИТЬ</button>
 </center>
-<div class="content" id="2">
+<div class="content">
   <p>ВКЛЮЧЕНИЕ...<br>
     ПРОВЕРКА НАЛИЧИЯ ЗАШИФРОВАННОГО ПОДКЛЮЧЕНИЯ...<br>
     >COMMAND: CONNECT (1921.12313.7224.23:1723)<br>
