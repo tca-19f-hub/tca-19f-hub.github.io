@@ -458,3 +458,14 @@ code {
     background-color: #444;
     color: white;
 }
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+@property --progress {
+    syntax: "length";
+    initial-value: 0%;
+    inherits: true;
+}
