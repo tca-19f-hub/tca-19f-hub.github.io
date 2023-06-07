@@ -55,38 +55,15 @@
   <span style="font-size: large">СЛЕДУЮЩАЯ ИНФОРМАЦИЯ ВРЕМЕННО НЕДОСТУПНА</span><BR>
   ВЕДЁТСЯ РАБОТА ПО ВОССТАНОВЛЕНИЮ
 </div>
-
+<script>
+  function display(display)
+  document.getElementById("p2").style.display = "initial";
+</script>
 <center>
   <p style="font-weight: bolder;">[НАЧАТЬ ПРИНУДИТЕЛЬНОЕ ВОССТАНОВЛЕНИЕ?]</p><br>
-<button type="button" class="collapsible">ВОССТАНОВИТЬ</button>
+<button onclick="functionToExecute(display)" class="collapsible">ВОССТАНОВИТЬ</button>
 </center>
-<style>
-  .content {
-    padding: 0 18px;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-  }
-  </style>
-  
-  <script>
-  var coll = document.getElementsByClassName("collapsible");
-  var i;
-  
-  for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function() {
-      this.classList.toggle("active");
-      var content = this.nextElementSibling;
-      if (content.style.maxHeight){
-        content.style.maxHeight = null;
-      } else {
-        content.style.maxHeight = content.scrollHeight + "px";
-      }
-    });
-  }
-  </script>
-<div class="content">
+<div class="content" id="2">
   <p>ВКЛЮЧЕНИЕ...<br>
     ПРОВЕРКА НАЛИЧИЯ ЗАШИФРОВАННОГО ПОДКЛЮЧЕНИЯ...<br>
     >COMMAND: CONNECT (1921.12313.7224.23:1723)<br>
