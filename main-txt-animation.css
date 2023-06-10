@@ -85,3 +85,12 @@
         width: 100%;
     }
 }
+.button {
+    border: 1px solid;
+    margin: 0 2px;
+    height: -webkit-fill-available;
+}
+.pass {
+    border: 1px solid;
+    height: -webkit-fill-available;
+}
