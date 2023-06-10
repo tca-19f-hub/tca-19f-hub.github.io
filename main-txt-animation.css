@@ -94,3 +94,8 @@
     border: 1px solid;
     height: -webkit-fill-available;
 }
+.whole {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
