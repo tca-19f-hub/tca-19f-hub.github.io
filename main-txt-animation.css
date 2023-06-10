@@ -1,6 +1,43 @@
-.flicker-1 {
+.flicker-a {
     animation: flicker 0s linear 1s both;
-  }
+}
+.flicker-b {
+    animation: flicker 0s linear 1.5s both;
+}
+.flicker-c {
+    animation: flicker 0s linear 1.7s both;
+}
+.flicker-d {
+    animation: flicker 0s linear 2s both;
+}
+.flicker-e {
+    animation: flicker 0s linear 2.4s both;
+}
+.flicker-f {
+    animation: flicker 0s linear 4s both;
+}
+.flicker-g {
+    animation: flicker 0s linear 4.4s both;
+}
+.flicker-h {
+    animation: flicker 0s linear 4.7s both;
+}
+.flicker-i {
+    animation: flicker 0s linear 5s both;
+}
+.flicker-j {
+    animation: flicker 0s linear 5.3s both;
+}
+.flicker-k {
+    animation: flicker 0s linear 5.5s both;
+}
+.flicker-l {
+    animation: flicker 0s linear 6s both;
+}
+.flicker-m {
+    animation: flicker 0s linear 7s both;
+}
+
   @keyframes flicker {
       0% {
         opacity: 0;
