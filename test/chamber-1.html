@@ -10,14 +10,15 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script>
+/// НАВИГАЦИЯ С ПОДГРУЗКОЙ
 	 $(function() {
 		$("#includeHtml").load("https://tca-19f-hub.github.io/topbar-navigation.html");
 	 });
-
+/// ХЭДЭР С ПОДГРУЗКОЙ
 	$(function(){
     $("#header-load").load("https://tca-19f-hub.github.io/header.html"); 
     });
-
+/// ЭТО ОТКРЫВАШКА
     function toggleMe(a) {
    var e = document.getElementById(a);
    var toggleIcon = document.getElementById('toggle-icon');
@@ -33,19 +34,14 @@
    }
    return true;
 }
-
+/// ТУТ ОТ ПАРОЛЯ ПРИКОЛ
 var pass1 = "pass";
-var pass2 = document.getElementById("password");
 
 function check(){
-
-  if (pass1 == pass2.value) {
-       document.getElementById("button").disabled = false;
-        }
-}
-
-function go (){
-  alert('go');
+   var pass2 = document.getElementById("password").value;
+     if (pass1 == pass2) {
+             document.getElementById("button").disabled = false;
+   }
 }
 </script>
 </head>
