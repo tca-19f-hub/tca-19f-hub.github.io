@@ -33,6 +33,20 @@
    }
    return true;
 }
+
+var pass1 = "pass";
+var pass2 = document.getElementById("password");
+
+function check(){
+
+  if (pass1 == pass2.value) {
+       document.getElementById("button").disabled = false;
+        }
+}
+
+function go (){
+  alert('go');
+}
 </script>
 </head>
 <html>
@@ -73,8 +87,18 @@
 ВВЕДИТЕ КЛЮЧ АВТОРИЗАЦИИ:<br>
 <br>
 
-<label for="pwd">Password:</label>
-<input type="password" id="pwd" name="pwd">
+<div class="whole">
+  <div>
+    <input type="password" placeholder="PASSWORD" required id="password" class="pass" onkeyup="check()">
+  </div>
+
+  <div>
+
+    <button class="button" id="button" type="submit" onclick="go()" disabled="true">Click me!!!</button>
+
+  </div>
+
+</div>
 > A13A3A1E3E11G5<br>
 <br>
 * Идентификация...<br>
