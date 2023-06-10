@@ -71,3 +71,15 @@
           background: red;
         }
   }
+.type {
+    animation: typywriter 3s linear steps(6, end) 3s both;
+    white-space: nowrap;
+}
+@keyframes typywriter {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: max-content;
+    }
+}
