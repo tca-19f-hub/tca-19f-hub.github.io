@@ -21,6 +21,9 @@
     .flicker-5 {
       animation: flicker 0s linear 8s both;
   }
+  .flicker-5-5 {
+    animation: flicker 0s linear 8.8s both;
+}
     .flicker-6 {
       animation: flicker 0s linear 10s both;
   }
