@@ -36,6 +36,8 @@
     border-bottom: 3px solid saddlebrown;
     border-top: 3px saddlebrown solid;
     background: antiquewhite;
+    align-items: center;
+    padding: 3px;
 }
 .controls-1 {
     display: flex;
@@ -44,16 +46,20 @@
     background: saddlebrown;
     color: white;
     justify-content: center;
-    border: saddlebrown 3px solid;
+    padding: 3px;
+    margin-right: -1px;
+    height: 1em;
 }
 .header-container {
     background: saddlebrown;
     padding: 0 5px;
     color: white;
+    line-height: 1em;
 }
 .article-header {
     font-size: 110%;
     font-weight: bolder;
+    line-height: 0;
 }
 .button-1 {
     line-height: 1em;
@@ -66,4 +72,19 @@
 }
 .article {
     margin: 1em 0;
+}
+.date {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    font-weight: 500;
+}
+@media screen and (min-width: 0px) and (max-width: 360px) and (orientation: portrait) {
+    .date {
+        display: none;
+    }
+    .controls {
+        background: saddlebrown !important;
+    }
 }
