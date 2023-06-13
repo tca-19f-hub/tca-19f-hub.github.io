@@ -55,6 +55,9 @@
     font-size: 110%;
     font-weight: bolder;
 }
+.button-1 {
+    line-height: 1em;
+}
 .article-collapse {
     border: 0;
     background: transparent;
