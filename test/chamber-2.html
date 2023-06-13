@@ -3,6 +3,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=0.8" />
   <link rel="stylesheet" href="https://tca-19f-hub.github.io/style.css">
+  <link rel="stylesheet" href="https://tca-19f-hub.github.io/article.css">
   <link rel="icon" href="https://i.ibb.co/1mLJW5S/logo.png">
   <title>Хаб УВС 19F</title>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
@@ -29,7 +30,7 @@
    }
    else {
       e.style.display = "none";
-      toggleIcon.innerHTML = '▼;';
+      toggleIcon.innerHTML = '▼';
    }
    return true;
 }
@@ -66,9 +67,9 @@
 <div class="article">
   <div class="controls">
     <div>
-      <h4>Сняты с содержания</h4>
+      <span class="article-header">Сняты с содержания</span>
     </div>
-    <div>
+    <div class="controls-1">
       <button class="article-collapse" onclick="return toggleMe('para1')">Раскрыть</button>
       <div class="button-1"id="toggle-icon">▼</div>
     </div>
