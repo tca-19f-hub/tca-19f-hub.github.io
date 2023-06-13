@@ -25,11 +25,11 @@
 
    if(e.style.display == "none") {
       e.style.display = "block";
-      toggleIcon.innerHTML = 'what';
+      toggleIcon.innerHTML = '▲';
    }
    else {
       e.style.display = "none";
-      toggleIcon.innerHTML = 'the;';
+      toggleIcon.innerHTML = '▼;';
    }
    return true;
 }
@@ -64,10 +64,17 @@
 <h1 id="Новости">Новости</h1>
 
 <div class="article">
-  <button class="article-collapse" onclick="return toggleMe('para1')">Раскрыть</button>
-  <div class="button-1"id="toggle-icon">▼</div>
-  <div class="content" id="para1">
-    plain text
+  <div class="controls">
+    <div>
+      <h4>Сняты с содержания</h4>
+    </div>
+    <div>
+      <button class="article-collapse" onclick="return toggleMe('para1')">Раскрыть</button>
+      <div class="button-1"id="toggle-icon">▼</div>
+    </div>
+  </div>
+    <div class="content-article" id="para1">
+      plain text
   </div>
 </div>
 
