@@ -36,6 +36,7 @@
     border: 3px solid saddlebrown;
     background: antiquewhite;
     align-items: center;
+    height: 1.5em;
 }
 .controls-1 {
     display: flex;
@@ -44,15 +45,15 @@
     background: saddlebrown;
     color: white;
     justify-content: center;
-    padding: 3px;
+    padding: 0px;
     margin-right: -1px;
-    height: -webkit-fill-available;
+    height: 1.5em;
 }
 .header-container {
     background: saddlebrown;
     padding: 0 5px;
+    height: 1.5em;
     color: white;
-    height: -webkit-fill-available;
 }
 .article-header {
     font-size: 110%;
