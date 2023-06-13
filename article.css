@@ -36,8 +36,7 @@
     border: 3px solid saddlebrown;
     background: antiquewhite;
     align-items: center;
-    margin: -1px;
-    height: 1.5em;
+    height: auto;
 }
 .controls-1 {
     display: flex;
