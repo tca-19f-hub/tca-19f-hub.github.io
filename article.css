@@ -36,6 +36,7 @@
     border: 3px solid saddlebrown;
     background: antiquewhite;
     align-items: center;
+    margin: -1px;
     height: 1.5em;
 }
 .controls-1 {
@@ -45,9 +46,10 @@
     background: saddlebrown;
     color: white;
     justify-content: center;
-    padding: 0px;
-    margin-right: -1px;
+    padding: 0px 5px;
+    margin: -1px;
     height: 1.5em;
+    align-items: center;
 }
 .header-container {
     background: saddlebrown;
