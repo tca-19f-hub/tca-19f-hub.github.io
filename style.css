@@ -226,8 +226,7 @@ ul {
         text-shadow: 1px 1px 3px black;
     }
     .logo-header {
-        width: 80px;
-        margin: 1em;
+        width: 80px !important;
     }
 }
 
