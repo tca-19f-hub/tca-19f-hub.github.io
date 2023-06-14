@@ -101,7 +101,11 @@
         align-items: center;
         font-size: smaller;
 }
-@media screen and (min-width: 0px) and (max-width: 800px) and (orientation: portrait) {
+.image-container {
+    width: 200px;
+    margin-right: 1em;
+}
+@media screen and (min-width: 0px) and (max-width: 800px) {
     .notice-1 {
         display: flex;
         background: #6f706f;
@@ -112,5 +116,9 @@
         color: white;
         align-items: center;
         margin: 1em 0;
+    }
+    .image-container {
+        width: 100px;
+        margin-right: 1em;
     }
 }
