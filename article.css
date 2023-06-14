@@ -88,6 +88,14 @@
     align-items: center;
     border: 3px outset white;
 }
+.close-button:hover {
+    background: darkgrey;
+    border: 3px outset darkgrey;
+}
+.close-button:active {
+    background: darkgrey;
+    border: 3px inset darkgrey;
+}
 .date {
     display: flex;
     align-items: center;
