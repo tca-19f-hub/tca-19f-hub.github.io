@@ -89,3 +89,28 @@
         background: saddlebrown !important;
     }
 }
+.notice-1 {
+        display: flex;
+        margin: 1em 0;
+        background: #6f706f;
+        padding: 0 1em;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        border: 3px outset #1b1b1b;
+        color: white;
+        align-items: center;
+        font-size: smaller;
+}
+@media screen and (min-width: 0px) and (max-width: 800px) and (orientation: portrait) {
+    .notice-1 {
+        display: flex;
+        background: #6f706f;
+        padding: 1em 1em;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        border: 3px outset #1b1b1b;
+        color: white;
+        align-items: center;
+        margin: 1em 0;
+    }
+}
