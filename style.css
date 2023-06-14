@@ -481,5 +481,10 @@ code {
     font-family: monospace;
     font-size: larger;
 }
-
+.raisa-warning {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    font-weight: bolder;
+}
 
