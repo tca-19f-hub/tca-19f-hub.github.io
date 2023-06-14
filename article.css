@@ -71,6 +71,7 @@
     color: white;
 }
 .article {
+    border: 3px outset #1b1b1b;
     margin: 1em 0;
 }
 .date {
