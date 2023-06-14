@@ -212,14 +212,20 @@ ul {
     font-size: larger;
     text-shadow: 1px 1px 3px black;
 }
-@media screen and (min-width: 300px) and (max-width: 570px) and (orientation: portrait) {.text-header1 {
-    font-family: monospace;
-    font-weight: bold;
-    color: #f0f0c0;
-    white-space: nowrap;
-    font-size: 87%;
-    text-shadow: 1px 1px 3px black;
-} }
+@media screen and (min-width: 300px) and (max-width: 570px) and (orientation: portrait) {
+    .text-header1 {
+        font-family: monospace;
+        font-weight: bold;
+        color: #f0f0c0;
+        white-space: nowrap;
+        font-size: 87%;
+        text-shadow: 1px 1px 3px black;
+    }
+    .logo-header {
+        width: 80px;
+        margin: 1em;
+    }
+}
 .logo-header {
     width: 100px;
     margin: 1em;
