@@ -74,6 +74,20 @@
     border: 3px outset #1b1b1b;
     margin: 1em 0;
 }
+.close-button {
+    position: absolute;
+    background: white;
+    color: black;
+    font-weight: bolder;
+    width: 1.5em;
+    height: 1.5em;
+    top: 1em;
+    display: flex;
+    right: 1em;
+    justify-content: center;
+    align-items: center;
+    border: 3px outset white;
+}
 .date {
     display: flex;
     align-items: center;
@@ -99,6 +113,7 @@
         border: 3px outset #1b1b1b;
         color: white;
         align-items: center;
+        position: relative;
         font-size: smaller;
 }
 .image-container {
@@ -116,6 +131,7 @@
         color: white;
         align-items: center;
         margin: 1em 0;
+        position: relative;
     }
     .image-container {
         width: 100px;
