@@ -487,6 +487,9 @@ code {
     margin: auto;
     font-weight: bolder;
 }
+.img-container p {
+    margin: 0 0.4em 0.4em;
+}
 .img-container {
     float: right;
     max-width: 40%;
@@ -498,7 +501,7 @@ code {
     box-shadow: 0 1px 6px rgba(0, 0, 0, .25);
     font-weight: bold;
 }
-@media screen and (min-width: 300px) and (max-width: 570px) and (orientation: portrait) {
+@media screen and (min-width: 0px) and (max-width: 570px) and (orientation: portrait) {
 .img-container {
     float: none;
     max-width: 100%;
