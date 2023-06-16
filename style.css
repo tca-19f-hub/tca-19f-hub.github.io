@@ -302,7 +302,7 @@ a:hover {
 }
 a:active {
     text-decoration: underline;
-    filter: drop-shadow(1px 1px 10px grey);
+    filter: drop-shadow(1px 1px 2px grey);
     color: orangered;
 }
 
@@ -559,3 +559,19 @@ sup a.footnote {
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
  }
+.text-button {
+    background: transparent;
+    border: 0;
+    font: inherit;
+    padding: 0;
+    color: darkorange;
+}
+.text-button:hover {
+    color: orange;
+    text-decoration: underline;
+}
+.text-button:active {
+    color: orangered;
+    text-decoration: underline;
+    filter: drop-shadow(1px 1px 2px grey);
+}

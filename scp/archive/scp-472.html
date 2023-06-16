@@ -35,6 +35,10 @@
         }
         return true;
         }
+        /// ЗАКРЫВАШКА
+        function demoDisplay() {
+            document.getElementById("close").style.display = "none";
+        }
     </script>
 </head>
 <html>
@@ -129,8 +133,8 @@
                 <p><strike>Судя по всему, SCP-472 не обладает какими-либо другими аномальными свойствами. До проведения испытаний объекту условно
                 присвоен класс «Безопасный». Предполагается понижения класса до «Аномального предмета». См. приложения.</strike></p>
                 
-                <button class="text-button" onclick="return toggleMe('para1')">[ТРЕБУЕТСЯ ОСОБЫЙ ДОПУСК]</button><br>
-                <div class="button-1" id="toggle-icon">&nbsp;</div>
+                <button class="text-button" onclick="demoDisplay()" onclick="return toggleMe('para1')" id="close">[ТРЕБУЕТСЯ ОСОБЫЙ ДОПУСК]</button><br>
+                <div style="color: darkorange;" id="toggle-icon">&nbsp;</div>
                 <div style="display: none;" id="para1">
                     <p>SCP-472 был обнаружен благодаря сообщениям, полученным от т. н. "аномального сообщества", которое вышло на связь с <a href='https://scpfoundation.net/another-goddamn-magic-system'>МОГ Сигма-3 ("Библиографы")</a>. 
                     Члены данного сообщества изначально считали, что SCP-472 - это "печать", сдерживающая сверхъестественную сущность, из-за которой SCP-472 и обладает необычными свойствами. 
