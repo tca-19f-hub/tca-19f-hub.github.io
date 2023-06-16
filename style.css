@@ -520,3 +520,41 @@ code {
     font-weight: bold;
 }
 }
+sup a.footnote {
+    text-decoration:none;
+    background-color: whitesmoke;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-right: 2px;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+ } 
+ 
+ sup a.footnote span {
+    z-index: -1;
+    opacity: 0;
+    position: fixed;
+    left: 15px; 
+    bottom: 20px;
+    margin-left: 0px;
+    margin-right: 18px;
+    padding:14px 20px;
+    border-radius:4px; box-shadow: 5px 5px 8px #CCC;
+    border:1px solid #DCA;
+    background-color: #FEF6BB;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+ }
+ 
+ sup a.footnote:hover span {
+    z-index: 9;
+    opacity: 1;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+ }
