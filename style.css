@@ -165,6 +165,9 @@ main {
     width: -webkit-fill-available;
     max-width: 850px;
 }
+.page-content li {
+    padding-inline-start: 2em;
+  }
 .toc-holder {
     position: sticky;
     margin-right: 1em;
