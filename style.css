@@ -305,7 +305,6 @@ a:hover {
 }
 a:active {
     text-decoration: underline;
-    filter: drop-shadow(1px 1px 2px grey);
     color: orangered;
 }
 
@@ -576,5 +575,4 @@ sup a.footnote {
 .text-button:active {
     color: orangered;
     text-decoration: underline;
-    filter: drop-shadow(1px 1px 2px grey);
 }
