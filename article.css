@@ -118,6 +118,13 @@
     position: relative;
     font-size: smaller;
 }
+.notice-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
 .image-container {
     width: 200px;
     margin-right: 1em;
@@ -141,8 +148,8 @@
         display: none;
     }
     .image-container-1 {
-        width: 80px;
-        margin-right: 1em;
+        width: 60px;
+        margin-right: 0.5em;
         display: block;
     }
 }
