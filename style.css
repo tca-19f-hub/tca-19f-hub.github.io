@@ -548,13 +548,13 @@ sup a.footnote {
     z-index: -1;
     opacity: 0;
     position: fixed;
-    right: 1em;
-    top: 1em;
-    max-width: 320px;
+    right: 20px;
+    top: 20px;
+    max-width: 300px;
     margin: 1em;
+    margin-top: 0;
     padding: 14px 20px;
-    border-radius: 4px;
-    box-shadow: 0px 0px 10px 0px #1b1b1b;
+    box-shadow: 1px 3px 4px 0px #9f9f9f;
     border: 1px solid #9a9a9a;
     background-color: whitesmoke;
     -webkit-transition: all 0.2s ease;
