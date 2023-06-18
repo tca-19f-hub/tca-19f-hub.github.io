@@ -160,6 +160,7 @@ a#navbardrop:hover {
     opacity: 1%;
     z-index: -1;
     height: 100%;
+    pointer-events: none;
 }
 main {
     margin: auto;

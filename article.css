@@ -69,7 +69,7 @@
 }
 .close-button {
     position: absolute;
-    background: white;
+    background: lightgrey;
     color: black;
     font-weight: bolder;
     width: 1.5em;
@@ -79,15 +79,15 @@
     right: 1em;
     justify-content: center;
     align-items: center;
-    border: 3px outset white;
+    border: 1px outset white;
 }
 .close-button:hover {
-    background: darkgrey;
-    border: 3px outset darkgrey;
+    background: white;
+    border: 1px outset white;
 }
 .close-button:active {
     background: darkgrey;
-    border: 3px inset darkgrey;
+    border: 1px inset lightgrey;
 }
 .date {
     display: flex;
@@ -105,17 +105,18 @@
     }
 }
 .notice-1 {
-        display: flex;
-        margin: 1em 0;
-        background: #6f706f;
-        padding: 0 1em;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        border: 3px outset #1b1b1b;
-        color: white;
-        align-items: center;
-        position: relative;
-        font-size: smaller;
+    display: flex;
+    margin: 1em 0;
+    padding: 0 1em;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: black;
+    align-items: center;
+    border: 1px solid #dcdcdc;
+    background: white;
+    box-shadow: 0 2px 3px #ccc;
+    position: relative;
+    font-size: smaller;
 }
 .image-container {
     width: 200px;
@@ -124,12 +125,9 @@
 @media screen and (min-width: 0px) and (max-width: 800px) {
     .notice-1 {
         display: flex;
-        background: #6f706f;
         padding: 1em 1em;
         flex-direction: column;
         flex-wrap: nowrap;
-        border: 3px outset #1b1b1b;
-        color: white;
         align-items: center;
         margin: 1em 0;
         position: relative;
