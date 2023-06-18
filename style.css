@@ -153,7 +153,15 @@ a#navbardrop:hover {
 .dropdown-item {
     padding: 5px;
 }
-
+.scp-trans-bg {
+    right: 0;
+    bottom: 10px;
+    max-height: calc(100% - 48px);
+    position: absolute;
+    opacity: 5%;
+    z-index: 0;
+    width: 221px;
+}
 main {
     margin: auto;
     max-width: 1050px;
