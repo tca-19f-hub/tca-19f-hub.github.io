@@ -167,7 +167,10 @@ main {
 }
 .page-content li {
     padding-inline-start: 2em;
-  }
+}
+.page-content ol li {
+    padding-inline-start: 0;
+}
 .toc-holder {
     position: sticky;
     margin-right: 1em;
