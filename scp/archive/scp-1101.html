@@ -27,7 +27,7 @@
 
           if(e.style.display == "none") {
            e.style.display = "block";
-           toggleIcon.innerHTML = '&nbsp;+';
+           toggleIcon.innerHTML = '- &nbsp;';
         }
         else {
         e.style.display = "none";
@@ -131,8 +131,8 @@
             <p id="Серия экспериментов-1101-1"><b>Серия экспериментов 1101-1:</b> Первоначальное тестирование. На SCP-1101 помещали предмет, после чего испытуемым
             приказывали войти в камеру содержания.</p>
             <div style="display: flex;">
+            <div style="color: darkorange;" id="toggle-icon">+ </div>
             <button class="text-button" onclick="return toggleMe('para1')">Серия экспериментов 1101-1</button><br>
-                <div style="color: darkorange;" id="toggle-icon">&nbsp;</div>
             </div>
                 <div style="display: none;" id="para1">
                     <p><u><b>1101-1A</b></u><br>
