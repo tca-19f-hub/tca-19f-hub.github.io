@@ -7,21 +7,26 @@ body {
   background-repeat: repeat-x !important;
   background-color: white;
 } 
-  * {
+* {
     scrollbar-width: auto !important;
     scrollbar-color: #808080 #e0e0e0 !important;
-  }
-  *::-webkit-scrollbar {
+}
+*::-webkit-scrollbar {
     width: 15px !important;
   }
-  *::-webkit-scrollbar-track {
+*::-webkit-scrollbar-track {
     background: #e0e0e0 !important; 
-  }
-  *::-webkit-scrollbar-thumb {
+}
+*::-webkit-scrollbar-thumb {
     background-color: #808080 !important;
     border-radius: 0px !important;
-    border: 2px inset #ffffff !important;
-  }
+    border: 0px !important;
+}
+*::-webkit-scrollbar-thumb:active {
+    background-color: #525252 !important;
+    border-radius: 0px !important;
+    border: 0px !important;
+}
 mark {
     color: black;
     background-color: black;
