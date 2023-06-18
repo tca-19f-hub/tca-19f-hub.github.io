@@ -155,12 +155,11 @@ a#navbardrop:hover {
 }
 .scp-trans-bg {
     right: 0;
-    bottom: 10px;
-    max-height: calc(100% - 48px);
+    bottom: 0px;
     position: absolute;
-    opacity: 5%;
-    z-index: 0;
-    width: 221px;
+    opacity: 1%;
+    z-index: -1;
+    height: 100%;
 }
 main {
     margin: auto;
