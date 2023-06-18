@@ -74,9 +74,9 @@
     font-weight: bolder;
     width: 1.5em;
     height: 1.5em;
-    top: 1em;
+    top: 5px;
     display: flex;
-    right: 1em;
+    right: 5px;
     justify-content: center;
     align-items: center;
     border: 1px outset white;
@@ -138,9 +138,11 @@
     .image-container {
         width: 100px;
         margin-right: 1em;
+        display: none;
     }
     .image-container-1 {
         width: 80px;
         margin-right: 1em;
+        display: block;
     }
 }
