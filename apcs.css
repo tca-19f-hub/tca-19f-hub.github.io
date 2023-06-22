@@ -51,7 +51,7 @@
     position: relative;
 }
 .apcs-class {
-    background: #FF1493;
+    background: grey;
     width: 100px;
     height: 90px;
     display: flex;
