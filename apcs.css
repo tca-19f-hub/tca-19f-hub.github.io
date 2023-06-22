@@ -22,7 +22,6 @@
 }
 .apcs-header {
     width: 206px;
-    margin-right: 50px;
     padding-top: 14px;
 }
 .apcs-text-lines {
@@ -60,6 +59,7 @@
     margin: 2px;
     position: relative;
 }
+
 .apcs-class {
     background: grey;
     width: 100px;
@@ -135,3 +135,11 @@
     justify-content: center;
     background: #e7e7e7;
 }
+@media (min-width: 0px) and (max-width: 320px) {
+    .apcs-hazard {
+        width: 57px;
+        height: 57px;
+        margin: 2px;
+        position: relative;
+    }
+    }
