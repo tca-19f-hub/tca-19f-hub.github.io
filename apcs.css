@@ -135,7 +135,7 @@
     justify-content: center;
     background: #e7e7e7;
 }
-@media (min-width: 400px) and (max-width: 800px) and (orientation: landscape) {
+@media (min-width: 600px) and (max-width: 1000px) and (orientation: landscape) {
     .apcs-hazards {
     display: flex;
     align-items: center;
