@@ -62,8 +62,8 @@
     flex-shrink: 0;
     color: white;
     position: absolute;
-    top: 15px;
-    right: 10px;
+    top: 1rem;
+    right: 1rem;
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
