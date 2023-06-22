@@ -135,11 +135,20 @@
     justify-content: center;
     background: #e7e7e7;
 }
-@media (min-width: 0px) and (max-width: 320px) {
+@media (min-width: 400px) and (max-width: 800px) and (orientation: landscape) {
+    .apcs-hazards {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    justify-content: flex-start;
+    margin: 0;
+    }
+}
+@media (min-width: 0px) and (max-width: 400px) and (orientation: portrait){
     .apcs-hazard {
         width: 57px;
         height: 57px;
         margin: 2px;
         position: relative;
     }
-    }
+}
