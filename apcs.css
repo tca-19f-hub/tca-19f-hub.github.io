@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@300&display=swap');
+
+
+.apcs-container {
+    border: 1px solid #ccc;
+    background: white;
+    color: black;
+    padding-bottom: 30px;
+    font-family: Oswald, sans-serif;
+    position: relative;
+}
+.apcs-main-content {
+    padding: 0 28px;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.apcs-header {
+    width: 206px;
+    margin-right: 50px;
+    padding-top: 14px;
+}
+.apcs-text-lines {
+    font-size: 15px;
+    line-height: 21px;
+    margin-top: 26px;
+    min-height: 64px;
+    max-width: none !important;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+.apcs-txt {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+}
+.apcs-hazards {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    margin: auto;
+    justify-content: center;
+}
+.apcs-hazard {
+    width: 65px;
+    height: 65px;
+    margin: 2px;
+    position: relative;
+}
+.apcs-class {
+    background: #FF1493;
+    width: 100px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    font-size: 64px;
+    line-height: 0;
+    flex-shrink: 0;
+    color: white;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+.apcs-info {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 30px;
+    display: flex;
+    align-items: stretch;
+    background: var(--apcs-info-bg-color);
+    color: var(--apcs-info-fg-color);
+    clip-path: polygon(30px 0, 100% 0, 100% 100%, 0 100%);
+    font-size: 90%;
+    line-height: 18px;
+    pointer-events: none;
+    max-width: 100%;
+    white-space: nowrap;
+    font-family: monospace;
+}
+.apcs-info-activation {
+    width: 75px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e7e7e7;
+}
+.apcs-info-risk {
+    clip-path: polygon(30px 0, 100% 0, calc(100% - 30px) 100%, 0 100%);
+    padding: 0 30px;
+    margin-left: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    position: relative;
+    color: black;
+    background: #ffc000;
+}
+.apcs-info-vedist {
+    background: #505052;
+    clip-path: polygon(30px 0, 100% 0, calc(100% - 30px) 100%, 0 100%);
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 110px;
+    margin-left: -31px;
+    position: relative;
+}
+.apcs-info-number {
+    width: 200px;
+    padding-left: 15px;
+    margin-left: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e7e7e7;
+}
