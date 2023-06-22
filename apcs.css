@@ -37,6 +37,15 @@
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 36px;
     line-height: 36px;
+    color: black !important;
+}
+.apcs-txt:hover {
+    text-decoration: underline;
+    color: black;
+}
+.apcs-txt:active {
+    text-decoration: underline dashed;
+    color: black;
 }
 .apcs-hazards {
     display: flex;
