@@ -114,7 +114,20 @@
     width: 50px;
     position: relative;
     color: white;
+    pointer-events: all;
     background: grey;
+}
+.apcs-info-risk a {
+    text-decoration: underline;
+    color: lightgrey;
+}
+.apcs-info-risk a:hover {
+    text-decoration: underline;
+    color: white;
+}
+.apcs-info-risk a:active {
+    text-decoration: underline dashed;
+    color: white;
 }
 .apcs-info-vedist {
     background: #505052;
