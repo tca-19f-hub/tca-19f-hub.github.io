@@ -485,7 +485,6 @@ a:active {
     color: white;
 }
 .content {
-    display: none;
     overflow: hidden;
     font-family: monospace;
     font-size: larger;
