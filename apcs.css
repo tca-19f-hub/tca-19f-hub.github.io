@@ -96,7 +96,7 @@
     font-family: monospace;
 }
 .apcs-info-activation {
-    width: 75px;
+    width: max-content;
     padding: 0 30px;
     display: flex;
     align-items: center;
