@@ -112,8 +112,8 @@
     justify-content: center;
     width: 50px;
     position: relative;
-    color: black;
-    background: #ffc000;
+    color: white;
+    background: grey;
 }
 .apcs-info-vedist {
     background: #505052;
