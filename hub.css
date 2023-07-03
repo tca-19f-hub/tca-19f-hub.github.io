@@ -1,0 +1,16 @@
+.hub-main-div {
+background: url(https://i.ibb.co/ch1knt7/background.png);
+padding: 15px;
+color: white;
+background-attachment: fixed;
+background-size: contain;
+}
+.main-txt {
+    font-size: x-large;
+    font-weight: bold;
+    filter: drop-shadow(1px 1px 3px black);
+    text-transform: uppercase;
+    width: fit-content;
+    padding: 10px;
+    margin: auto;
+}
