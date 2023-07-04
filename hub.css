@@ -55,7 +55,13 @@
     margin: 1em 0;
 }
 .content-flex {
-    width: 50%;
+    min-width: 280px;
+    border: 1px solid #777;
+    flex-grow: 1;
+    padding: 10px;
+    margin: 0.333em;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px #ccc;
 }
 .extra-txt {
     font-style: italic;
