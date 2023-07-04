@@ -16,12 +16,11 @@
     backdrop-filter: brightness(0.5);
 }
 .main-txt {
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: bold;
     filter: drop-shadow(1px 1px 3px black);
     text-transform: uppercase;
     width: fit-content;
-    padding: 10px;
     margin: auto;
 }
 .hub-content {
@@ -31,4 +30,14 @@
 }
 .content-flex {
     width: 50%;
+}
+.extra-txt {
+    font-style: italic;
+    filter: drop-shadow(1px 1px 3px black);
+    text-align: center;
+}
+.notice {
+    text-align: center;
+    color: #1b1b1b;
+    margin: 2em 0;
 }
