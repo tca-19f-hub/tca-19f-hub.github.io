@@ -11,7 +11,9 @@
     justify-content: flex-start;
 }
 .image-holder {
-    width: 50px
+    width: 100px;
+    padding: 10px;
+    backdrop-filter: brightness(0.5);
 }
 .main-txt {
     font-size: x-large;
