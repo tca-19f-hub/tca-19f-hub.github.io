@@ -9,11 +9,12 @@
     flex-wrap: nowrap;
     align-items: center;
     justify-content: flex-start;
+    margin: 1em 0;
 }
 .image-holder {
     width: 100px;
     padding: 10px;
-    backdrop-filter: brightness(0.5);
+    backdrop-filter: brightness(0.2);
 }
 .main-txt {
     font-size: xx-large;
@@ -23,9 +24,13 @@
     width: fit-content;
     margin: auto;
 }
+.main-content {
+    margin: 1em 0;
+}
 .list-txt {
     border-left: 3px solid;
-    padding-left: 5px
+    padding-left: 10px;
+    margin-left: 0.5em;
 }
 .main-flex {
     margin: auto;
@@ -35,6 +40,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 1em 0;
 }
 .content-flex {
     width: 50%;
