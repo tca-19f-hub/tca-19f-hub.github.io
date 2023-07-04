@@ -67,6 +67,14 @@
     color: #1b1b1b;
     margin: 2em 0;
 }
+.flex-end {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em 0;
+}
+.link-container {
+    color: #777;
+}
 @media screen and (min-width: 0px) and (max-width: 400px) {
 .notice {
     font-variant: unicase;
