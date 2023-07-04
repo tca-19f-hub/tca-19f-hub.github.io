@@ -51,7 +51,6 @@
     border-radius: 0px 0px 8px 8px;
     color: white;
     font-weight: 900;
-    margin-top: 0.5em;
     font-family: monospace;
 }
 .main-flex {
@@ -68,7 +67,6 @@
     min-width: 280px;
     border: 1px solid #777;
     flex-grow: 1;
-    padding: 10px;
     margin: 0.333em;
     border-radius: 10px;
     box-shadow: 0 2px 3px #ccc;
