@@ -45,7 +45,7 @@
     color: #1b1b1b;
     margin: 2em 0;
 }
-@media screen and (min-width: 0px) and (max-width: 370px) {
+@media screen and (min-width: 0px) and (max-width: 400px) {
 .notice {
     font-variant: unicase;
 }
