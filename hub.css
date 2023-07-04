@@ -75,11 +75,11 @@
 .link-container {
     display: flex;
     opacity: 80%;
-    min-width: 200px;
+    color: black;
     border: 1px solid grey;
     padding: 0.3em 0.6em;
     flex-grow: 1;
-    transition: 0.4s;
+    transition: 0.2s;
     background: white;
     margin: 0.2em;
     box-shadow: 0 2px 3px #ccc;
@@ -87,6 +87,7 @@
     flex-wrap: nowrap;
     align-items: center;
     font-weight: bold;
+    width: 250px;
 }
 .link-txt {
     min-width: 200px;
@@ -95,11 +96,12 @@
 .link-container:hover {
     display: flex;
     opacity: 80%;
+    color: black;
     min-width: 200px;
     border: 1px solid #90c8f0;
     padding: 0.3em 0.6em;
     flex-grow: 1;
-    transition: 0.4s;
+    transition: 0.2s;
     background: #33c8ff;
     filter: invert(1);
     margin: 0.2em;
