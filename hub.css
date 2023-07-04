@@ -1,10 +1,17 @@
 .hub-main-div {
     background: url(https://i.ibb.co/ch1knt7/background.png);
-    padding: 15px;
     color: white;
     background-attachment: fixed;
     background-size: contain;
     box-shadow: black 0px 0px 20px inset;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.image-holder {
+    width: 50px
 }
 .main-txt {
     font-size: x-large;
@@ -14,4 +21,12 @@
     width: fit-content;
     padding: 10px;
     margin: auto;
+}
+.hub-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.content-flex {
+    width: 50%;
 }
