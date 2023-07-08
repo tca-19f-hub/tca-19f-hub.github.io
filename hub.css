@@ -133,7 +133,7 @@
 .hub-main-div {
     background: url(https://i.ibb.co/jDD1GcD/background-min.png);
     color: white;
-    background-size: contain;
+    background-size: cover;
     box-shadow: black 0px 0px 20px inset;
     display: flex;
     flex-direction: row;
