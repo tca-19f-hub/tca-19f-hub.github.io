@@ -124,6 +124,21 @@
     align-items: center;
     font-weight: bold;
 }
+.link-container:active {
+    opacity: 80%;
+    color: black;
+    border: 1px solid #ffffff;
+    flex-grow: 1;
+    transition: 0.2s;
+    background: #ffffff;
+    filter: invert(1);
+    margin: 0.2em;
+    box-shadow: 0 2px 3px #ccc;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-weight: bold;
+}
 @media screen and (min-width: 0px) and (max-width: 400px) {
 .notice {
     font-variant: unicase;
