@@ -108,21 +108,22 @@
 }
 .youtube {
     margin: auto;
-    animation: bw 5s ease-in 1s 1 normal forwards;
+    opacity: 0;
+    animation: bw 5s ease-in 1.7s 1 normal forwards;
 }
 @keyframes bw {
 	0% {
 		opacity: 0;
-        filter: grayscale(1);
+        filter: blur(1.5);
 	}
     25% {
 		opacity: 1;
-        filter: grayscale(0.8);
+        filter: blur(1);
 	}
 
 	100% {
 		opacity: 1;
-        filter: grayscale(0);
+        filter: blur(0);
 	}
 }
 .link-container:hover {
