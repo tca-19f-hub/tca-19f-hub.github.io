@@ -126,6 +126,14 @@
         filter: blur(0);
 	}
 }
+.hub-center-content {
+    border: 1px solid #dcdcdc;
+    background: white;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 1em;
+    margin: 1em 0.333em;
+    text-align: justify;
+}
 .link-container:hover {
     display: flex;
     opacity: 80%;
