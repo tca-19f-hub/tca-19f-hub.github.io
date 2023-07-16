@@ -35,7 +35,11 @@ mark {
     background: orange;
     color: initial;
 }
-
+abbr {
+    text-decoration: none;
+    border-bottom: 1px solid orange;
+    font-style: italic;
+}
 blockquote {
     border: 1px dashed #999;
     margin: 1em 0em !important;
