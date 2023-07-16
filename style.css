@@ -591,9 +591,6 @@ sup a.footnote {
 }
 abbr span.translate {
     text-decoration:none;
-    padding-left: 2px;
-    padding-right: 2px;
-    margin-right: 2px;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
