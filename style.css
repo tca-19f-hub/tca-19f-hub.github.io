@@ -591,7 +591,6 @@ sup a.footnote {
 }
 abbr span.translate {
     text-decoration:none;
-    background-color: whitesmoke;
     padding-left: 2px;
     padding-right: 2px;
     margin-right: 2px;
@@ -603,6 +602,7 @@ abbr span.translate {
  
 abbr span.translate span {
     z-index: -1;
+    font-style: normal;
     opacity: 0;
     position: fixed;
     right: 20px;
