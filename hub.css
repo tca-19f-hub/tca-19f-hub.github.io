@@ -199,9 +199,18 @@
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: flex-start;
+    margin: 1em 0;
 }
 .avatar {
     width: 200px;
-    margin: 0em 1em 1em 0em;
+    margin: 0em 1em 0em 0em;
     max-width: 5em;
+    min-width: 75px;
+}
+.thanks p {
+    margin: 0;
+}
+.thanks h4 {
+    font-size: 130%;
+    margin: 0 0em 0.4em 0;
 }
