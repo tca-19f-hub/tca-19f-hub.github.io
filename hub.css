@@ -187,3 +187,21 @@
     margin: 1em 0;
 }
 }
+.thanks {
+    background: whitesmoke;
+    padding: 0.3em 1em;
+    font-size: 90%;
+    margin: 1.5em 0;
+}
+.special-thanks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.avatar {
+    width: 200px;
+    margin: 0em 1em 1em 0em;
+    max-width: 5em;
+}
