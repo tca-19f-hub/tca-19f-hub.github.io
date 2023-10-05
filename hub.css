@@ -230,14 +230,14 @@
     border: 1px #5e0410 solid;
     transition: 0.5s;
 }
-.youtube-tca a {
+.youtube-txt a {
         text-decoration: none;
         color: white;
 }
-.youtube-tca a:hover {
+.youtube-txt a:hover {
     color: white;
 }
-.youtube-tca a:active {
+.youtube-txt a:active {
     color: white;
     text-decoration: none;
 }
