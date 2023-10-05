@@ -209,7 +209,7 @@ ul {
 
 @media screen and (min-width: 300px) and (max-width: 570px) { .text-header {
     color: white;
-    font-size: 150%;
+    font-size: 160%;
     font-variant-caps: petite-caps;
     font-family: 'Russo One', sans-serif;
     white-space: nowrap;
