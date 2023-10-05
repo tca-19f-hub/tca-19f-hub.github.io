@@ -224,22 +224,20 @@
     align-items: center;
     border: 1px dimgrey solid;
     transition: 0.5s;
+    color: white;
+    text-decoration: none;
 }
 .youtube-tca:hover {
     background: #b2071d;
     border: 1px #5e0410 solid;
     transition: 0.5s;
-}
-.youtube-txt a {
-        text-decoration: none;
-        color: white;
-}
-.youtube-txt a:hover {
     color: white;
 }
-.youtube-txt a:active {
-    color: white;
-    text-decoration: none;
+.youtube-tca:active {
+    background: #ffffff;
+    border: 1px #000000 solid;
+    transition: 0s;
+    color: black;
 }
 .youtube-ico {
     width: 40px;
