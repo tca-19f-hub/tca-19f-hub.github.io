@@ -254,3 +254,31 @@
     margin: -5% auto;
     max-width: 700px;
 }
+.s-head {
+    font-weight: bolder;
+    font-size: 130%;
+}
+.poster-holder {
+    width: 40%;
+    margin: 1em;
+    transition: 0.5s;
+}
+.poster-holder:hover {
+    width: 40%;
+    margin: 1em;
+    border: 1px solid #ff4500;
+    padding: 4px 4px 0px;
+    transition: 0.5s;
+}
+.preview-left {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+.preview-right {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
