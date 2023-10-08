@@ -226,6 +226,7 @@
     transition: 0.5s;
     color: white;
     text-decoration: none;
+    box-shadow: 0 2px 3px #ccc;
 }
 .youtube-tca:hover {
     background: #b2071d;
