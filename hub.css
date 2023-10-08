@@ -266,14 +266,16 @@
 .poster-holder:hover {
     width: 40%;
     margin: 1em;
-    border: 1px solid #ff4500;
-    padding: 4px 4px 0px;
+    filter: drop-shadow(0px 4px 5px grey);
     transition: 0.5s;
+    --enlarge-by: 10%;
 }
 .preview-left {
     display: flex;
     flex-wrap: nowrap;
     align-items: flex-start;
+    margin: 0.5em 0;
+    padding: 10px 0;
 }
 .preview-right {
     display: flex;
@@ -281,4 +283,6 @@
     align-items: flex-start;
     flex-direction: row-reverse;
     justify-content: space-between;
+    margin: 0.5em 0;
+    padding: 10px 0;
 }
