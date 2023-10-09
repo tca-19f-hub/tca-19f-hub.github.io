@@ -253,6 +253,10 @@
     filter: invert(1);
     transition: 0.5s;
 }
+.youtube-tca:active + .youtube-ico {
+    background: black;
+    transition: 0s;
+}
 .youtube-txt {
    font-family: 'Courier New', Courier, monospace;
 }
