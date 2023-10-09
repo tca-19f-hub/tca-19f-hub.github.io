@@ -224,6 +224,7 @@
     align-items: center;
     border-radius: 50px;
     text-decoration: none;
+    transition: 0.5s;
 }
 .youtube-tca:hover {
     background: #b2071d;
@@ -243,11 +244,13 @@
     height: 20px;
     padding: 10px;
     border-radius: 50px;
+    transition: 0.5s;
     border: 1px transparent solid;
 }
-.youtube-ico:hover {
+.youtube-tca:hover~.youtube-ico {
     background: black;
     filter: invert(1);
+    transition: 0.5s;
 }
 .youtube-txt {
    font-family: 'Courier New', Courier, monospace;
