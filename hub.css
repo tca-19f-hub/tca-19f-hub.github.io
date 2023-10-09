@@ -259,7 +259,10 @@
     transition: 0s;
 }
 .youtube-txt {
-   font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 .hub-image {
     margin: -5% auto;
