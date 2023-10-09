@@ -216,6 +216,7 @@
 }
 .youtube-tca {
     display: flex;
+    width: -webkit-fill-available;
     max-height: 100px;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -262,6 +263,9 @@
 .s-head {
     font-weight: bolder;
     font-size: 130%;
+}
+.synopsis {
+    width: -webkit-fill-available;
 }
 .poster-holder {
     width: 35%;
