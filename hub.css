@@ -264,6 +264,9 @@
     transition: 0.5s;
     flex-wrap: nowrap;
     display: flex;
+    text-align: center;
+    font-family: monospace;
+    color: lightgrey;
     flex-direction: column;
 }
 .poster-holder:hover {
@@ -291,6 +294,8 @@
 @media screen and (min-width: 0px) and (max-width: 570px) {
     .poster-holder {
         display: flex;
+        width: 100%;
+        margin: auto;
         transition: 0.5s;
         flex-direction: column;
         flex-wrap: nowrap;
