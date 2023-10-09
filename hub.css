@@ -248,12 +248,12 @@
     transition: 0.5s;
     border: 1px transparent solid;
 }
-.youtube-tca:hover + .youtube-ico {
+.youtube-tca:hover + .youtube-ico img {
     background: black;
     filter: invert(1);
     transition: 0.5s;
 }
-.youtube-tca:active + .youtube-ico {
+.youtube-tca:active + .youtube-ico img {
     background: black;
     transition: 0s;
 }
