@@ -217,20 +217,16 @@
 .youtube-tca {
     display: flex;
     max-height: 100px;
-    background: grey;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-start;
+    color: grey;
     align-items: center;
-    border: 1px dimgrey solid;
-    transition: 0.5s;
-    color: white;
+    border-radius: 50px;
     text-decoration: none;
-    box-shadow: 0 2px 3px #ccc;
 }
 .youtube-tca:hover {
     background: #b2071d;
-    border: 1px #5e0410 solid;
     transition: 0.5s;
     color: white;
 }
@@ -241,9 +237,17 @@
     color: black;
 }
 .youtube-ico {
-    width: 40px;
-    margin: 1em;
-    height: 30px;
+    width: 20px;
+    margin: 5px;
+    background: grey;
+    height: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px transparent solid;
+}
+.youtube-ico:hover {
+    background: black;
+    filter: invert(1);
 }
 .youtube-txt {
    font-family: 'Courier New', Courier, monospace;
@@ -258,6 +262,7 @@
 }
 .poster-holder {
     width: 35%;
+    min-width: 35%;
     margin: 1em;
     transition: 0.5s;
     flex-wrap: nowrap;
