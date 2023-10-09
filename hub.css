@@ -227,12 +227,12 @@
     text-decoration: none;
     transition: 0.5s;
 }
-.youtube-tca:hover {
+.youtube-tca:hover + .youtube-ico {
     background: #b2071d;
     transition: 0.5s;
     color: white;
 }
-.youtube-tca:active {
+.youtube-tca:active + .youtube-ico {
     background: #ffffff;
     border: 1px #000000 solid;
     transition: 0s;
@@ -248,12 +248,12 @@
     transition: 0.5s;
     border: 1px transparent solid;
 }
-.youtube-tca:hover + .youtube-ico img {
+.youtube-ico:hover {
     background: black;
     filter: invert(1);
     transition: 0.5s;
 }
-.youtube-tca:active + .youtube-ico img {
+.youtube-ico:active {
     background: black;
     transition: 0s;
 }
