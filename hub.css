@@ -343,7 +343,9 @@ font-weight: 100;
         padding: 10px 0;
     }
     .divider {
-        margin: 1em auto;
-        display: initial;
+        margin: 0.5em auto 2em;
+        display: block;
+        background: white;
+        border: outset 1px orangered;
     }
 }
