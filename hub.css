@@ -106,11 +106,6 @@
 .link-txt {
     margin: auto;
 }
-.youtube {
-    margin: auto;
-    opacity: 0;
-    animation: bw 5s ease-in 1.7s 1 normal forwards;
-}
 @keyframes bw {
 	0% {
 		opacity: 0;
@@ -265,8 +260,9 @@
     overflow: hidden;
 }
 .hub-image {
-    margin: -5% auto;
-    max-width: 700px;
+    margin: auto;
+    max-width: 500px;
+    animation: bw 5s ease-in 1 normal forwards;
 }
 .s-head {
     font-weight: bolder;
