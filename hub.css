@@ -201,6 +201,7 @@
     margin: 0em 1em 0em 0em;
     max-width: 5em;
     min-width: 75px;
+    pointer-events: none;
 }
 .thanks p {
     margin: 0;
@@ -239,6 +240,7 @@
     background: grey;
     height: 20px;
     padding: 10px;
+    pointer-events: none;
     border-radius: 50px;
     transition: 0.5s;
     border: 1px transparent solid;
@@ -262,6 +264,7 @@
 .hub-image {
     margin: auto;
     max-width: 500px;
+    pointer-events: none;
     animation: bw 5s ease-in 1 normal forwards;
 }
 .s-head {
