@@ -295,6 +295,14 @@ font-weight: 100;
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
 }
+.tales-prw {
+    margin: 1em 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
 .preview-left {
     display: flex;
     flex-wrap: nowrap;
@@ -314,6 +322,18 @@ font-weight: 100;
 .divider {
     margin: 1em auto;
     display: none;
+}
+.icon-holder {
+    width: 20%;
+    min-width: 20%;
+    margin: 1em;
+    transition: 0.5s;
+    flex-wrap: nowrap;
+    display: flex;
+    text-align: center;
+    font-family: monospace;
+    color: lightgrey;
+    flex-direction: column;
 }
 @media screen and (min-width: 0px) and (max-width: 570px) {
     .poster-holder {
