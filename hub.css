@@ -350,6 +350,18 @@ font-weight: 100;
         flex-direction: column;
         flex-wrap: nowrap;
     }
+    .icon-holder:hover {
+        filter: none;
+        transition: 0.5s;
+        -webkit-transform: none;
+        transform: none;
+    }
+    .poster-holder:hover {
+        filter: none;
+        transition: 0.5s;
+        -webkit-transform: none;
+        transform: none;
+    }
     .tales-prw {
         margin: 1em 0;
         display: flex;
