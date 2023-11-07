@@ -49,7 +49,9 @@ blockquote {
     padding: 0.5em 1em;
     background-color: #f4f4f4;
 }
-
+ul.toc_list ul {
+    font-size:smaller;
+}
 nav {
     color: white;
     height: 22px;
