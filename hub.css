@@ -345,13 +345,21 @@ font-weight: 100;
     background-image: url(https://i.ibb.co/Bn5W0Yp/menublack.jpg);
     background-color: black;
     border: 3px solid #ff4500;
-    padding: 0 1em;
     color: white;
     margin: 1em auto;
     border-radius: 0px 0;
     font-kerning: normal;
     font-weight: 300;
     background-attachment: fixed;
+}
+.back-notice {
+    background: radial-gradient(circle at right top, #ff450050 , #00000000);     
+    padding: 1em 2em;
+    transition: 0.5s;
+}
+.back-notice:hover {
+    backdrop-filter: blur(10px);
+    transition: 0.5s;
 }
 @media screen and (min-width: 0px) and (max-width: 570px) {
     .poster-holder {
