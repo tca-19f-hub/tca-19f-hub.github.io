@@ -341,6 +341,18 @@ font-weight: 100;
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
 }
+.big-notice {
+    background-image: url(https://i.ibb.co/Bn5W0Yp/menublack.jpg);
+    background-color: black;
+    border: 3px solid #ff4500;
+    padding: 0 1em;
+    color: white;
+    margin: 1em auto;
+    border-radius: 0px 0;
+    font-kerning: normal;
+    font-weight: 300;
+    background-attachment: fixed;
+}
 @media screen and (min-width: 0px) and (max-width: 570px) {
     .poster-holder {
         display: flex;
@@ -349,6 +361,9 @@ font-weight: 100;
         transition: 0.5s;
         flex-direction: column;
         flex-wrap: nowrap;
+    }
+    .big-notice {
+        background-attachment: unset;
     }
     .icon-holder:hover {
         filter: none;
