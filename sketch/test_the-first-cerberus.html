@@ -26,6 +26,7 @@
         function demoDisplay() {
           document.getElementById("area").style.display = "initial";
           document.getElementById("err").innerHTML = "[ОШИБКА]";
+          document.getElementById("contrast").style.filter  = "saturate(0%)";
         }
     </script>
 </head>
@@ -59,7 +60,7 @@
         </div>
         <div class="page-content">
             <h1>Первый Цербер</h1>
-            <div class="warning-notice">
+            <div id='contrast' class="warning-notice">
                 <span style="font-size: medium;">ВНИМАНИЕ</span><br>
                 Документация предоставляется только персоналу с уровнем допуска 4 специальный и выше.<br>
                 <span style="font-size: smaller;">Если вы не обладаете данным уровнем допуска закройте документацию и ожидайте прибытия 
@@ -234,6 +235,7 @@
 <style>
 .warning-notice {
     margin: 1em 0;
+    transition: 1s;
     text-align: center;
     background-position: 50% 35%;
     background-repeat: no-repeat;
