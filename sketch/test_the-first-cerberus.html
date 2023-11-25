@@ -25,6 +25,7 @@
 
         function demoDisplay() {
           document.getElementById("area").style.display = "initial";
+          document.getElementById("err").innerHTML = "[ОШИБКА]";
         }
     </script>
 </head>
@@ -57,9 +58,13 @@
                     уполномоченного сотрудника Фонда для изъятия материала.</span>
             </div>
 
-<button class="ok-button" onclick="demoDisplay()">[ПОДТВЕРДИТЬ]</button>
+<center><button id='err' class="ok-button" onclick="demoDisplay()">[ПОДТВЕРДИТЬ]</button></center>
 
 <DIV id="area" style="display: none;">
+
+    <div class="warning-1">
+        Не удалось подтвердить уровень допуска, часть информации будет недоступна.
+    </div>
 
 <h2>ВВЕДЕНИЕ</h2>
 <p><strong>Рабочее название проекта:</strong>&nbsp;&ldquo;Цербер&rdquo;</p>
@@ -247,7 +252,16 @@
     display: block;
     background-image: url(https://i.imgur.com/qknCJJt_d.webp?maxwidth=520&shape=thumb&fidelity=high);
 }
-
+.warning-1 {
+    margin: 1em 0;
+    text-align: center;
+    border: 1px outset #dcdcdc;
+    box-shadow: 0 2px 3px #ccc;
+    color: #c71515;
+    padding: 1em 0.5em;
+    font-weight: bold;
+    display: block;
+}
 h2 {
     color: black;
     padding-bottom: 3px;
@@ -268,6 +282,23 @@ h3 {
     padding: 1em;
     font-size: smaller;
     background: #fdfdfd;
+}
+.ok-button {
+    border: 1px outset #dcdcdc;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 3px 10px;
+    font-weight: bolder;
+    color: white;
+    background: #c71515;
+}
+.ok-button:hover {
+    color: crimson;
+    background: white;
+}
+.ok-button:active {
+    background: darkred;
+    border: 1px inset #dcdcdc;
+    box-shadow: none;
 }
 hr {
     border: 1px outset #ffffff;
