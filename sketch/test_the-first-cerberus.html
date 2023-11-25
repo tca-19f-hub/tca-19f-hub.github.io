@@ -22,6 +22,10 @@
         $(function () {
             $("#header-load").load("https://tca-19f-hub.github.io/header.html");
         });
+
+        function demoDisplay() {
+          document.getElementById("area").style.display = "initial";
+        }
     </script>
 </head>
 <html>
@@ -52,6 +56,11 @@
                 <span style="font-size: smaller;">Если вы не обладаете данным уровнем допуска закройте документацию и ожидайте прибытия 
                     уполномоченного сотрудника Фонда для изъятия материала.</span>
             </div>
+
+<button class="ok-button" onclick="demoDisplay()">[ПОДТВЕРДИТЬ]</button>
+
+<DIV id="area" style="display: none;">
+
 <h2>ВВЕДЕНИЕ</h2>
 <p><strong>Рабочее название проекта:</strong>&nbsp;&ldquo;Цербер&rdquo;</p>
 <p><strong>Номер проекта:&nbsp;</strong>AAORTF-000729</p>
@@ -199,6 +208,8 @@
 <h2>ЗАКЛЮЧЕНИЕ</h2>
 <p>По результатам последнего теста от ██.██.██, в симуляции оперативник применил полученные навыки и успешно выполнил задачи. В связи с этим можно считать оперативника готовым к этапу 3.</p>
 <p><u>Подготовительная часть проекта завершена.</u></p>
+
+</DIV>
             <!-- Page end-->
     </main>
     <footer>
@@ -217,33 +228,17 @@
         max-width: 700px;
         font-family: initial;
     }
-    .orange {
-    color: orangered;
-    display: flex;
-    -webkit-text-stroke-width: thin;
+@media (min-width: 0px) and (max-width: 400px) and (orientation: portrait) {
+    .warning-notice {
+        border: 1px solid #dcdcdc;
     }
-    .flex-doc {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-direction: row;
-        flex-wrap: nowrap;
-    }
-
-    .logo-cont {
-        max-width: 90px;
-    }
-
-    @media (min-width: 0px) and (max-width: 400px) and (orientation: portrait) {
-        .logo-cont {
-            display: none;
-        }
-    }
+}
 .warning-notice {
     margin: 1em 0;
     text-align: center;
-    border: 2px outset #efefef;
-    background-position: center;
+    border: 1px outset #dcdcdc;
+    box-shadow: 0 2px 3px #ccc;
+    background-position: 50% 35%;
     background-repeat: no-repeat;
     color: #c71515;
     text-shadow: 2px 2px 0px white;
@@ -252,8 +247,10 @@
     display: block;
     background-image: url(https://i.imgur.com/qknCJJt_d.webp?maxwidth=520&shape=thumb&fidelity=high);
 }
+
 h2 {
     color: black;
+    padding-bottom: 3px;
     border-bottom: 1px solid darkgrey;
 }
 
