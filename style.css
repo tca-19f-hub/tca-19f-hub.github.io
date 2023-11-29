@@ -181,6 +181,7 @@ a#navbardrop:hover {
     position: absolute;
     height: 400px;
     top: calc(132px + 2em);
+    opacity: 0.3;
     z-index: -10;
     animation: new_background 6.66s linear;
     left: 0;
