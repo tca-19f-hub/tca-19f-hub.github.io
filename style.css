@@ -176,11 +176,25 @@ a#navbardrop:hover {
     height: 100%;
     pointer-events: none;
 }
+.new-background {
+    width: -webkit-fill-available;
+    position: absolute;
+    height: 400px;
+    top: calc(132px + 2em);
+    z-index: -10;
+    opacity: 0.3;
+    left: 0;
+    background: url(https://i.ibb.co/WKX7Vrx/9429678.png);
+    background-repeat: repeat-x;
+    background-size: contain;
+}
 main {
     margin: auto;
     max-width: 1050px;
     display: flex;
     flex-direction: row;
+    z-index: 1;
+    position: relative;
     flex-wrap: nowrap;
 }
 .page-content {
