@@ -183,7 +183,6 @@ a#navbardrop:hover {
     top: calc(132px + 2em);
     z-index: -10;
     animation: new_background 6.66s linear;
-    opacity: 0.3;
     left: 0;
     background: url(https://i.ibb.co/WKX7Vrx/9429678.png);
     background-repeat: repeat-x;
