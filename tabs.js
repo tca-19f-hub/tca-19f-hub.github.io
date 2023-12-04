@@ -19,21 +19,21 @@ function openCity(evt, cityName) {
     evt.currentTarget.className += " active";
   }
 function myFunction1() {
-  var x = document.getElementById("vol-1");
+  var x = document.getElementById("toc-1");
   if (x.style.display === "none") {
     x.style.display = "block";
-    var y = document.getElementById("vol-2");
+    var y = document.getElementById("toc-2");
   }
   if (y.style.display === "block") {
     y.style.display = "none";
   }
 }
 function myFunction2() {
-  var x = document.getElementById("vol-1");
+  var x = document.getElementById("toc-1");
   if (x.style.display === "none") {
     x.style.display = "block";
   }
-    var y = document.getElementById("vol-2");
+    var y = document.getElementById("toc-2");
   if (y.style.display === "block") {
     y.style.display = "none";
 }
