@@ -22,6 +22,9 @@ function myFunction1() {
   var x = document.getElementById("toc-1");
   if (x.style.display === "none") {
     x.style.display = "block";
+  } else {
+    x.style.display = "none";
+
     var y = document.getElementById("toc-2");
   }
   if (y.style.display === "block") {
@@ -32,6 +35,8 @@ function myFunction2() {
   var x = document.getElementById("toc-1");
   if (x.style.display === "none") {
     x.style.display = "block";
+  } else {
+    x.style.display = "none";
   }
     var y = document.getElementById("toc-2");
   if (y.style.display === "block") {
