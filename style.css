@@ -354,8 +354,11 @@ a:active {
 }
 
 .vol {
-    font-family: 'Russo One', sans-serif;
     font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: xx-large;
+}
+.maintab p {
+    
 }
 .maintab {
     overflow: hidden;
