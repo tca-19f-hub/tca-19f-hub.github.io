@@ -29,17 +29,21 @@ function myFunction1() {
   }
   if (y.style.display === "block") {
     y.style.display = "none";
+  } else {
+    x.style.display = "block";
   }
 }
 function myFunction2() {
-  var x = document.getElementById("toc-1");
+  var x = document.getElementById("toc-2");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
     x.style.display = "none";
   }
-    var y = document.getElementById("toc-2");
+    var y = document.getElementById("toc-1");
   if (y.style.display === "block") {
     y.style.display = "none";
+  } else {
+    x.style.display = "block";
 }
 }
