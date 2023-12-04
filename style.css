@@ -354,7 +354,16 @@ a:active {
 }
 
 .maintab {
-
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    border-color: #444;
+    display: flex;
+    border-width: 0 0 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-start;
 }
 .maintab button {
     cursor: pointer;
