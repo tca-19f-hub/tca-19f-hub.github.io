@@ -280,6 +280,8 @@ ul {
 }
 .show-toc {
     display: block;
+    position: sticky;
+    top: 20px;
 }
 .hold1 {
     display: flex;
