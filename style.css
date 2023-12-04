@@ -278,7 +278,9 @@ ul {
         width: 80px !important;
     }
 }
-
+.show-toc {
+    display: block;
+}
 .hold1 {
     display: flex;
     flex-direction: row;
