@@ -359,8 +359,9 @@ a:active {
     font-size: xxx-large;
 }
 .maintab p {
-    font-size: larger;
-    font-weight: 1000;
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 0;
     font-family: 'JetBrains Mono', monospace;
 }
 .maintab {
@@ -371,6 +372,7 @@ a:active {
     display: flex;
     border-width: 0 0 5px;
     flex-direction: row;
+    padding: 1em 0;
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: flex-start;
@@ -385,12 +387,17 @@ a:active {
     color: dimgray;
     margin: 3px;
     padding: 0 15px;
+    transition: 0.3s;
 }
 .maintab button:hover {
-
+    background: white;
+    color: black;
+    transition: 0.3s;
 }
 .maintab button:active {
-
+    transition: 0.1s;
+    background: orange;
+    color: white;
 }
 .maintab-content {
     display: none;
