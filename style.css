@@ -364,6 +364,9 @@ a:active {
     margin-top: 0;
     font-family: 'JetBrains Mono', monospace;
 }
+.maintab tt {
+    font-variant-caps: all-small-caps;
+}
 .maintab {
     overflow: hidden;
     border: 1px solid #ccc;

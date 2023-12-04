@@ -18,3 +18,23 @@ function openCity(evt, cityName) {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
   }
+function myFunction1() {
+  var x = document.getElementById("vol-1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    var y = document.getElementById("vol-2");
+  }
+  if (y.style.display === "block") {
+    y.style.display = "none";
+  }
+}
+function myFunction2() {
+  var x = document.getElementById("vol-1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  }
+    var y = document.getElementById("vol-2");
+  if (y.style.display === "block") {
+    y.style.display = "none";
+}
+}
