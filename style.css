@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Saira+Extra+Condensed:wght@900&display=swap');
 body {
   margin: 20px;
   font-family: system-ui;
@@ -353,6 +353,10 @@ a:active {
     color: orangered;
 }
 
+.vol {
+    font-family: 'Russo One', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
 .maintab {
     overflow: hidden;
     border: 1px solid #ccc;
