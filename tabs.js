@@ -35,16 +35,16 @@ function myFunction1() {
   }
 }
 function myFunction2() {
-  var x = document.getElementById("toc-2");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-    var y = document.getElementById("toc-1");
-  if (y.style.display === "block") {
-    y.style.display = "none";
-  } else {
+  var y = document.getElementById("toc-2");
+  if (y.style.display === "none") {
     y.style.display = "block";
+  } else {
+    y.style.display = "none";
+  }
+    var x = document.getElementById("toc-1");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
 }
 }
