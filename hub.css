@@ -358,6 +358,11 @@ font-weight: 100;
     margin-right: 1em;
     width: 250px;
 }
+@media screen and (min-width: 300px) and (max-width: 570px) {
+    .invent {
+        display: none;
+    }
+}
 .white-notice {
     background-image: url(https://i.ibb.co/MD1MCzg/menuwhite.jpg);
     background-color: white;
