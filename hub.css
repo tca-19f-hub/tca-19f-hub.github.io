@@ -352,6 +352,12 @@ font-weight: 100;
     font-weight: 300;
     background-attachment: fixed;
 }
+.invent {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1em;
+    width: 250px;
+}
 .white-notice {
     background-image: url(https://i.ibb.co/MD1MCzg/menuwhite.jpg);
     background-color: white;
