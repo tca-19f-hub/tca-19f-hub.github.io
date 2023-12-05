@@ -17,7 +17,8 @@ function openCity(evt, cityName) {
     // Show the current tab, and add an "active" class to the button that opened the tab
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
-  }
+}
+
 function myFunction1() {
   var x = document.getElementById("toc-1");
   if (x.style.display === "none") {
@@ -30,7 +31,7 @@ function myFunction1() {
   if (y.style.display === "block") {
     y.style.display = "none";
   } else {
-    x.style.display = "block";
+    y.style.display = "block";
   }
 }
 function myFunction2() {
@@ -44,6 +45,6 @@ function myFunction2() {
   if (y.style.display === "block") {
     y.style.display = "none";
   } else {
-    x.style.display = "block";
+    y.style.display = "block";
 }
 }
