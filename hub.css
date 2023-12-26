@@ -385,7 +385,7 @@ font-weight: 100;
 }
 .act-holder {
     display: flex;
-    margin: 1em;
+    margin: 1em 0;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
@@ -407,6 +407,7 @@ font-weight: 100;
     height: 5px;
     background-color: orangered;
     width: -webkit-fill-available;
+    margin-right: 1em;
 }
 @media screen and (min-width: 0px) and (max-width: 570px) {
     .poster-holder {
