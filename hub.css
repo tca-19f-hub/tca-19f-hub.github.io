@@ -383,6 +383,20 @@ font-weight: 100;
     backdrop-filter: blur(10px);
     transition: 0.5s;
 }
+.act-holder {
+    display: flex;
+    margin: 1em;
+}
+.act-txt {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: x-large;
+    margin: 1em;
+}
+.act-line {
+    height: 5px;
+    margin: 1em;
+    background-color: orangered;
+}
 @media screen and (min-width: 0px) and (max-width: 570px) {
     .poster-holder {
         display: flex;
