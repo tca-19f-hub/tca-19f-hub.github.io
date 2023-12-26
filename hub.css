@@ -392,9 +392,13 @@ font-weight: 100;
     justify-content: space-between;
 }
 .act-txt {
+    margin: 0 1em;
+    white-space: nowrap;
+}
+.act-txt span {
     font-family: 'Saira Extra Condensed', sans-serif;
     font-size: xx-large;
-    margin: 0 1em;
+    white-space: nowrap;
 }
 .act-txt tt {
     font-variant-caps: all-small-caps;
