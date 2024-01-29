@@ -714,3 +714,10 @@ abbr span.translate span {
     background: orange;
     border: 1px transparent;
 }
+.back-to-top:hover {
+    text-decoration: underline;
+}
+.back-to-top:active {
+    text-decoration: underline;
+    background: orangered;
+}
