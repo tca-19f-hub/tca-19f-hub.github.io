@@ -708,3 +708,9 @@ abbr span.translate span {
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
  }
+.back-to-top {
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: 1px transparent;
+}
