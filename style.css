@@ -709,7 +709,7 @@ abbr span.translate span {
     transition: all 0.2s ease;
  }
 .back-to-top {
-    font-weight: bold;
+    font-weight: bolder;
     color: white;
     background: orange;
     border: 1px transparent;
@@ -720,4 +720,8 @@ abbr span.translate span {
 .back-to-top:active {
     text-decoration: underline;
     background: orangered;
+}
+.back-to-the-top-cont {
+    text-align: center;
+    font-weight: bolder;
 }
