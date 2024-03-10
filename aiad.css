@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400..900&display=swap');
+
+html{
+	font-family: system-ui;
+}
+body {
+	background-image: url(https://files.scpfoundation.net/local--files/theme:technoblast/bg.png);
+	color: black;
+	background-color: white;
+	margin: 0;
+	background-repeat: repeat-x;
+}
+main {
+	background-image: url(https://files.scpfoundation.net/local--files/aiad-homescreen/blue_squares_2.gif);
+    background-repeat: repeat;
+    display: block;
+    position: absolute;
+    width: -webkit-fill-available;
+}
+article {
+	max-width: 800px;
+    margin: 1em auto;
+	background: #f5f5f5cf;
+	padding: 1em;
+}
+h1 {
+	font-family: 'Russo One', sans-serif;
+    font-size: 2.1em;
+    font-weight: normal;
+    color: #013737;
+}
+h2 {
+    font-weight: normal;
+    color: #ff9944;
+	font-family: 'Ruda', sans-serif;
+}
+h3 {
+	color: #00FFFF;
+    text-shadow: #009999 1px 1px;
+	font-family: monospace;
+    font-size: 2.1em;
+    font-weight: bold;
+}
+h4, h5, h6 {
+	color: #013737;
+    font-family: 'Russo One', sans-serif;
+    font-weight: normal;
+}
+.header {
+    max-width: 800px;
+    height: 161px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.logo-header {
+	max-width: 130px;
+}
+.text-header {
+	color: cyan;
+    font-family: 'Russo One', sans-serif;
+    font-weight: normal;
+    font-size: 160%;
+    text-shadow: 0px 0px 0px #000;
+}
+.text-header1 {
+	font-family: 'Ruda', sans-serif;
+    font-weight: normal;
+    color: #ff9944;
+    text-shadow: 0px 0px 0px #000;
+    white-space: pre;
+    text-align: left;
+}
