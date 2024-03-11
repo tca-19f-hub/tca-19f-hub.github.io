@@ -78,14 +78,14 @@ h4, h5, h6 {
     text-align: left;
     font-style: italic;
 }
-.dialogue {
-    color: #f5e9e9;
+.dialogue-1 {
+    color: #ffffff;
     font-size: 8pt;
-    background-color: #0f0f0f;
     font-family: Verdana, Arial, sans-serif;
-    border-radius: 30px / 70px;
-    background: #000000;
-    background: linear-gradient(#0f0f0f, #009494);
+    border-radius: 50px;
+    background: linear-gradient(#0f0f0f, #000000);
     text-align: left;
-    padding: 2px 20px;
+    padding: 10px 20px;
+    margin: 1em;
+    width: 60%;
 }
