@@ -24,10 +24,10 @@ article {
 	padding: 1em;
 }
 h1 {
-	font-family: 'Russo One', sans-serif;
+    font-family: "Readex Pro", sans-serif;
     font-size: 2.1em;
     font-weight: normal;
-    color: #013737;
+    color: #000000;
 }
 h2 {
     font-weight: normal;
@@ -35,8 +35,8 @@ h2 {
 	font-family: 'Ruda', sans-serif;
 }
 h3 {
-	color: #00FFFF;
-    text-shadow: #009999 1px 1px;
+	color: #0c0c0c;
+    text-shadow: #000000 1px 1px;
 	font-family: monospace;
     font-size: 2.1em;
     font-weight: bold;
