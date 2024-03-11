@@ -12,10 +12,8 @@ body {
 	background-repeat: repeat-x;
 }
 main {
-    background-repeat: repeat;
-    display: block;
-    position: absolute;
-    width: -webkit-fill-available;
+    max-width: calc(800px + 1em);
+    margin: auto;
 }
 article {
 	max-width: 800px;
