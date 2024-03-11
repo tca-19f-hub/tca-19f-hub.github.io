@@ -1,18 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400..900&display=swap');
 
 html{
 	font-family: system-ui;
 }
 body {
-	background-image: url(https://files.scpfoundation.net/local--files/theme:technoblast/bg.png);
+	background-image: url(https://i.ibb.co/yggHSXZ/black-monitor.png);
 	color: black;
 	background-color: white;
 	margin: 0;
 	background-repeat: repeat-x;
 }
 main {
-	background-image: url(https://files.scpfoundation.net/local--files/aiad-homescreen/blue_squares_2.gif);
     background-repeat: repeat;
     display: block;
     position: absolute;
@@ -44,7 +43,7 @@ h3 {
 }
 h4, h5, h6 {
 	color: #013737;
-    font-family: 'Russo One', sans-serif;
+    font-family: "Readex Pro", sans-serif;
     font-weight: normal;
 }
 .header {
@@ -60,12 +59,12 @@ h4, h5, h6 {
     align-items: center;
 }
 .logo-header {
-	max-width: 130px;
+	max-width: 120px;
 }
 .text-header {
 	color: cyan;
-    font-family: 'Russo One', sans-serif;
-    font-weight: normal;
+    font-family: "Readex Pro", sans-serif;
+    font-weight: bold;
     font-size: 160%;
     text-shadow: 0px 0px 0px #000;
 }
@@ -76,4 +75,15 @@ h4, h5, h6 {
     text-shadow: 0px 0px 0px #000;
     white-space: pre;
     text-align: left;
+}
+.dialogue {
+    color: #f5e9e9;
+    font-size: 8pt;
+    background-color: #0f0f0f;
+    font-family: Verdana, Arial, sans-serif;
+    border-radius: 30px / 70px;
+    background: #000000;
+    background: linear-gradient(#0f0f0f, #009494);
+    text-align: left;
+    padding: 2px 20px;
 }
