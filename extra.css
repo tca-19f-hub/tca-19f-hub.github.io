@@ -1,0 +1,5 @@
+.main-font {
+    max-width: 200px;
+    margin: 2em 0;
+    pointer-events: none;
+}
