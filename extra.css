@@ -3,3 +3,10 @@
     margin: 2em 0;
     pointer-events: none;
 }
+.famous {
+    border-left: 3px solid #961e00;
+    padding: 5px 10px;
+    background: #fff7f5;
+    font-style: italic;
+    margin: 1em 0;
+}
