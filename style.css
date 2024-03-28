@@ -727,4 +727,24 @@ abbr span.translate span {
 }
 .multi-u-right {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    width: -webkit-fill-available;
+    justify-content: space-between;
+    margin: 2em 0;
 }
+.multi-u-image-holder {
+    width: 35%;
+}
+.multi-u-image-holder:hover {
+    filter: drop-shadow(0px 4px 5px grey);
+    transition: 0.5s;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.multi-u-text-holder {
+    padding-right: 2em;
+    max-width: 65%;
+}
+
