@@ -765,6 +765,11 @@ abbr span.translate span {
 }
 .multi-u-font {
     font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    letter-spacing: 3px;
+    font-size: 200%;
+    margin: 0;
+    color: #404040;
 }
 @media screen and (min-width: 0px) and (max-width: 570px) {
     .multi-u-text-holder {
