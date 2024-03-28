@@ -725,3 +725,6 @@ abbr span.translate span {
     text-align: center;
     font-weight: bolder;
 }
+.multi-u-right {
+    display: flex;
+}
