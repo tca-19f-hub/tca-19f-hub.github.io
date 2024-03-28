@@ -747,4 +747,45 @@ abbr span.translate span {
     padding-right: 2em;
     max-width: 65%;
 }
-
+.multi-u-left {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    width: -webkit-fill-available;
+    justify-content: space-between;
+    margin: 2em 0;
+}
+@media screen and (min-width: 0px) and (max-width: 570px) {
+    .multi-u-text-holder {
+        padding-right: 0;
+        max-width: -webkit-fill-available;
+    }
+    .multi-u-image-holder {
+        width: -webkit-fill-available;
+    }
+    .multi-u-image-holder:hover {
+        filter: none;
+        transition: 0;
+        -webkit-transform: none;
+        transform: none;
+    }
+    .multi-u-right {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: -webkit-fill-available;
+        justify-content: flex-start;
+        margin: 2em 0;
+        align-items: flex-start;
+    }
+    .multi-u-left {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: -webkit-fill-available;
+        justify-content: flex-start;
+        margin: 2em 0;
+        align-items: flex-start;
+    }
+}
