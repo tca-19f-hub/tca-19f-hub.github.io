@@ -771,12 +771,21 @@ abbr span.translate span {
     margin: 0;
 }
 @media screen and (min-width: 0px) and (max-width: 570px) {
-    .multi-u-text-holder {
+    .multi-u-text-holder-right {
+        padding-right: 0;
+        max-width: -webkit-fill-available;
+    }
+    .multi-u-text-holder-left {
         padding-right: 0;
         max-width: -webkit-fill-available;
     }
     .multi-u-image-holder {
         width: -webkit-fill-available;
+        background: url(https://i.ibb.co/YTnCH8x/collage.png);
+        height: 11em;
+        background-position: center;
+        background-size: 100%;
+        content-visibility: hidden;
     }
     .multi-u-image-holder:hover {
         filter: none;
@@ -795,7 +804,7 @@ abbr span.translate span {
     }
     .multi-u-left {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         flex-wrap: nowrap;
         width: -webkit-fill-available;
         justify-content: flex-start;

@@ -324,8 +324,8 @@ font-weight: 100;
     display: none;
 }
 .icon-holder {
-    width: 20%;
-    min-width: 20%;
+    width: 15%;
+    min-width: 10%;
     margin: 1em;
     transition: 0.5s;
     flex-wrap: nowrap;
