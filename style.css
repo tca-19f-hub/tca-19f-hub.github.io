@@ -739,6 +739,12 @@ abbr span.translate span {
 .multi-u-image-holder-main {
     width: 35%;
     transition: 0.5s;
+    flex-wrap: nowrap;
+    display: flex;
+    text-align: center;
+    font-family: monospace;
+    color: lightgrey;
+    flex-direction: column;
 }
 .multi-u-image-holder-main:hover {
     filter: drop-shadow(0px 4px 5px grey);
@@ -749,6 +755,12 @@ abbr span.translate span {
 .multi-u-image-holder-extra {
     width: 35%;
     transition: 0.5s;
+    flex-wrap: nowrap;
+    display: flex;
+    text-align: center;
+    font-family: monospace;
+    color: lightgrey;
+    flex-direction: column;
 }
 .multi-u-image-holder-extra:hover {
     filter: drop-shadow(0px 4px 5px grey);
@@ -781,6 +793,7 @@ abbr span.translate span {
     letter-spacing: 3px;
     font-size: 200%;
     margin: 0;
+    text-shadow: 0 2px 3px #ccc;
 }
 .hr-main {
     margin: 16px 0;
