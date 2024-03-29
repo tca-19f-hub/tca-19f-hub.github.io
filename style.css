@@ -780,6 +780,14 @@ abbr span.translate span {
     font-size: 200%;
     margin: 0;
 }
+.hr-main {
+    margin: 16px 0;
+    padding: 0;
+    height: 3px;
+    border: none;
+    background-color: #707070;
+    box-shadow: 0 2px 3px #ccc;
+}
 @media screen and (min-width: 0px) and (max-width: 570px) {
     .multi-u-text-holder-right {
         padding-right: 0;
