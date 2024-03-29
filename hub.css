@@ -278,8 +278,8 @@ font-weight: 100;
     width: -webkit-fill-available;
 }
 .poster-holder {
-    width: 35%;
-    min-width: 35%;
+    width: 25%;
+    min-width: 30%;
     margin: 1em;
     transition: 0.5s;
     flex-wrap: nowrap;
