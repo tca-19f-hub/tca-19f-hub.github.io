@@ -736,11 +736,21 @@ abbr span.translate span {
     justify-content: space-between;
     margin: 2em 0;
 }
-.multi-u-image-holder {
+.multi-u-image-holder-main {
     width: 35%;
     transition: 0.5s;
 }
-.multi-u-image-holder:hover {
+.multi-u-image-holder-main:hover {
+    filter: drop-shadow(0px 4px 5px grey);
+    transition: 0.5s;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.multi-u-image-holder-extra {
+    width: 35%;
+    transition: 0.5s;
+}
+.multi-u-image-holder-extra:hover {
     filter: drop-shadow(0px 4px 5px grey);
     transition: 0.5s;
     -webkit-transform: scale(1.05);
@@ -776,13 +786,21 @@ abbr span.translate span {
         max-width: -webkit-fill-available;
     }
     .multi-u-text-holder-left {
-        padding-right: 0;
+        padding-left: 0;
         max-width: -webkit-fill-available;
     }
-    .multi-u-image-holder {
+    .multi-u-image-holder-main {
         width: -webkit-fill-available;
         background: url(https://i.ibb.co/YTnCH8x/collage.png);
-        height: 11em;
+        height: 12em;
+        background-position: center;
+        background-size: 100%;
+        content-visibility: hidden;
+    }
+    .multi-u-image-holder-extra {
+        width: -webkit-fill-available;
+        background: url(https://i.ibb.co/0yS819m/pritok.png);
+        height: 12em;
         background-position: center;
         background-size: 100%;
         content-visibility: hidden;
