@@ -759,10 +759,12 @@ abbr span.translate span {
 .multi-u-text-holder-right {
     padding-right: 2em;
     max-width: 65%;
+    text-align: justify;
 }
 .multi-u-text-holder-left {
     padding-left: 2em;
     max-width: 65%;
+    text-align: justify;
 }
 .multi-u-left {
     display: flex;
