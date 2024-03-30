@@ -815,7 +815,7 @@ abbr span.translate span {
     .multi-u-image-holder-main {
         width: -webkit-fill-available;
         background: url(https://i.ibb.co/YTnCH8x/collage.png);
-        height: 12em;
+        height: 5em;
         background-position: center;
         background-size: 100%;
         content-visibility: hidden;
@@ -823,7 +823,7 @@ abbr span.translate span {
     .multi-u-image-holder-extra {
         width: -webkit-fill-available;
         background: url(https://i.ibb.co/0yS819m/pritok.png);
-        height: 12em;
+        height: 5em;
         background-position: center;
         background-size: 100%;
         content-visibility: hidden;
