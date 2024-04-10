@@ -4,14 +4,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Mono+One&display=swap');
 
 body {
-  margin: 20px;
-  font-family: system-ui;
-  background-image: url("https://i.ibb.co/VtNRF0G/body-hrp-bg-dark.png");
-  overflow-y: scroll;
-  background-position: top;
-  background-repeat: repeat-x !important;
-  background-color: white;
-} 
+    margin: 20px;
+    font-family: system-ui;
+    background-image: url(https://i.ibb.co/W5dR5WL/oblivion-wallpaper.png);
+    overflow-y: scroll;
+    background-position: top;
+    background-repeat: repeat-x !important;
+    background-color: black;
+}
 * {
     scrollbar-width: auto !important;
     scrollbar-color: #808080 #e0e0e0 !important;
@@ -80,12 +80,12 @@ nav .option {
     color: white;
 }
 nav .option:hover {
-    background: #bbbbbb;
-    color: black;
+    background: #710A1E;
+    color: white;
 }
 nav .option:active {
-    background: white;
-    color: black !important;
+    background: #480613;
+    color: white !important;
     filter: none;
 }
 nav a {
@@ -202,7 +202,7 @@ a#navbardrop:hover {
   }
 main {
     margin: auto;
-    max-width: 1050px;
+    max-width: 850px;
     display: flex;
     flex-direction: row;
     z-index: 1;
@@ -228,22 +228,20 @@ ul {
     padding-inline-start: 20px !important;
 }
 .text-header {
-    color: white;
+    color: rgb(166, 5, 34);
     font-size: 220%;
     font-variant-caps: petite-caps;
-    font-family: 'Russo One', sans-serif;
+    font-family: "Russo One", sans-serif;
+    filter: drop-shadow(black 0px 4px 2px);
     white-space: nowrap;
-    text-shadow: 0 0 20px #ffa500;
-    filter: drop-shadow(0px 4px 2px black);
 }
 
 @media screen and (min-width: 300px) and (max-width: 570px) { .text-header {
-    color: white;
     font-size: 160%;
     font-variant-caps: petite-caps;
     font-family: 'Russo One', sans-serif;
     white-space: nowrap;
-    text-shadow: 0 0 20px #ffa500;
+    color: rgb(166, 5, 34);
     filter: drop-shadow(0px 4px 2px black);
 } }
 
@@ -257,10 +255,10 @@ ul {
 .text-header1 {
     font-family: monospace;
     font-weight: bold;
-    color: #f0f0c0;
-    white-space: nowrap;
+    color: rgb(166, 5, 34);
     font-size: larger;
-    text-shadow: 1px 1px 3px black;
+    text-shadow: black 1px 1px 3px;
+    white-space: nowrap;
 }
 .logo-header {
     width: 100px;
@@ -271,7 +269,7 @@ ul {
     .text-header1 {
         font-family: monospace;
         font-weight: bold;
-        color: #f0f0c0;
+        color: rgb(166, 5, 34);
         white-space: nowrap;
         font-size: 87%;
         text-shadow: 1px 1px 3px black;
@@ -308,9 +306,9 @@ header {
 footer {
     font-size: small;
     border-top: 1px solid #bbbbbb;
-    padding: 5px;
+    padding: 5px 0;
     text-align: center;
-    max-width: 1050px;
+    max-width: 850px;
     margin: 3em auto 0;
 }
 
@@ -349,15 +347,15 @@ h4 {
 
 a {
     text-decoration: none;
-    color: darkorange;
+    color: crimson;
 }
 a:hover {
     text-decoration: underline;
-    color: orange;
+    color: crimson;
 }
 a:active {
     text-decoration: underline;
-    color: orangered;
+    color: #480613;
 }
 
 .vol {
@@ -701,7 +699,6 @@ abbr span.translate span {
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
 }
- 
  abbr span.translate:hover span {
     z-index: 9;
     opacity: 1;
@@ -727,74 +724,6 @@ abbr span.translate span {
     text-align: center;
     font-weight: bolder;
 }
-.multi-u-right {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: flex-start;
-    width: -webkit-fill-available;
-    justify-content: space-between;
-    margin: 2em 0;
-}
-.multi-u-image-holder-main {
-    width: 35%;
-    transition: 0.5s;
-    flex-wrap: nowrap;
-    display: flex;
-    text-align: center;
-    font-family: monospace;
-    color: lightgrey;
-    flex-direction: column;
-}
-.multi-u-image-holder-main:hover {
-    filter: drop-shadow(0px 4px 5px grey);
-    transition: 0.5s;
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
-}
-.multi-u-image-holder-extra {
-    width: 35%;
-    transition: 0.5s;
-    flex-wrap: nowrap;
-    display: flex;
-    text-align: center;
-    font-family: monospace;
-    color: lightgrey;
-    flex-direction: column;
-}
-.multi-u-image-holder-extra:hover {
-    filter: drop-shadow(0px 4px 5px grey);
-    transition: 0.5s;
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
-}
-.multi-u-text-holder-right {
-    padding-right: 2em;
-    max-width: 65%;
-    text-align: justify;
-}
-.multi-u-text-holder-left {
-    padding-left: 2em;
-    max-width: 65%;
-    text-align: justify;
-}
-.multi-u-left {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: flex-start;
-    width: -webkit-fill-available;
-    justify-content: space-between;
-    margin: 2em 0;
-}
-.multi-u-font {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    letter-spacing: 3px;
-    font-size: 200%;
-    margin: 0;
-    text-shadow: 0 2px 3px #ccc;
-}
 .hr-main {
     margin: 16px 0;
     padding: 0;
@@ -804,52 +733,4 @@ abbr span.translate span {
     box-shadow: 0 2px 3px #ccc;
 }
 @media screen and (min-width: 0px) and (max-width: 570px) {
-    .multi-u-text-holder-right {
-        padding-right: 0;
-        max-width: -webkit-fill-available;
-    }
-    .multi-u-text-holder-left {
-        padding-left: 0;
-        max-width: -webkit-fill-available;
-    }
-    .multi-u-image-holder-main {
-        width: -webkit-fill-available;
-        background: url(https://i.ibb.co/YTnCH8x/collage.png);
-        height: 5em;
-        background-position: center;
-        background-size: 100%;
-        content-visibility: hidden;
-    }
-    .multi-u-image-holder-extra {
-        width: -webkit-fill-available;
-        background: url(https://i.ibb.co/0yS819m/pritok.png);
-        height: 5em;
-        background-position: center;
-        background-size: 100%;
-        content-visibility: hidden;
-    }
-    .multi-u-image-holder:hover {
-        filter: none;
-        transition: 0;
-        -webkit-transform: none;
-        transform: none;
-    }
-    .multi-u-right {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        width: -webkit-fill-available;
-        justify-content: flex-start;
-        margin: 2em 0;
-        align-items: flex-start;
-    }
-    .multi-u-left {
-        display: flex;
-        flex-direction: column-reverse;
-        flex-wrap: nowrap;
-        width: -webkit-fill-available;
-        justify-content: flex-start;
-        margin: 2em 0;
-        align-items: flex-start;
-    }
 }
