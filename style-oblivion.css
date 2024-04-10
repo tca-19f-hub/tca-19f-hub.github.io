@@ -548,28 +548,7 @@ a:active {
         font: inherit;
     }
 }
-.collapsible {
-    border: 1px solid black;
-    font-variant-caps: all-petite-caps;
-    font-size: large;
-}
-.collapsible:hover {
-    border: 1px solid black;
-    font-variant-caps: all-petite-caps;
-    background-color: #999;
-}
-.collapsible:active {
-    border: 1px solid black;
-    font-variant-caps: all-petite-caps;
-    background-color: #444;
-    color: white;
-}
-.collapsible:after {
-    border: 1px solid black;
-    font-variant-caps: all-petite-caps;
-    background-color: #444;
-    color: white;
-}
+
 .content {
     overflow: hidden;
     font-family: monospace;
