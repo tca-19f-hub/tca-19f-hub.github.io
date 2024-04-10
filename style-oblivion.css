@@ -48,10 +48,10 @@ abbr {
     cursor: help;
 }
 blockquote {
-    border: 1px dashed #999;
+    border: 1px dashed crimson;
     margin: 1em 0em !important;
     padding: 0.5em 1em;
-    background-color: #f4f4f4;
+    background-color: transparent;
 }
 ul.toc_list ul {
     font-size:smaller;
@@ -78,10 +78,10 @@ nav li {
 }
 nav .option {
     padding: 4.5px 10px;
-    color: white;
+    color: crimson;
 }
 nav .option:hover {
-    background: #710A1E;
+    background: crimson;
     color: white;
 }
 nav .option:active {
@@ -312,14 +312,13 @@ footer {
 }
 
 h1 {
-    color: saddlebrown;
+    color: crimson;
     padding: 0 0 0.25em;
     margin: 0 0 0.6em;
     font-weight: normal;
-    border-bottom: 1px solid #bbb;
 }
 h2 {
-    color: sienna;
+    color: crimson;
     font-size: 160%;
     margin-top: 0.7em;
     padding: 0;
