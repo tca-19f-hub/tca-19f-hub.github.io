@@ -20,3 +20,4 @@
     background-repeat: repeat-x;
     background-size: var(--header-background-image-size), 100% var(--final-header-height-on-desktop), 100% var(--background-gradient-distance);
 }
+
