@@ -254,7 +254,7 @@ ul {
 .text-header1 {
     font-family: monospace;
     font-weight: bold;
-    color: rgb(166, 5, 34);
+    color: crimson;
     font-size: larger;
     text-shadow: black 1px 1px 3px;
     white-space: nowrap;
@@ -268,7 +268,7 @@ ul {
     .text-header1 {
         font-family: monospace;
         font-weight: bold;
-        color: rgb(166, 5, 34);
+        color: crimson;
         white-space: nowrap;
         font-size: 87%;
         text-shadow: 1px 1px 3px black;
