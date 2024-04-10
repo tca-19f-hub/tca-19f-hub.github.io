@@ -203,9 +203,9 @@ a#navbardrop:hover {
         opacity: 0.3;
     }
   }
-main {
+  main {
     margin: auto;
-    max-width: 850px;
+    max-width: 1050px;
     display: flex;
     flex-direction: row;
     z-index: 1;
@@ -217,7 +217,9 @@ main {
     max-width: 850px;
 }
 .toc-holder {
-    display: none;
+    position: sticky;
+    margin-right: 1em;
+    width: 250px;
 }
 @media screen and (min-width: 300px) and (max-width: 570px) { 
     .toc-holder {
@@ -314,13 +316,13 @@ footer {
 }
 
 h1 {
-    color: crimson;
+    color: white;
     padding: 0 0 0.25em;
     margin: 0 0 0.6em;
     font-weight: normal;
 }
 h2 {
-    color: crimson;
+    color: white;
     font-size: 160%;
     margin-top: 0.7em;
     padding: 0;
