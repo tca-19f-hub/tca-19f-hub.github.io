@@ -11,6 +11,7 @@ body {
     background-position: top;
     background-repeat: repeat-x !important;
     color: white;
+    background-color: #150100;
 }
 .background-color {
     background: linear-gradient(180deg, rgb(0 0 0) 0%, rgb(34 2 0) 50em);
@@ -231,11 +232,10 @@ ul {
     padding-inline-start: 20px !important;
 }
 .text-header {
-    color: rgb(166, 5, 34);
+    color: rgb(108 0 5);
     font-size: 220%;
     font-variant-caps: petite-caps;
     font-family: "Russo One", sans-serif;
-    filter: drop-shadow(black 0px 4px 2px);
     white-space: nowrap;
 }
 
@@ -244,8 +244,7 @@ ul {
     font-variant-caps: petite-caps;
     font-family: 'Russo One', sans-serif;
     white-space: nowrap;
-    color: rgb(166, 5, 34);
-    filter: drop-shadow(0px 4px 2px black);
+    color: rgb(108 0 5);
 } }
 
 .header-flex {
@@ -258,9 +257,8 @@ ul {
 .text-header1 {
     font-family: monospace;
     font-weight: bold;
-    color: rgb(166, 5, 34);
+    color: rgb(108 0 5);
     font-size: larger;
-    text-shadow: black 1px 1px 3px;
     white-space: nowrap;
 }
 .logo-header {
@@ -272,10 +270,9 @@ ul {
     .text-header1 {
         font-family: monospace;
         font-weight: bold;
-        color: rgb(166, 5, 34);
+        color: rgb(108 0 5);
         white-space: nowrap;
         font-size: 87%;
-        text-shadow: 1px 1px 3px black;
     }
     .logo-header {
         width: 80px !important;
