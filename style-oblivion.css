@@ -11,6 +11,7 @@ body {
     background-position: top;
     background-repeat: repeat-x !important;
     background-color: black;
+    color: white;
 }
 * {
     scrollbar-width: auto !important;
@@ -37,7 +38,7 @@ mark {
     background-color: black;
 }
 ::selection {
-    background: orange;
+    background: crimson;
     color: initial;
 }
 abbr {
