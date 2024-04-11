@@ -554,17 +554,12 @@ a:active {
     font-family: monospace;
     font-size: larger;
 }
-.raisa-warning {
-    text-align: center;
-    padding: 10px;
-    margin: auto;
-    font-weight: bolder;
-}
-.purpose {
-    border: 1px solid #bbbbbb;
-    padding: 1em;
-    margin: 1em 0;
-    box-shadow: 0 1px 6px rgb(0 0 0 / 10%);
+.love {
+    border: 0;
+    background: transparent;
+    color: crimson;
+    font-size: 1em;
+    animation: pulse 1s linear infinite;
 }
 .img-container p {
     margin: 0 0.4em 0.4em;
