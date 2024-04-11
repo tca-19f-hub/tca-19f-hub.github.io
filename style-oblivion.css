@@ -575,6 +575,7 @@ a:active {
     text-decoration: underline;
     transition: 0.5s;
     cursor: pointer;
+    animation: none;
 }
 .image-holder {
     display: block;
