@@ -568,6 +568,13 @@ a:active {
     color: crimson;
     font-size: 1em;
     animation: pulse 1s linear infinite;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.love:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+    cursor: pointer;
 }
 .image-holder {
     display: block;
