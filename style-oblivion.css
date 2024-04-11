@@ -561,31 +561,12 @@ a:active {
     font-size: 1em;
     animation: pulse 1s linear infinite;
 }
-.img-container p {
-    margin: 0 0.4em 0.4em;
-}
-.img-container {
-    float: right;
-    max-width: 40%;
-    margin: 1em;
-    border: 1px solid;
-    background: whitesmoke;
-    text-align: -webkit-center;
-    font-family: monospace;
-    box-shadow: 0 1px 6px rgba(0, 0, 0, .25);
-    font-weight: bold;
+.image-holder {
+    display: block;
 }
 @media screen and (min-width: 0px) and (max-width: 570px) and (orientation: portrait) {
-.img-container {
-    float: none;
-    max-width: 100%;
-    margin: 1em;
-    border: 1px solid;
-    background: whitesmoke;
-    text-align: -webkit-center;
-    font-family: monospace;
-    box-shadow: 0 1px 6px rgba(0, 0, 0, .25);
-    font-weight: bold;
+.image-holder {
+    display: block;
 }
 }
 sup a.footnote {
