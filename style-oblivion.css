@@ -200,6 +200,14 @@ a#navbardrop:hover {
     100% {
         opacity: 0.3;
     }
+}
+  @keyframes slow_reveal {
+    0% {
+        filter: brightness(0);
+    }
+    100% {
+        filter: brightness(1);
+    }
   }
 main {
     margin: auto;
