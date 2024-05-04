@@ -9,7 +9,7 @@ body {
     background-image: url(https://i.ibb.co/W5dR5WL/oblivion-wallpaper.png);
     overflow-y: scroll;
     background-position: top;
-    background-repeat: repeat-x !important;
+    background-repeat: repeat !important;
     background-color: black;
     color: white;
 }
