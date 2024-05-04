@@ -1,6 +1,9 @@
 .main-font {
+    margin: 70px auto;
+}
+.main-container {
     max-width: 250px;
-    margin: 2em auto;
+    margin: auto;
     pointer-events: none;
 }
 .famous {
@@ -9,4 +12,27 @@
     background: #fff7f5;
     font-style: italic;
     margin: 1em 0;
+}
+.lit-holder {
+    display: flex;
+    margin: 1em 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.lit-txt {
+    margin: 0 1em;
+    white-space: nowrap;
+}
+.lit-txt span {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: xx-large;
+    white-space: nowrap;
+}
+.act-line {
+    height: 5px;
+    background-color: orangered;
+    width: -webkit-fill-available;
+    margin-right: 1em;
 }
