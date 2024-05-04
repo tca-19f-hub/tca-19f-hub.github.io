@@ -30,7 +30,7 @@
     font-size: xx-large;
     white-space: nowrap;
 }
-.act-line {
+.lit-line {
     height: 5px;
     background-color: orangered;
     width: -webkit-fill-available;
