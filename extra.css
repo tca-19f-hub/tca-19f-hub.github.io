@@ -36,3 +36,18 @@
     width: -webkit-fill-available;
     margin-left: 1em;
 }
+.afisha-holder {
+    width: 9%;
+    min-width: 9%;
+    margin: 1em;
+    transition: 0.5s;
+    flex-wrap: nowrap;
+    display: flex;
+    text-align: center;
+    font-family: monospace;
+    color: lightgrey;
+    flex-direction: column;
+}
+.s-flex {
+    display: flex;
+}
