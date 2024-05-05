@@ -44,7 +44,7 @@ function collapse_4() {
 }
 function play_sound_4() {
     audio_4.play();
-    audio_4.volume = 0.02;
+    audio_4.volume = 0.03;
     audio_4.loop = true;
     audio_3.pause();
     audio_3.currentTime = 0;
@@ -56,7 +56,7 @@ function collapse_5() {
 }
 function play_sound_5() {
     audio_5.play();
-    audio_5.volume = 0.02;
+    audio_5.volume = 0.05;
     audio_5.loop = true;
     audio_4.pause();
     audio_4.currentTime = 0;
