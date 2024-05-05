@@ -10,7 +10,7 @@ function collapse_1() {
 }
 function play_sound_1() {
     audio_1.play();
-    audio_1.volume = 0.02;
+    audio_1.volume = 0.07;
     audio_1.loop = true;
 }
 
@@ -20,7 +20,7 @@ function collapse_2() {
 }
 function play_sound_2() {
     audio_2.play();
-    audio_2.volume = 0.02;
+    audio_2.volume = 0.05;
     audio_2.loop = true;
     audio_1.pause();
     audio_1.currentTime = 0;
@@ -32,7 +32,7 @@ function collapse_3() {
 }
 function play_sound_3() {
     audio_3.play();
-    audio_3.volume = 0.02;
+    audio_3.volume = 0.03;
     audio_3.loop = true;
     audio_2.pause();
     audio_2.currentTime = 0;
