@@ -343,12 +343,15 @@ h4 {
     font-size: 130%;
     margin: 0.5em 0;
 }
-.box {
-    border: solid 1px #888880;
-    border-radius: 10px;
-    margin: 10px 0 15px;
-    padding: 1em;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, .5), inset 0 1px rgba(255, 255, 255, .3), inset 0 10px rgba(255, 255, 255, .2), inset 0 10px 20px rgba(255, 255, 255, .25), inset 0 -15px 30px rgba(0, 0, 0, .1);
+.image-right-holder {
+    float: right;
+    max-width: 300px;
+    margin: 1em 0 1em 1em;
+}
+.image-left-holder {
+    float: left;
+    max-width: 300px;
+    margin: 1em 1em 1em 0em;
 }
 
 a {
