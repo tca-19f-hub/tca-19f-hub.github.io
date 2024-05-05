@@ -48,12 +48,16 @@
     color: lightgrey;
     flex-direction: column;
 }
+@media screen and (min-width: 300px) and (max-width: 570px) {
+    .afisha-holder {
+        display: none;
+    }
+}
 .s-flex {
     display: flex;
     align-items: center;
 }
 .stories-prw {
-    margin: 1em 0;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
