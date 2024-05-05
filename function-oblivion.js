@@ -1,14 +1,8 @@
-var audio_1 = new Audio('https://audio.jukehost.co.uk/qyJVTdlOfAJok4s5gHh62yNpsgjmVvgE')
-var audio_2 = new Audio('')
-var audio_3 = new Audio('')
-var audio_4 = new Audio('')
-var audio_5 = new Audio('')
-var audio_6 = new Audio('')
-var audio_7 = new Audio('')
-var audio_8 = new Audio('')
-var audio_9 = new Audio('')
-var audio_10 = new Audio('')
-
+var audio_1 = new Audio('https://audio.jukehost.co.uk/LomD71PtH0bA7hnDrg6jA4l69SKQnOil')
+var audio_2 = new Audio('https://audio.jukehost.co.uk/YwqrPugixR8h8Kn3K6BVsrCA4kTPlw3H')
+var audio_3 = new Audio('https://audio.jukehost.co.uk/x6uPYuZ6cjTrOIzwu4wKepRTSvKPzLrc')
+var audio_4 = new Audio('https://audio.jukehost.co.uk/FXk05pIxnlltatBt83qwjcNv51J0xDwG')
+var audio_5 = new Audio('https://audio.jukehost.co.uk/AgaFwRQcZQHSJR0LEBUljnKo8Yn6bGiB')
 
 function collapse_1() {
     document.getElementById("collapse-1").style.display = "block";
@@ -72,70 +66,28 @@ function collapse_6() {
     document.getElementById("collapse-6").style.display = "block";
     document.getElementById("button-6").style.display = "none";
 }
-function play_sound_6() {
-    audio_6.play();
-    audio_6.volume = 0.02;
-    audio_6.loop = true;
-    audio_5.pause();
-    audio_5.currentTime = 0;
-}
 
 function collapse_7() {
     document.getElementById("collapse-7").style.display = "block";
     document.getElementById("button-7").style.display = "none";
-}
-function play_sound_7() {
-    audio_7.play();
-    audio_7.volume = 0.02;
-    audio_7.loop = true;
-    audio_6.pause();
-    audio_6.currentTime = 0;
 }
 
 function collapse_8() {
     document.getElementById("collapse-8").style.display = "block";
     document.getElementById("button-8").style.display = "none";
 }
-function play_sound_8() {
-    audio_8.play();
-    audio_8.volume = 0.02;
-    audio_8.loop = true;
-    audio_7.pause();
-    audio_7.currentTime = 0;
-}
 
 function collapse_9() {
     document.getElementById("collapse-9").style.display = "block";
     document.getElementById("button-9").style.display = "none";
-}
-function play_sound_9() {
-    audio_9.play();
-    audio_9.volume = 0.02;
-    audio_9.loop = true;
-    audio_8.pause();
-    audio_8.currentTime = 0;
 }
 
 function collapse_10() {
     document.getElementById("collapse-10").style.display = "block";
     document.getElementById("button-10").style.display = "none";
 }
-function play_sound_10() {
-    audio_10.play();
-    audio_10.volume = 0.02;
-    audio_10.loop = true;
-    audio_9.pause();
-    audio_9.currentTime = 0;
-}
 
 function collapse_11() {
     document.getElementById("collapse-11").style.display = "block";
     document.getElementById("button-11").style.display = "none";
-}
-function play_sound_11() {
-    audio_11.play();
-    audio_11.volume = 0.02;
-    audio_11.loop = true;
-    audio_10.pause();
-    audio_10.currentTime = 0;
 }
