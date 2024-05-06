@@ -52,6 +52,10 @@
     .afisha-holder {
         display: none;
     }
+    .s-head {
+        font-weight: bolder;
+        font-size: 100%;
+    }
 }
 .s-flex {
     display: flex;
