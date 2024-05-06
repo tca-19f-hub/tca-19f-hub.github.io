@@ -90,13 +90,6 @@ nav .option:active {
 nav a {
     color: white;
 }
-nav a:hover {
-    color: black;
-    background: #bbbbbb;
-}
-nav a:active {
-    color: black !important;
-}
 nav.dropdown-menu {
     top: 100%;
     left: 0;
