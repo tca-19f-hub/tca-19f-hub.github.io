@@ -37,7 +37,7 @@ mark {
     background-color: black;
 }
 ::selection {
-    background: crimson;
+    background: #ffedac;
     color: initial;
 }
 abbr {
@@ -47,10 +47,10 @@ abbr {
     cursor: help;
 }
 blockquote {
-    border: 1px dashed crimson;
-    margin: 1em 0em !important;
-    padding: 0.5em 1em;
-    background-color: transparent;
+    border: solid 2px #004F00;
+    background: #f2f2c2;
+    padding: 5px;
+    margin-bottom: 5px;
 }
 ul.toc_list ul {
     font-size:smaller;
@@ -77,16 +77,15 @@ nav li {
 }
 nav .option {
     padding: 4.5px 10px;
-    color: crimson;
+    color: #ffdb5a;
 }
 nav .option:hover {
-    background: crimson;
-    color: white;
+    background: #154427;
+    color: #ffdb5a;
 }
 nav .option:active {
-    background: #480613;
-    color: white !important;
     filter: none;
+    text-decoration: underline;
 }
 nav a {
     color: white;
@@ -234,22 +233,22 @@ ul {
     padding-inline-start: 20px !important;
 }
 .text-header {
-    color: crimson;
+    color: #ffdc4d;
     font-size: 220%;
     font-variant-caps: petite-caps;
     font-family: "Russo One", sans-serif;
-    filter: drop-shadow(black 0px 4px 2px);
     white-space: nowrap;
 }
 
-@media screen and (min-width: 300px) and (max-width: 570px) { .text-header {
-    font-size: 160%;
-    font-variant-caps: petite-caps;
-    font-family: 'Russo One', sans-serif;
-    white-space: nowrap;
-    color: crimson;
-    filter: drop-shadow(0px 4px 2px black);
-} }
+@media screen and (min-width: 300px) and (max-width: 570px) { 
+    .text-header {
+        font-size: 160%;
+        font-variant-caps: petite-caps;
+        font-family: 'Russo One', sans-serif;
+        white-space: nowrap;
+        color: #ffdc4d;
+    } 
+}
 
 .header-flex {
     display: flex;
@@ -261,9 +260,8 @@ ul {
 .text-header1 {
     font-family: monospace;
     font-weight: bold;
-    color: crimson;
     font-size: larger;
-    text-shadow: black 1px 1px 3px;
+    color: #ffdc4d;
     white-space: nowrap;
 }
 .logo-header {
@@ -275,10 +273,9 @@ ul {
     .text-header1 {
         font-family: monospace;
         font-weight: bold;
-        color: crimson;
+        color: #ffdc4d;
         white-space: nowrap;
         font-size: 87%;
-        text-shadow: 1px 1px 3px black;
     }
     .logo-header {
         width: 80px !important;
@@ -319,27 +316,28 @@ footer {
 }
 
 h1 {
-    color: crimson;
+    color: #333;
     padding: 0 0 0.25em;
     margin: 0 0 0.6em;
-    font-weight: normal;
+    font-weight: 600;
+    border-bottom: #333 1px solid;
 }
 h2 {
-    color: crimson;
+    color: #333;
     font-size: 160%;
     margin-top: 0.7em;
     padding: 0;
     font-weight: 650;
 }
 h3 {
-    font-weight: normal;
+    font-weight: bold;
+    font-style: italic;
     font-size: 130%;
     margin: 0.5em 0 0.4em;
     padding: 0;
-    letter-spacing: 1px;
 }
 h4 {
-    font-size: 130%;
+    font-size: 120%;
     margin: 0.5em 0;
 }
 .image-right-holder {
@@ -355,15 +353,16 @@ h4 {
 
 a {
     text-decoration: none;
-    color: crimson;
+    color: #e4b41c;
+    font-weight: bold;
 }
 a:hover {
     text-decoration: underline;
-    color: crimson;
+    color: #e4b41c;
+    font-weight: bold;
 }
 a:active {
-    text-decoration: underline;
-    color: #480613;
+    color: #c49c1a;
 }
 
 .vol {
@@ -704,11 +703,10 @@ abbr span.translate span {
     text-align: center;
     font-weight: bolder;
 }
-.hr-main {
-    margin: 16px 0;
-    padding: 0;
-    height: 3px;
-    border: none;
-    background-color: #707070;
-    box-shadow: 0 2px 3px #ccc;
+hr {
+    border: 0;
+    border-top: 0.063rem solid transparent;
+    background-color: rgba(var(--bright-accent));
+    background: url(https://files.scpfoundation.net/local--files/theme:dustjacket-sigma/goldfoil.png);
+    background-size: cover;
 }
