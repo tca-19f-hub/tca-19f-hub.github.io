@@ -153,7 +153,6 @@ a:active {
 }
 .terminal {
     border: solid 3px #BBBBBB;
-    padding: 0.2em 1em;
     margin: 1em 0;
     border-radius: 16px;
     background-color: rgb(17, 23, 51);
@@ -167,7 +166,7 @@ a:active {
     font-size: 1.2em;
 }
 .text {
-    padding-top: 40%;
+    padding: 13% 1em 0.5em;
 }
 .scanline {
     margin-top: -40%;
@@ -176,7 +175,7 @@ a:active {
     position: relative;
     pointer-events: none;
     -webkit-animation: scan 12s linear 0s infinite;
-    animation: scan 12s linear 0s infinite;
+    animation: scan 5s linear 0s infinite;
     background: linear-gradient(to bottom, rgba(56, 112, 82, 0), rgba(56, 112, 82, 0.1)) !important;
 }
 @keyframes scan {
@@ -184,12 +183,32 @@ a:active {
         transform: translateY(-10%);
     }
     100% {
-        transform: translateY(500%);
+        transform: translateY(1000%);
     }
 }
 .terminal blockquote {
     background-color: black;
     border: double 3px #80dbff;
+}
+@media screen and (min-width: 300px) and (max-width: 570px) { 
+    .text {
+    padding: 2em 1em 0.5em;
+    }
+    .text-header {
+        font-size: 160%;
+        font-variant-caps: petite-caps;
+        font-family: 'Russo One', sans-serif;
+        white-space: nowrap;
+    }
+    .text-header1 {
+        font-family: monospace;
+        font-weight: bold;
+        white-space: nowrap;
+        font-size: 87%;
+    }
+    .logo-header {
+        width: 80px !important;
+    }
 }
 </style>
 </html>
