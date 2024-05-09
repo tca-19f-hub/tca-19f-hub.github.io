@@ -86,8 +86,3 @@ function collapse_10() {
     document.getElementById("collapse-10").style.display = "block";
     document.getElementById("button-10").style.display = "none";
 }
-
-function collapse_11() {
-    document.getElementById("collapse-11").style.display = "block";
-    document.getElementById("button-11").style.display = "none";
-}
