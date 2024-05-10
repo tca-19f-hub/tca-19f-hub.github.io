@@ -11,6 +11,7 @@ body {
   background-position: top;
   background-repeat: repeat-x !important;
   background-color: white;
+  min-height: 600px;
 } 
 * {
     scrollbar-width: auto !important;
@@ -208,10 +209,12 @@ main {
     z-index: 1;
     position: relative;
     flex-wrap: nowrap;
+    min-height: 600px;
 }
 .page-content {
     width: -webkit-fill-available;
     max-width: 850px;
+    min-height: 600px;
 }
 .toc-holder {
     position: sticky;
@@ -853,7 +856,9 @@ abbr span.translate span {
         align-items: flex-start;
     }
 }
-#move{
+#pointer{
     aspect-ratio: 1;
     position: fixed;
+    left: 0;
+    top: 0;
 }

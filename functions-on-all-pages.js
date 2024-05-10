@@ -5,15 +5,10 @@ function topFunction() {
   }
 
 // Элемент следует за курсором
-const move = document.getElementById("move");
-
-document.window.onpointermove = event => {
-    const { clientX, clientY } = event;
-
-    move.animate({
-        left: `${clientX}px`,
-        top: `${clientY}px`
-    
-    }, {duration: 1000, fill: "forwards"})
-
-}
+const elPointer  = document.querySelector("#pointer");
+addEventListener("mousemove", (evt) => {
+  elPointer.style.cssText = `
+    left: ${evt.clientX}px;
+    top:  ${evt.clientY}px;
+  `;
+});
