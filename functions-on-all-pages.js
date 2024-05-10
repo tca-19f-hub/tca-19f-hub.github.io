@@ -5,9 +5,13 @@ function topFunction() {
   }
 
 // Элемент следует за курсором
-const elPointer = document.querySelector("#pointer");
+document.addEventListener('mousemove', (e) => {
 
-addEventListener("mousemove", (evt) => {
-  elPointer.style.setProperty("--x", evt.clientX);
-  elPointer.style.setProperty("--y", evt.clientY);
-});
+  const mouseFollow = document.getElementById('mouse-follow');
+  const x = e.clientX - 25; //-25 to center div over mouse
+  const y = e.clientY - 25; 
+  console.log(x);
+   
+  mouseFollow.style.top = `${y}px`;
+  mouseFollow.style.left = `${x}px`;
+})

@@ -856,11 +856,6 @@ abbr span.translate span {
         align-items: flex-start;
     }
 }
-#pointer {
-    position: fixed;
-    padding: 20px;
-    background: #f0b;
-    translate: -50% -50%;
-    left: calc(var(--x) * 1px);
-    top: calc(var(--y) * 1px);
-  }
+#mouse-follow{
+    position: absolute;
+}
