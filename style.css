@@ -856,7 +856,7 @@ abbr span.translate span {
         align-items: flex-start;
     }
 }
-#pointer{
+.over-pointer{
     aspect-ratio: 1;
     position: fixed;
     left: 0;

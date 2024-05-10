@@ -5,7 +5,7 @@ function topFunction() {
   }
 
 // Элемент следует за курсором
-const elPointer  = document.querySelector("#pointer");
+const elPointer  = document.getElementsByClassName('over-pointer');
 addEventListener("mousemove", (evt) => {
   elPointer.style.cssText = `
     left: ${evt.clientX}px;
