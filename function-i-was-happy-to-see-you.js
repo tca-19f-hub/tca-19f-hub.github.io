@@ -11,12 +11,9 @@ document.addEventListener('mousemove', (e) => {
   })
 
 // Подсказка появляется и исчезает
-window.onload = function () {
-    var a = document.querySelector('#t-1');
-    a.onmouseout = function(e) {
-      document.getElementById('c-1').style.display='none';
-    }
-    a.onmouseover = function(e) {
-      document.getElementById('c-1').style.display='block';
-    };
-  }
+function show_1() {
+    document.getElementById('c-1').style.display = 'block';
+}
+function hide_1() {
+    document.getElementById('c-1').style.display = 'none';
+}
