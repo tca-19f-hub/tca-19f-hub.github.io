@@ -13,5 +13,5 @@ document.addEventListener('mousemove', (e) => {
 // Подсказка появляется и исчезает
 window.onmousemove = function() {
     var div = document.querySelector('#c-1');
-    div.style.display = document.querySelectorAll('#t-1:hover').length ? 'block' : 'none';
+    div.style.display = document.querySelectorAll('#t-1:hover').length ? 'none' : 'block';
 }
