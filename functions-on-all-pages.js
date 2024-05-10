@@ -6,12 +6,14 @@ function topFunction() {
 
 // Элемент следует за курсором
 const move = document.getElementById("move");
-document.main.onpointermove = event => {
-  const { clientX, clientY } = event;
-  
-  move.animate({
-    left: `${clientX}px`,
-    top: `${clientY}px`
-      
-  }, {duration: 1000, fill: "forwards"})
+
+document.onpointermove = event => {
+    const { clientX, clientY } = event;
+
+    move.animate({
+        left: `${clientX}px`,
+        top: `${clientY}px`
+    
+    }, {duration: 1000, fill: "forwards"})
+
 }
