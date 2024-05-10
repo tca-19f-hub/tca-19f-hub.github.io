@@ -1,7 +1,7 @@
 // Элемент следует за курсором
 document.addEventListener('mousemove', (e) => {
 
-    const mouseFollow = document.getElementById('cursor-1');
+    const mouseFollow = document.getElementById('c-1');
     const x = e.clientX - 25; //-25 to center div over mouse
     const y = e.clientY - 25; 
     console.log(x);
@@ -17,8 +17,8 @@ document.addEventListener('mousemove', (e) => {
   document.addEventListener('mousemove', function checkHover() {
     const hovered = isHover(translate);
     if (hovered !== checkHover.hovered) {
-      document.getElementById('cursor-1').style.display = "block";
+      document.getElementById('c-1').style.display = "block";
     }
     else
-      document.getElementById('cursor-1').style.display = "none";
+      document.getElementById('c-1').style.display = "none";
   });
