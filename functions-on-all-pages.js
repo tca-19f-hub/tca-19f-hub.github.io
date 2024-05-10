@@ -6,7 +6,7 @@ function topFunction() {
 
 // Элемент следует за курсором
 const move = document.getElementById("move");
-document.body.onpointermove = event => {
+document.main.onpointermove = event => {
   const { clientX, clientY } = event;
   
   move.animate({
