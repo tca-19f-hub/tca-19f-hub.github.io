@@ -17,3 +17,15 @@ function show_1() {
 function hide_1() {
     document.getElementById('c-1').style.display = 'none';
 }
+function show_2() {
+    document.getElementById('c-2').style.display = 'block';
+}
+function hide_2() {
+    document.getElementById('c-2').style.display = 'none';
+}
+function show_3() {
+    document.getElementById('c-3').style.display = 'block';
+}
+function hide_3() {
+    document.getElementById('c-3').style.display = 'none';
+}
