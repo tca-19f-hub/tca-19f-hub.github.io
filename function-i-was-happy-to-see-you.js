@@ -11,14 +11,7 @@ document.addEventListener('mousemove', (e) => {
   })
 
 // Подсказка появляется и исчезает
-  const isHover = e => e.parentElement.querySelector(':hover') === e;    
-  
-  const translate = document.getElementById('t1');
-  document.addEventListener('mousemove', function checkHover() {
-    const hovered = isHover(translate);
-    if (hovered !== checkHover.hovered) {
-      document.getElementById('c-1').style.display = "block";
-    }
-    else
-      document.getElementById('c-1').style.display = "none";
-  });
+window.onmousemove = function() {
+    var div = document.querySelector('#c-1');
+    div.style.display = document.querySelectorAll('#t-1:hover').length ? 'block' : 'none';
+}
