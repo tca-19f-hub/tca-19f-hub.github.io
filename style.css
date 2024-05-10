@@ -822,3 +822,10 @@ sup a.footnote {
 #mouse-follow{
     position: fixed;
 }
+.translate {
+    margin-top: 2em;
+    margin-left: 4em;
+    background: #f9f9f9;
+    padding: 0.5em 1em;
+    border: 1px solid #aaaaaa;
+}
