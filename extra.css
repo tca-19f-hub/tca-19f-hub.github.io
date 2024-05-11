@@ -42,12 +42,35 @@
 .author {
     white-space: nowrap;
     font-style: italic;
-    font-weight: bolder;
 }
 .character {
     margin: 1em;
     font-size: 90%;
 }
+.character a {
+    font-weight: bolder;
+}
+.character h3 {
+    font-weight: normal;
+    font-size: 130%;
+    margin: 0em;
+    padding: 0;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
 .addition {
     margin-left: 1em;
+}
+.n-flex {
+    display: flex;
+}
+.n-line {
+    height: 2px;
+    background-color: black;
+    width: -webkit-fill-available;
+    margin: 0 1em;
+}
+.addition h4 {
+    font-size: 100%;
+    margin: 0;
 }
