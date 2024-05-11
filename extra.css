@@ -47,6 +47,9 @@
     margin: 1em;
     font-size: 90%;
 }
+.character ul {
+    margin: 0;
+}
 .character a {
     font-weight: bolder;
 }
@@ -59,10 +62,17 @@
     font-family: sans-serif;
 }
 .addition {
-    margin-left: 1em;
+    margin: 1em 0em 1em 1em;
+}
+.addition ul {
+    margin: 0;
 }
 .n-flex {
     display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
 }
 .n-line {
     height: 2px;
