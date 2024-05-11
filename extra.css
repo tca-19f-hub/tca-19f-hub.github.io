@@ -36,30 +36,8 @@
     width: -webkit-fill-available;
     margin-left: 1em;
 }
-.afisha-holder {
-    width: 9%;
-    min-width: 9%;
-    margin: 1em;
-    transition: 0.5s;
-    flex-wrap: nowrap;
-    display: flex;
-    text-align: center;
-    font-family: monospace;
-    color: lightgrey;
-    flex-direction: column;
-}
+
 @media screen and (min-width: 300px) and (max-width: 570px) {
-    .afisha-holder {
-        display: none;
-    }
-    .s-head {
-        font-weight: bolder;
-        font-size: 100%;
-    }
-}
-.s-flex {
-    display: flex;
-    align-items: center;
 }
 .stories-prw {
     display: flex;
