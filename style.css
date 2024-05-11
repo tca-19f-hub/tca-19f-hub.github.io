@@ -681,6 +681,7 @@ sup a.footnote {
     color: white;
     background: orange;
     border: 1px transparent;
+    font-size: smaller;
 }
 .back-to-top:hover {
     text-decoration: underline;
@@ -691,6 +692,10 @@ sup a.footnote {
 }
 .back-to-the-top-cont {
     text-align: center;
+    font-weight: bolder;
+}
+.back-to-the-top-cont a {
+    font-size: smaller;
     font-weight: bolder;
 }
 .multi-u-right {
