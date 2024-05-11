@@ -23,7 +23,97 @@
         $(function () {
             $("#header-load").load("https://tca-19f-hub.github.io/header.html");
         });
-    </script>
+
+// Элемент следует за курсором
+document.addEventListener('mousemove', (e) => {
+
+const mouseFollow = document.getElementById('c-1');
+const x = e.clientX - 25; //-25 to center div over mouse
+const y = e.clientY - 25; 
+console.log(x);
+ 
+mouseFollow.style.top = `${y}px`;
+mouseFollow.style.left = `${x}px`;
+})
+document.addEventListener('mousemove', (e) => {
+
+const mouseFollow = document.getElementById('c-2');
+const x = e.clientX - 25; //-25 to center div over mouse
+const y = e.clientY - 25; 
+console.log(x);
+ 
+mouseFollow.style.top = `${y}px`;
+mouseFollow.style.left = `${x}px`;
+})
+document.addEventListener('mousemove', (e) => {
+
+const mouseFollow = document.getElementById('c-3');
+const x = e.clientX - 25; //-25 to center div over mouse
+const y = e.clientY - 25; 
+console.log(x);
+ 
+mouseFollow.style.top = `${y}px`;
+mouseFollow.style.left = `${x}px`;
+})
+document.addEventListener('mousemove', (e) => {
+
+const mouseFollow = document.getElementById('c-4');
+const x = e.clientX - 25; //-25 to center div over mouse
+const y = e.clientY - 25; 
+console.log(x);
+ 
+mouseFollow.style.top = `${y}px`;
+mouseFollow.style.left = `${x}px`;
+})
+
+document.addEventListener('mousemove', (e) => {
+
+const mouseFollow = document.getElementById('c-5');
+const x = e.clientX - 25; //-25 to center div over mouse
+const y = e.clientY - 25; 
+console.log(x);
+ 
+mouseFollow.style.top = `${y}px`;
+mouseFollow.style.left = `${x}px`;
+})
+
+
+// Подсказка появляется и исчезает
+function show_1() {
+document.getElementById('c-1').style.display = 'block';
+}
+function hide_1() {
+document.getElementById('c-1').style.display = 'none';
+}
+
+function show_2() {
+document.getElementById('c-2').style.display = 'block';
+}
+function hide_2() {
+document.getElementById('c-2').style.display = 'none';
+}
+
+function show_3() {
+document.getElementById('c-3').style.display = 'block';
+}
+function hide_3() {
+document.getElementById('c-3').style.display = 'none';
+}
+
+function show_4() {
+document.getElementById('c-3').style.display = 'block';
+}
+function hide_4() {
+document.getElementById('c-3').style.display = 'none';
+}
+
+function show_5() {
+document.getElementById('c-3').style.display = 'block';
+}
+function hide_5() {
+document.getElementById('c-3').style.display = 'none';
+}
+</script>
 </head>
 <html>
 
@@ -125,9 +215,10 @@
                 переживания.</p>
             <p>&mdash; Вы&hellip;В порядке? &mdash; учтиво поинтересовался Уильям, оглядывая Кайла, будто бы убеждаясь,
                 что его товарищ не сошел с ума.</p>
-            <p>&mdash; &shy;<abbr><span class="translate">E-eh&hellip; Yeah, I think so&hellip;<span>Э-э&hellip; Полагаю, что
-                        да&hellip;</span></abbr> А где мистер Сёдерберг? &mdash; исследователь оглянулся и, не увидев
-                обозначенного человека, вновь перевел ожидающий взгляд на Уильяма.</p>
+            <p>&mdash; &shy;<abbr onmouseover='show_1()' onmouseout='hide_1()'>E-eh&hellip; Yeah, I think so&hellip;</abbr> А где мистер Сёдерберг? &mdash; исследователь оглянулся и, не увидев обозначенного человека, вновь перевел ожидающий взгляд на Уильяма.</p>
+
+            <div class="translate" id="c-1">Э-э&hellip; Полагаю, что да&hellip;</div>
+
             <p>&mdash; Он сза&hellip; &mdash; не успел ответить Ламперуж, ведь его перебил вернувшийся от кофейного
                 автомата Александр.</p>
             <p>&mdash; Я здесь, доктор Селвик! &mdash; воскликнул Сёдерберг из-за спины научного руководителя, заставляя
@@ -159,7 +250,10 @@
                 помещение задумчив взглядом, а после резко перевел его на Кайла. С каждой секундой на лице ученого все
                 яснее проступала гримаса ярости и злости, а его взгляд стал тяжелым и прожигал ничего не понимающего
                 Селвика.</p>
-            <p>&mdash; <abbr><span class="translate">What? W-what&rsquo;s the matter?<span>Что? Ч-что такое?</span></abbr></p>
+            <p>&mdash; <abbr onmouseover='show_2()' onmouseout='hide_2()'>What? W-what&rsquo;s the matter?</abbr></p>
+
+            <div class="translate" id="c-2">Что? Ч-что такое?</div>
+
             <p>&mdash; А вы правда не понимаете, коллега, мать вашу?! &mdash; Уильям ударил протезированной кистью по
                 столу, разлив кофе, и резко поднялся со стула, нависнув над коллегой. &mdash; Опять случайная
                 мутация, да? Прям как в прошлый раз? Я думал, да что уж там! Я надеялся! Представляете? Надеялся, что у
@@ -169,8 +263,10 @@
                 из-за чего та потрескалась. Его взгляд горел ненавистью, и, если бы взгляд мог убивать - Ламперуж вряд
                 ли бы был жив. &mdash; Это же так удобно! Сумасшедший Селвик что-то напортачил с геном, как он уж это
                 один раз сделал, и теперь его можно убрать с проекта, да? &mdash; в ответ, усмехнувшись, проговорил
-                Кайл. &mdash; <abbr><span class="translate">Reine-e-es Gl&uuml;ck&hellip;<span>Настоящее
-                        везение&hellip;</span></abbr></p>
+                Кайл. &mdash; <abbr onmouseover='show_3()' onmouseout='hide_3()'>Reine-e-es Gl&uuml;ck&hellip;</abbr></p>
+
+                <div class="translate" id="c-3">Настоящее везение&hellip;</div>
+
             <p>&mdash; О-о-о, даже так? Не беспокойтесь, доктор Селвик, мне эта невероятно глупая идея, которую вы
                 подразумеваете, не нужна, &mdash; полностью успокоившись ответил Ламперуж, продолжая ухмыляться. &mdash;
                 Да и зачем мне это? У меня нету этой глупой привязанности к машинам для убийств и я не вижу в них
@@ -180,11 +276,13 @@
                 залпом допивая свой кофе. Оставив свою кружку на столе и улыбаясь, он неспешно двигался к выходу. По его
                 мнению, он уходил из диалога победителем.</p>
             <p>Проводив взглядом Уильяма, Селвик перевел задумчивый взгляд на пролитый кофе.</p>
-            <p>&mdash; Что-то в этом есть&hellip; <abbr><span
-                        class="translate">Wirklich&hellip;<span>Действительно&hellip;</span></abbr> &mdash; проговорил ученый
+            <p>&mdash; Что-то в этом есть&hellip; <abbr onmouseover='show_4()' onmouseout='hide_4()'>Wirklich&hellip;</abbr> &mdash; проговорил ученый
                 себе под нос, кивнул своим мыслям, поднялся, потянулся и неспешным шагом стал двигаться в сторону
                 лаборатории. Работы меньше не стало, а с каждой новой минутой размышлений и мыслей становилось только
                 больше.</p>
+
+            <div class="translate" id="c-4">Действительно&hellip;</div>
+
             <h3 id="День-383">День 383</h3>
             <hr>
             <p>Прошло 3 месяца. Несмотря на опасение группы исследователей, проект мало того, что возобновили - его
@@ -207,9 +305,12 @@
                 двинулся к столу.</p>
             <p>&mdash; Александр, Кайл, вы просто представить себе не можете, как я рад вас видеть! &mdash; воскликнул
                 он, слегка приподняв левую руку в приветливой манере.</p>
-            <p>&mdash; Уильям, <abbr><span class='translate'>my dear friend<span>мой дорогой друг</span></span></abbr>,
+            <p>&mdash; Уильям, <abbr onmouseover='show_5()' onmouseout='hide_5()'>my dear friend</abbr>,
                 я тоже рад вас видеть! &mdash; приветливо улыбнувшись, Кайл указал на стул рядом с собой. Сёдерберг лишь
                 задумчиво кивнул в знак приветствия и притих, уходя в свои мысли.</p>
+
+            <div class="translate" id="c-5">мой дорогой друг</div>
+
             <p>Джей, поблагодарив Селвика, сел на предложенный стул и поставил бутылку на стол.</p>
             <p>Застолье началось.</p>
             <p>Прошло около часа как доктора выпивали и разговаривали обо всём обыденном, о том, что они не могли
@@ -302,46 +403,6 @@
     </footer>
 </body>
 <style>
-    .document {
-        background: url(https://i.pinimg.com/736x/57/a3/51/57a3513e2ca93a9f71ff8d78b9f02e71.jpg);
-        background-size: cover;
-        padding: 1em 2em;
-        box-shadow: 0px 4px 9px 0px #979797;
-        margin: 2em auto;
-        max-width: 700px;
-        font-family: initial;
-    }
-
-    .flex-doc {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-direction: row;
-        flex-wrap: nowrap;
-    }
-
-    .logo-cont {
-        max-width: 90px;
-    }
-
-    @media (min-width: 0px) and (max-width: 400px) and (orientation: portrait) {
-        .logo-cont {
-            display: none;
-        }
-    }
-
-    .document h5 {
-        color: darkred;
-        font-size: x-large;
-        margin: 1em 0;
-    }
-
-    .document a {
-        color: white;
-        background: darkred;
-        padding: 0px 3px;
-    }
-
     h3 {
         font-weight: normal;
         font-size: 130%;
