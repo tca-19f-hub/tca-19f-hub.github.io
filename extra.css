@@ -15,7 +15,7 @@
 }
 .lit-holder {
     display: flex;
-    margin: 1em 0;
+    margin: 2.3em 0;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
@@ -36,7 +36,9 @@
     width: -webkit-fill-available;
     margin-left: 1em;
 }
-
+.af-holder {
+    width: 80px;
+}
 @media screen and (min-width: 300px) and (max-width: 570px) {
 }
 .author {
@@ -44,7 +46,7 @@
     font-style: italic;
 }
 .character {
-    margin: 1em;
+    margin: 2em 1em;
     font-size: 90%;
 }
 .character ul {
