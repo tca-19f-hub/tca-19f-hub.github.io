@@ -54,6 +54,16 @@
     font-weight: bolder;
 }
 @media screen and (min-width: 300px) and (max-width: 570px) {
+    .af-holder {
+        display: none;
+    }
+    .at-holder a {
+        font-weight: bolder;
+        font-size: 110%;
+    }
+    .at-holder .author {
+        font-size: 110%;
+    }
 }
 .author {
     white-space: nowrap;
