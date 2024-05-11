@@ -14,7 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="https://tca-19f-hub.github.io/functions-on-all-pages.js"></script>
-    <script>
+<script>
         $(function () {
             $("#includeHtml").load("https://tca-19f-hub.github.io/topbar-navigation.html");
         });
@@ -22,7 +22,61 @@
         $(function () {
             $("#header-load").load("https://tca-19f-hub.github.io/header.html");
         });
-    </script>
+
+// Элемент следует за курсором
+document.addEventListener('mousemove', (e) => {
+
+const mouseFollow = document.getElementById('c-1');
+const x = e.clientX - 25; //-25 to center div over mouse
+const y = e.clientY - 25; 
+console.log(x);
+ 
+mouseFollow.style.top = `${y}px`;
+mouseFollow.style.left = `${x}px`;
+})
+document.addEventListener('mousemove', (e) => {
+
+const mouseFollow = document.getElementById('c-2');
+const x = e.clientX - 25; //-25 to center div over mouse
+const y = e.clientY - 25; 
+console.log(x);
+ 
+mouseFollow.style.top = `${y}px`;
+mouseFollow.style.left = `${x}px`;
+})
+document.addEventListener('mousemove', (e) => {
+
+const mouseFollow = document.getElementById('c-3');
+const x = e.clientX - 25; //-25 to center div over mouse
+const y = e.clientY - 25; 
+console.log(x);
+ 
+mouseFollow.style.top = `${y}px`;
+mouseFollow.style.left = `${x}px`;
+})
+
+// Подсказка появляется и исчезает
+function show_1() {
+document.getElementById('c-1').style.display = 'block';
+}
+function hide_1() {
+document.getElementById('c-1').style.display = 'none';
+}
+
+function show_2() {
+document.getElementById('c-2').style.display = 'block';
+}
+function hide_2() {
+document.getElementById('c-2').style.display = 'none';
+}
+
+function show_3() {
+document.getElementById('c-3').style.display = 'block';
+}
+function hide_3() {
+document.getElementById('c-3').style.display = 'none';
+}
+</script>
 </head>
 <html>
 
@@ -127,7 +181,9 @@
             Вопрос в том, насколько результат удовлетворит заказчиков, но я надеюсь, если мы с доктором Селвиком
             объединим усилия, желаемый результат будет достигнут в полной мере. А вы что скажете, доктор?</p>
 
-            <p>— <abbr><span class='translate'>I'll do my best<span>Я сделаю все возможное</span></span></abbr>.</p>
+            <p>— <abbr onmouseover='show_1()' onmouseout='hide_1()'>I'll do my best</abbr>.</p>
+
+            <div class="translate" id="c-1">Я сделаю все возможное</div>
 
             <p>Слова подчинённых Капица подытожил лёгким хлопком по столу обеими ладонями.</p>
 
@@ -145,7 +201,9 @@
             сотрудника Организации является достижимым. Могло волновать лишь то, что новоявленный сотрудник может
             заполучить все лавры себе. Он и прервал размышления Уильяма, вслед за ним выйдя из кабинета:</p>
 
-            <p>— <abbr><span class='translate'>Doctor Lamperouge, glad to meet you<span>Доктор Ламперуж, рад встрече с вами</span></span></abbr>.</p>
+            <p>— <abbr onmouseover='show_2()' onmouseout='hide_2()'>Doctor Lamperouge, glad to meet you</abbr>.</p>
+
+            <div class="translate" id="c-2">Доктор Ламперуж, рад встрече с вами</div>
 
             <p>Проговорил Селвик на чистом английском и протянул своему товарищу правую руку для рукопожатия. Он, будто
             нехотя, протянул левую, кисть которой, к удивлению первого, так же была заменена протезом.</p>
@@ -160,7 +218,9 @@
             <p>— Конечно, доктор. — Ламперуж мягко улыбнулся своему коллеге. — Я завтра свободен с 15:00 по местному
             времени, так что к тому моменту можете ждать меня в кафетерии этого сектора.</p>
 
-            <p>— <abbr><span class='translate'>Good<span>Хорошо</span></span></abbr>, тогда до свидания, доктор Ламперуж.</p>
+            <p>— <abbr onmouseover='show_3()' onmouseout='hide_3()'>Good</abbr>, тогда до свидания, доктор Ламперуж.</p>
+
+            <div class="translate" id="c-3">Хорошо</div>
 
             <p>Вежливо откланявшись, Селвик развернулся и отправился на дальнейшее изучение территории УВС 19F. Чрезмерная
             вежливость с его стороны вызывала некоторый дискомфорт, но смотревший ему вслед Уильям был уверен, что через

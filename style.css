@@ -827,4 +827,5 @@ sup a.footnote {
     border: 1px solid #aaaaaa;
     position: fixed;
     display: none;
+    max-width: 300px;
 }
