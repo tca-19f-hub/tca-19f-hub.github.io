@@ -60,6 +60,7 @@
     padding: 0;
     letter-spacing: 2px;
     font-family: sans-serif;
+    white-space: nowrap;
 }
 .addition {
     margin: 1em 0em 1em 1em;
@@ -75,7 +76,7 @@
     justify-content: flex-start;
 }
 .n-line {
-    height: 2px;
+    height: 1px;
     background-color: black;
     width: -webkit-fill-available;
     margin: 0 1em;
