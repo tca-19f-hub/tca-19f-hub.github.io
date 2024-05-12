@@ -62,6 +62,7 @@
 }
 .at-holder a {
     font-weight: bolder;
+    white-space: nowrap;
 }
 .s-line {
     height: 1px;
