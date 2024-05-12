@@ -800,6 +800,7 @@ sup a.footnote {
     position: fixed;
     display: none;
     max-width: 300px;
+    font-size: 90%;
 }
 .defenition {
     margin-top: 2em;
@@ -810,4 +811,12 @@ sup a.footnote {
     position: fixed;
     display: none;
     max-width: 300px;
+    font-size: 90%;
+}
+.defenition p {
+    margin: 0.2em 0;
+}
+.defenition h4 {
+    font-size: 110%;
+    margin: 0.2em 0;
 }
