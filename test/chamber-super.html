@@ -210,6 +210,13 @@
     margin: 0;
     white-space: nowrap;
   }
+  .texted:hover {
+    text-decoration: underline;
+  }
+  .texted:active {
+    text-decoration: underline;
+    color: orangered;
+  }
   .flexed {
     display: flex;
     flex-direction: row;
@@ -220,7 +227,10 @@
   .flexed h3 {
     margin: 0;
     white-space: nowrap;
-  }
+    font-variant-caps: small-caps;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
   .line {
     height: 1px;
     background-color: black;
@@ -235,7 +245,6 @@
     box-shadow: 0 2px 3px #ccc;
   }
   .character h2 {
-    color: slategray;
     font-size: 130%;
     margin-top: 0.7em;
     padding: 0;
