@@ -81,6 +81,7 @@
 
 <div class="flexed">
   <h3>Персонажи</h3>
+  <div class="line"></div>
   <button onclick="show_1()" id="knopka-1-1" class="texted">+ показать</button>
   <button onclick="hide_1()" id="knopka-1-2" style="display: none;" class="texted">- скрыть</button>
 </div>
@@ -96,6 +97,7 @@
 </div>
 <div class="flexed">
   <h3>Тезисы</h3>
+  <div class="line"></div>
   <button onclick="show_2()" id="knopka-2-1" class="texted">+ показать</button>
   <button onclick="hide_2()" id="knopka-2-2" style="display: none;" class="texted">- скрыть</button>
 </div>
@@ -224,6 +226,21 @@
     background-color: black;
     width: -webkit-fill-available;
     margin: 0 1em;
-}
+  }
+  .character {
+    margin: 1em 0em !important;
+    padding: 0.5em 1em;
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    box-shadow: 0 2px 3px #ccc;
+  }
+  .character h2 {
+    color: slategray;
+    font-size: 130%;
+    margin-top: 0.7em;
+    padding: 0;
+    font-weight: 500;
+    font-family: sans-serif;
+  }
 </style>
 </html>
