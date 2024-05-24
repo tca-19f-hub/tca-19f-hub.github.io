@@ -24,6 +24,28 @@
 	$(function(){
     $("#header-load").load("https://tca-19f-hub.github.io/header.html"); 
     });
+/// SHOW / HIDE 1
+    function show_1() {
+      document.getElementById("hide-text-1").style.display = "block";
+      document.getElementById("knopka-1-2").style.display = "block";
+      document.getElementById("knopka-1-1").style.display = "none";
+    }
+    function hide_1() {
+      document.getElementById("hide-text-1").style.display = "none";
+      document.getElementById("knopka-1-1").style.display = "block";
+      document.getElementById("knopka-1-2").style.display = "none";
+    }
+/// SHOW / HIDE 2
+    function show_2() {
+      document.getElementById("hide-text-2").style.display = "block";
+      document.getElementById("knopka-2-2").style.display = "block";
+      document.getElementById("knopka-2-1").style.display = "none";
+    }
+    function hide_2() {
+      document.getElementById("hide-text-2").style.display = "none";
+      document.getElementById("knopka-2-1").style.display = "block";
+      document.getElementById("knopka-2-2").style.display = "none";
+    }
 </script>
 </head>
 <html>
@@ -56,6 +78,31 @@
 <p>Хаб рассматривает проблему самоидентичности Фонда, ставит под вопрос его методы. Можно сказать, что хаб УВС 19F претендует на переосмысление Графтового грома при условии существования Повстанцев.</p>
 
 <p><b>Время действия</b> ~ начало 2000-х - настоящее время.</p>
+
+<div class="flexed">
+  <h3>Персонажи</h3>
+  <button onclick="show_1()" id="knopka-1-1" class="texted">+ показать</button>
+  <button onclick="hide_1()" id="knopka-1-2" style="display: none;" class="texted">- скрыть</button>
+</div>
+<div style="display: none;" id="hide-text-1">
+  <blockquote class="character">
+    <h2>Ренэйт Дивейли</h2>
+    <p>test</p>
+  </blockquote>
+  <blockquote class="character">
+    <h2>Ричард Стаер</h2>
+    <p>test</p>
+  </blockquote>
+</div>
+<div class="flexed">
+  <h3>Тезисы</h3>
+  <button onclick="show_2()" id="knopka-2-1" class="texted">+ показать</button>
+  <button onclick="hide_2()" id="knopka-2-2" style="display: none;" class="texted">- скрыть</button>
+</div>
+<div style="display: none;" id="hide-text-2">
+  f
+</div>
+
 <h2 class="trim">Историческая справка</h2>
 <table class="heritage">
   <tbody>
@@ -66,27 +113,37 @@
       </td>
       <td class="r">
         <h4>«Мы вынесем свой урок…»</h4>
-        <p>После инцидент "G19.A" часть бойцов Гамма-5 "Ложный след" решила дезертировать, вскоре данная группа станет основополагающим элементом в создании У.В.С.19F</p>
+        <p>Повстанцы наносят удар, от которого будет нелегко, но жизненно необходимо оправиться.</p>
       </td>
     </tr>
     <tr>
       <td class="l">
-        <h3>Начало</h3>
-        <tt>Где-то в 2010</tt>
+        <h3>PLACEHOLDER</h3>
+        <tt>PLACEHOLDER</tt>
       </td>
       <td class="r">
-        <h4>Бюрократия</h4>
-        <p>Утверждение документа о "создании комплекса филиалов" под кодовым названием У.В.С.19F</p>
+        <h4>PLACEHOLDER</h4>
+        <p>PLACEHOLDER</p>
       </td>
     </tr>
     <tr>
       <td class="l">
-        <h3>Расширение</h3>
-        <tt>Март 07, 2022</tt>
+        <h3>Основание УВС 19</h3>
+        <tt>12.04.2018</tt>
       </td>
       <td class="r">
-        <h4>Открытие филиалов</h4>
-        <p>По приказу Директора Капицы был создан проект по открытию дополнительных филиалов, цель филиалов - снять нагрузку с основного учреждения.</p>
+        <h4>Новая надежда</h4>
+        <p>По приказу директора Капицы был создан проект по открытию дополнительных филиалов, цель филиалов - снять нагрузку с основного учреждения.</p>
+      </td>
+    </tr>
+    <tr>
+      <td class="l">
+        <h3>Инцидент G-19</h3>
+        <tt>24.02.2021</tt>
+      </td>
+      <td class="r">
+        <h4>"Роковая ночь"</h4>
+        <p>PLACEHOLDER</p>
       </td>
     </tr>
   </tbody>
