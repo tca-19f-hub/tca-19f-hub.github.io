@@ -110,7 +110,7 @@
   <tbody>
     <tr>
       <td class="l">
-        <h3>Падение Зоны 19</h3>
+        <h3>Падение <span class="nw">Зоны 19</span></h3>
         <tt> ██.██.200█</tt>
       </td>
       <td class="r">
@@ -130,7 +130,7 @@
     </tr>
     <tr>
       <td class="l">
-        <h3>Основание УВС 19</h3>
+        <h3>Основание <span class="nw">УВС 19</span></h3>
         <tt>12.04.2018</tt>
       </td>
       <td class="r">
@@ -140,7 +140,7 @@
     </tr>
     <tr>
       <td class="l">
-        <h3>Инцидент G-19</h3>
+        <h3>Инцидент <span class="nw">G-19</span></h3>
         <tt>24.02.2021</tt>
       </td>
       <td class="r">
@@ -246,10 +246,44 @@
   }
   .character h2 {
     font-size: 130%;
+    color: black;
     margin-top: 0.7em;
     padding: 0;
     font-weight: 500;
     font-family: sans-serif;
   }
+  @media screen and (min-width: 0px) and (max-width: 400px) {
+    td h3 {
+    font-weight: normal;
+    font-size: 140%;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    }
+    .r {
+    width: 70%;
+    padding: 1em 0.5em;
+    }
+    .l {
+    border-right: 1px #bbbbbb solid;
+    padding: 1em 0.5em;
+    width: 30%;
+    text-align: right;
+    }
+    .heritage {
+    width: -webkit-fill-available;
+    border: 0;
+    padding: 0;
+    margin: 0 auto;
+    border-spacing: 0;
+    border-collapse: separate;
+    font-size: small;
+    }
+    td p {
+    text-align: left;
+    margin: 0;
+    }
+  }
+
 </style>
 </html>

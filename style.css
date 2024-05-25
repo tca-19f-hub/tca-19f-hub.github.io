@@ -820,3 +820,6 @@ sup a.footnote {
     font-size: 110%;
     margin: 0.2em 0;
 }
+.nw {
+    white-space: nowrap;
+}
