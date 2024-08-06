@@ -23,8 +23,10 @@
     });
 
     function char() {
-      document.getElementsByClassName("hidden-text").style.display = "block";
-}
+      document.getElementById("click").style.display = "block";
+      document.getElementById("click").innerHTML = "[ПОДТВЕРЖДЕНО]";
+      document.getElementById("click").style.pointerEvents = "none";
+    }
   </script>
 </head>
 <html>
@@ -59,7 +61,7 @@
 </div>
 
 <center>
-<button onclick="char()" class="confirm">
+<button onclick="char()" class="confirm" id="click">
   [ПОДТВЕРДИТЬ]
 </button>
 </center>
