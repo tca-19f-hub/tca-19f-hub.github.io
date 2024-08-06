@@ -52,6 +52,7 @@
 }
 .hidden-text {
     animation: fade-in 1s 1 ease-in;
+    animation-delay: 2s;
 }
 @keyframes fade-in {
     0% {
