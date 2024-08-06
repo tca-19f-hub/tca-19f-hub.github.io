@@ -50,11 +50,12 @@
         width: 100%;
     }
 }
-.hidden-text {
-    animation: fade-in 1s ease-in-out 3s 1 normal forwards;
+.hidden {
+    animation: fade-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 3s both;
 }
-.hidden-text-main {
-    animation: fade-in 1s ease-in-out 3s 1 normal forwards;
+.fade-in-text {
+    display: inline-block;
+    animation: fade-in linear 4s;
 }
 @keyframes fade-in {
     0% {
