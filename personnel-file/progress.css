@@ -31,7 +31,7 @@
     background: linear-gradient(270deg, orangered 0%, orange 100%);
     width: 0px;
     height: 10px;
-    animation: progress-1 2s 1 ease forwards;
+    animation: progress-1 3s 1 ease forwards;
 }
 @keyframes progress-1 {
     0% {
@@ -51,8 +51,11 @@
     }
 }
 .hidden-text {
-    animation: fade-in 1s 2s 1 normal ease-in;
-    opacity: 0;
+    animation: fade-in 1s ease-in-out 3s 1 normal forwards;
+}
+.hidden-text-main {
+    animation: fade-in 1s ease-in-out 3s 1 normal forwards;
+
 }
 @keyframes fade-in {
     0% {
