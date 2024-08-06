@@ -23,7 +23,7 @@
     });
 
     function char() {
-      document.getElementByClassName("hidden-text").style.display = "block";
+      document.getElementById("hidden-text").style.display = "block";
       document.getElementById("click").innerHTML = "[ПОДТВЕРЖДЕНО]";
       document.getElementById("click").style.pointerEvents = "none";
     }
@@ -66,7 +66,7 @@
 </button>
 </center>
 
-<div class="hidden-text" style="display: none;">
+<div class="hidden-text" style="display: none;" id="hidden-text">
 
 <div class="progress-border">
   <div class="progress-bar"></div>
