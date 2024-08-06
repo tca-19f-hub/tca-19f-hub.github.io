@@ -17,16 +17,24 @@
     border: 3px solid black;
     margin: 1em auto;
     top: auto;
+    animation: fade-out 1s 1 ease-out;
+    animation-delay: 2.5s;
+}
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 .progress-bar {
-    position: absolute;
     background: linear-gradient(270deg, orangered 0%, orange 100%);
     width: 0px;
     height: 10px;
     animation: progress-1 2s 1 ease forwards;
 }
 @keyframes progress-1 {
-
     0% {
         width: 0%;
     }
@@ -42,9 +50,9 @@
     100% {
         width: 100%;
     }
-    }
+}
 .hidden-text {
-    animation: fade-in 3s 1 ease-in;
+    animation: fade-in 1s 1 ease-in;
 }
 @keyframes fade-in {
     0% {
