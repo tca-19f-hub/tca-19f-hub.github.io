@@ -18,31 +18,39 @@
     margin: 1em auto;
     top: auto;
 }
-.progress-border .bar {
+.progress-bar {
     position: absolute;
     background: linear-gradient(270deg, orangered 0%, orange 100%);
     width: 0px;
     height: 10px;
     animation: progress-1 2s 1 ease forwards;
 }
+@keyframes progress-1 {
+
+    0% {
+        width: 0%;
+    }
+    25% {
+        width: 50%;
+    }
+    50% {
+        width: 75%;
+    }
+    75% {
+        width: 85%;
+    }
+    100% {
+        width: 100%;
+    }
+    }
 .hidden-text {
     animation: fade-in 3s 1 ease-in;
 }
-@keyframes progress-1 {
-
-0% {
-    width: 0%;
-}
-25% {
-    width: 50%;
-}
-50% {
-    width: 75%;
-}
-75% {
-    width: 85%;
-}
-100% {
-    width: 100%;
-}
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
