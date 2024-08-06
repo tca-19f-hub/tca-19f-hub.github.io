@@ -55,7 +55,6 @@
 }
 .hidden-text-main {
     animation: fade-in 1s ease-in-out 3s 1 normal forwards;
-
 }
 @keyframes fade-in {
     0% {
