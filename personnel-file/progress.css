@@ -85,3 +85,10 @@
         opacity: 1;
     }
 }
+.med-card {
+    border: 1px outset lightgrey;
+    padding: 0.5em;
+    background: #f9f9f9;
+    font-size: small;
+    margin: 1em 0;
+}
