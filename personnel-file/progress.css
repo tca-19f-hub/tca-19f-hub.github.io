@@ -14,18 +14,18 @@
 .confirm:hover {
     background: orange;
 }
+.confirm:active {
+    background: orangered;
+}
 .notice {
     margin: 1em 0;
     text-align: center;
     background-position: 50% 35%;
     background-repeat: no-repeat;
-    padding: 1em 0.5em;
+    padding: 0.1em;
     font-weight: bold;
     display: block;
     background-image: url(https://i.imgur.com/qknCJJt_d.webp?maxwidth=520&shape=thumb&fidelity=high);
-}
-.confirm:active {
-    background: orangered;
 }
 .progress-border {
     height: 10px;
