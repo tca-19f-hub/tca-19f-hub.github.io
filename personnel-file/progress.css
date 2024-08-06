@@ -1,0 +1,46 @@
+.confirm {
+    box-shadow: inset 0px 0px 0px 0px #f2c09f;
+    background: linear-gradient(to bottom, orangered 5%, orange 100%);
+    border: 2px solid #000000;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px orangered;
+}
+.progress-border {
+    height: 10px;
+    border: 5px solid grey;
+    margin: 1em auto;
+    top: auto;
+    width: 700px;
+}
+.progress-border .bar {
+    position: absolute;
+    background: linear-gradient(270deg, orangered 0%, orange 100%);
+    width: 0px;
+    height: 10px;
+    animation: progress-1 2s 1 ease forwards;
+}
+@keyframes progress-1 {
+
+0% {
+    width: 0%;
+}
+25% {
+    width: 50%;
+}
+50% {
+    width: 75%;
+}
+75% {
+    width: 85%;
+}
+100% {
+    width: 100%;
+}
+}
