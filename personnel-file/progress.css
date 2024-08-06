@@ -17,8 +17,7 @@
     border: 3px solid black;
     margin: 1em auto;
     top: auto;
-    animation: fade-out 1s 1 ease-out;
-    animation-delay: 2.5s;
+    animation: fade-out 1s ease 3s 1 normal forwards;
 }
 @keyframes fade-out {
     0% {
