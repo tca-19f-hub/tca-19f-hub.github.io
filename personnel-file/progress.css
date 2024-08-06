@@ -14,10 +14,9 @@
 }
 .progress-border {
     height: 10px;
-    border: 5px solid grey;
+    border: 3px solid black;
     margin: 1em auto;
     top: auto;
-    width: 700px;
 }
 .progress-border .bar {
     position: absolute;
@@ -25,6 +24,9 @@
     width: 0px;
     height: 10px;
     animation: progress-1 2s 1 ease forwards;
+}
+.hidden-text {
+    animation: fade-in 3s 1 ease-in;
 }
 @keyframes progress-1 {
 
