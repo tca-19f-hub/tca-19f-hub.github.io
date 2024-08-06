@@ -51,11 +51,16 @@
     }
 }
 .hidden {
-    animation: fade-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 3s both;
+    animation-name: fade-in;
+    animation-delay: 0s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
 }
 .fade-in-text {
-    display: inline-block;
-    animation: fade-in linear 4s;
+    animation-name: fade-in;
+    animation-delay: 3s;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
 }
 @keyframes fade-in {
     0% {
