@@ -51,8 +51,8 @@
     }
 }
 .hidden-text {
-    animation: fade-in 1s 1 ease-in;
-    animation-delay: 2s;
+    animation: fade-in 1s 2s 1 normal ease-in;
+    opacity: 0;
 }
 @keyframes fade-in {
     0% {
