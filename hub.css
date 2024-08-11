@@ -29,16 +29,25 @@
     text-align: center;
 }
 .main-content h2 {
-        color: #1b1b1b;
-        font-size: 160%;
-        font-variant-caps: all-petite-caps;
-        padding: 0;
-        font-weight: 900;
-        border-bottom: 1px solid #1b1b1b;
-        width: fit-content;
-        margin: auto;
+    color: #1b1b1b;
+    font-size: 160%;
+    font-variant-caps: all-petite-caps;
+    padding: 0;
+    font-weight: 900;
+    border-bottom: 1px solid #1b1b1b;
+    width: fit-content;
+    margin: auto;
 }
-
+.main-content h4 {
+    color: #1b1b1b;
+    font-size: 140%;
+    font-variant-caps: all-petite-caps;
+    padding: 0;
+    font-weight: 500;
+    border-bottom: 1px solid #1b1b1b;
+    width: fit-content;
+	margin: 0;
+}
 .list-txt {
     border-left: 3px solid;
     padding-left: 10px;
