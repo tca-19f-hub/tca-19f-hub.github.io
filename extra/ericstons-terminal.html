@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.8" />
+    <link rel="stylesheet" href="https://tca-19f-hub.github.io/style.css">
+    <link rel="icon" href="https://i.ibb.co/StP737V/tca-19f-hub-logo.png">
+    <title>Терминал Эрикстона - Хаб УВС 19F</title>
+    <meta name="description" content="Хаб УВС 19F - проект направленный на создание общей сюжетной истории в рамках игрового проекта FUNCLUB | Hard Role Play. В данном хабе будут раскрываться история Участка Временного Содержания 19F и истории сотрудников Организации: работающих, когда-либо работавших и иным образом связанных с УВС 19F.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tca-19f-hub.github.io">
+    <meta property="og:title" content="Хаб УВС 19F | Терминал Эрикстона">
+    <meta property="og:description"
+        content="PLACEHOLDER">
+    <meta property="og:image" content="https://i.postimg.cc/prwYvnMG/9301.jpg">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://tca-19f-hub.github.io/functions-on-all-pages.js"></script>
+    <script>
+        $(function () {
+            $("#includeHtml").load("https://tca-19f-hub.github.io/topbar-navigation.html");
+        });
+
+        $(function () {
+            $("#header-load").load("https://tca-19f-hub.github.io/header.html");
+        });
+    </script>
+</head>
+<html>
+
+<body>
+    <!-- Header Start -->
+    <div style='max-width: 800px;margin: auto;height: 120px;' id="header-load"></div>
+    <!-- Header End -->
+    <!-- Navigation Start -->
+    <div style='height: 23px;margin-bottom: 1em;' id="includeHtml"></div>
+    <!-- Navigation End -->
+
+    <main>
+        <div class="toc-holder">
+            <div id="toc_container">
+                <p class="toc_title">Содержание</p>
+                <ul class="toc_list">
+                    <li><b>Терминал Эрикстона</b></li>
+                    <li><a href="#PLACEHOLDER">PLACEHOLDER</a>
+                </ul>
+            </div>
+        </div>
+
+<div class="page-content">
+<h1>Терминал Эрикстона</h1>
+
+</div>
+<!-- Page end-->
+</main>
+<footer>
+    Пока не указано иное, содержимое этой страницы распространяется по лицензии <a
+    href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0
+    License.</a>
+</footer>
+</body>
+<style>
+.terminal {
+    border: solid 3px #BBBBBB;
+    margin: 1em 0;
+    border-radius: 16px;
+    background-color: rgb(17, 23, 51);
+    background-image: radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, rgb(17, 21, 34));
+    background-position: center;
+    display: block;
+    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+    overflow: hidden;
+    color: #80dbff;
+    font-family: monospace;
+    font-size: 1.2em;
+}
+.redacted {
+    color: #80dbff;
+    background: #80dbff;
+}
+.text {
+    padding: 13% 1em 0.5em;
+}
+.msg {
+    border-left: 5px solid #80dbff;
+    padding-left: 10px;
+}
+.scanline {
+    margin-top: -20%;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
+    -webkit-animation: scan 12s linear 0s infinite;
+    animation: scan 5s linear 0s infinite;
+    background: linear-gradient(to bottom, rgba(56, 112, 82, 0), rgba(56, 112, 82, 0.1)) !important;
+}
+@keyframes scan {
+    0% {
+        transform: translateY(-10%);
+    }
+    100% {
+        transform: translateY(1000%);
+    }
+}
+.terminal blockquote {
+    background-color: black;
+    border: double 3px #80dbff;
+}
+@media screen and (min-width: 300px) and (max-width: 570px) { 
+    .text {
+    padding: 2em 1em 0.5em;
+    }
+}
+.memo-codex {
+    background: #DFFFF3 url(https://i.postimg.cc/285d1kK0/logo-transparent.png) center no-repeat;
+    border: solid 1px #000000;
+    padding: 15px 15px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    max-width: 95%;
+    margin: 1em auto;
+    background-size: 60%;
+    font-family: monospace;
+    border-radius: 10px;
+}
+.right {
+    text-align: right;
+}
+</style>
+</html>
