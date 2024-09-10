@@ -12,9 +12,11 @@
     margin: 1em 0;
 }
 .image-holder {
-    width: 100px;
+    max-width: 100px;
+    margin: 0;
     padding: 10px;
     backdrop-filter: brightness(0.2);
+    height: auto;
 }
 .main-txt {
     font-size: xx-large;
@@ -62,7 +64,7 @@
     font-family: monospace;
 }
 .main-flex {
-    margin: auto;
+    margin: 1em auto;
     text-shadow: 0 0 20px black;
 }
 .hub-content {
@@ -83,6 +85,7 @@
     font-style: italic;
     filter: drop-shadow(1px 1px 3px black);
     text-align: center;
+    padding: 0 1em;
 }
 .notice {
     text-align: center;
@@ -172,23 +175,26 @@
     font-weight: bold;
 }
 @media screen and (min-width: 0px) and (max-width: 400px) {
-.notice {
-    font-variant: unicase;
-}
+    .notice {
+        font-variant: unicase;
+    }
+    .image-holder {
+        display: none;
+    }
 }
 @media screen and (min-width: 0px) and (max-width: 1100px) {
-.hub-main-div {
-    background: url(https://i.ibb.co/jDD1GcD/background-min.png);
-    color: white;
-    background-size: cover;
-    box-shadow: black 0px 0px 20px inset;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: flex-start;
-    margin: 1em 0;
-}
+    .hub-main-div {
+        background: url(https://i.ibb.co/jDD1GcD/background-min.png);
+        color: white;
+        background-size: cover;
+        box-shadow: black 0px 0px 20px inset;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 1em 0;
+    }
 }
 .thanks {
     background: whitesmoke;
