@@ -745,10 +745,12 @@ sup a.footnote {
     .multi-u-text-holder-right {
         padding-right: 0;
         max-width: -webkit-fill-available;
+        text-align: start;
     }
     .multi-u-text-holder-left {
         padding-left: 0;
         max-width: -webkit-fill-available;
+        text-align: start;
     }
     .multi-u-image-holder-main {
         width: -webkit-fill-available;

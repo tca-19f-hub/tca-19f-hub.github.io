@@ -178,9 +178,6 @@
     .notice {
         font-variant: unicase;
     }
-    .image-holder {
-        display: none;
-    }
 }
 @media screen and (min-width: 0px) and (max-width: 1100px) {
     .hub-main-div {
@@ -487,5 +484,8 @@ font-weight: 100;
         display: block;
         background: white;
         border: outset 1px orangered;
+    }
+    .image-holder {
+        display: none;
     }
 }
