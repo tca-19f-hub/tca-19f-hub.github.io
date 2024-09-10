@@ -19,7 +19,7 @@
     height: auto;
 }
 .main-txt {
-    font-size: xx-large;
+    font-size: large;
     font-weight: bold;
     filter: drop-shadow(1px 1px 3px black);
     text-transform: uppercase;
