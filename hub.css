@@ -257,6 +257,17 @@
     transition: 0.5s;
     border: 1px transparent solid;
 }
+.dzen-video-ico {
+    width: 30px;
+    margin: 5px;
+    height: 30px;
+    padding: 0;
+    pointer-events: none;
+    border-radius: 50px;
+    filter: opacity(0.5);
+    transition: 0.5s;
+    border: 1px transparent solid;
+}
 .youtube-tca:hover>img {
     background: black;
     filter: invert(1);
