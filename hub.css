@@ -233,6 +233,7 @@
     border-radius: 50px;
     text-decoration: none;
     transition: 0.5s;
+    margin: 0.3em 0;
 }
 .youtube-tca:hover {
     background: #b2071d;
@@ -284,9 +285,10 @@
     border-radius: 50px;
     text-decoration: none;
     transition: 0.5s;
+    margin: 0.3em 0;
 }
 .dzen-tca:hover {
-    background: #b2071d;
+    background: orange;
     transition: 0.5s;
     color: white;
 }
