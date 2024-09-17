@@ -335,6 +335,9 @@ font-weight: 100;
 .synopsis {
     width: -webkit-fill-available;
 }
+.synopsis h4 { 
+    margin: 1em 0 0.3em 0;
+}
 .poster-holder {
     width: 25%;
     min-width: 30%;
