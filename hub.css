@@ -268,9 +268,9 @@
     transition: 0.5s;
     border: 1px transparent solid;
 }
-.dzen-tca:hover>img {
-    background: none;
-    filter: initial;
+.youtube-tca:hover>img {
+    background: black;
+    filter: invert(1);
     transition: 0.5s;
 }
 .youtube-tca:active>img {
@@ -310,8 +310,8 @@
     color: black;
 }   
 .dzen-tca:hover>img {
-    background: black;
-    filter: invert(1);
+    background: none;
+    filter: none;
     transition: 0.5s;
 }
 .dzen-tca:active>img {
