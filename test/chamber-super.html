@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="https://tca-19f-hub.github.io/style.css"> 
   <link rel="stylesheet" href="https://tca-19f-hub.github.io/hub.css">
   <link rel="stylesheet" href="https://tca-19f-hub.github.io/main-txt-animation.css">
-  <title>Обзор - Хаб УВС 19F</title>
+  <title>Хаб УВС 19F</title>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
   <meta name="description" content="Хаб УВС 19F - проект направленный на создание общей сюжетной истории в рамках игрового проекта FUNCLUB | Hard Role Play. В данном хабе будут раскрываться история Участка Временного Содержания 19F и истории сотрудников Организации: работающих, когда-либо работавших и иным образом связанных с УВС 19F.">
@@ -15,6 +15,7 @@
   <meta property="og:title" content="Хаб УВС 19F | FunClub HRP">
   <meta property="og:description" content="Хаб УВС 19F - проект направленный на создание общей сюжетной истории в рамках игрового проекта FUNCLUB | Hard Role Play. В данном хабе будут раскрываться история Участка Временного Содержания 19F и истории сотрудников Организации: работающих, когда-либо работавших и иным образом связанных с УВС 19F.">
   <meta property="og:image" content="https://i.ibb.co/jwwLzQb/tca-19f-cover.png">
+  <script src="https://tca-19f-hub.github.io/tabs.js"></script>
 <script>
 /// НАВИГАЦИЯ С ПОДГРУЗКОЙ
 	 $(function() {
@@ -24,28 +25,6 @@
 	$(function(){
     $("#header-load").load("https://tca-19f-hub.github.io/header.html"); 
     });
-/// SHOW / HIDE 1
-    function show_1() {
-      document.getElementById("hide-text-1").style.display = "block";
-      document.getElementById("knopka-1-2").style.display = "block";
-      document.getElementById("knopka-1-1").style.display = "none";
-    }
-    function hide_1() {
-      document.getElementById("hide-text-1").style.display = "none";
-      document.getElementById("knopka-1-1").style.display = "block";
-      document.getElementById("knopka-1-2").style.display = "none";
-    }
-/// SHOW / HIDE 2
-    function show_2() {
-      document.getElementById("hide-text-2").style.display = "block";
-      document.getElementById("knopka-2-2").style.display = "block";
-      document.getElementById("knopka-2-1").style.display = "none";
-    }
-    function hide_2() {
-      document.getElementById("hide-text-2").style.display = "none";
-      document.getElementById("knopka-2-1").style.display = "block";
-      document.getElementById("knopka-2-2").style.display = "none";
-    }
 </script>
 </head>
 <html>
@@ -56,149 +35,292 @@
 <!-- Navigation Start -->
 	<div style='height: 23px;margin-bottom: 1em;' id="includeHtml"></div>
 <!-- Navigation End -->
+  <!-- background 
+<div class="new-background"></div>
+  background end -->
 <!-- Toc Start -->
 <main>
-<div class="toc-holder">
+<div class="invent">
+<DIV class="show-toc" id="toc-1">
+<div class="toc-holder" style="margin-right: 0;width: auto;">
   <div id="toc_container">
     <p class="toc_title">Содержание</p>
     <ul class="toc_list" style="padding-inline-start: 10px !important;">
-     <li><b>Главная</b></li>
-     <li><b><a href="#введение-в-хаб">Введение в хаб</a></b></li>
-     <li><a href="#персонажи">Персонажи</a></li>
-     <li><a href="#тезисы">Тезисы</a></li>
-     <li><b><a href="#историческая-справка">Историческая справка</a></b></li>
+     <li><b>VOLUME.1</b></li>
+     <li><b><a href="#одиночные-рассказы-и-очерки">Одиночные рассказы и очерки</a></b></li>
+     <ul>
+      <li><a href="#меня-зовут-марко">"МЕНЯ ЗОВУТ МАРКО"</a></li>
+      <li><a href="#первый-цербер">"ПЕРВЫЙ ЦЕРБЕР"</a></li>
+      <li><a href="#красное-яблоко">"КРАСНОЕ ЯБЛОКО"</a></li>
+     </ul>
+     <li><b><a href="#циклы-рассказов-и-повести">Циклы рассказов и повести</a></b></li>
+     <ul>
+      <li><a href="#конфликт-интересов">"КОНФЛИКТ ИНТЕРЕСОВ"</a></li>
+     </ul>
+     <li><b><a href="#видео-и-аудиоматериалы">Видео и аудиоматериалы</a></b></li>
+     <ul>
+      <li><a href="#предыстория">"ПРЕДЫСТОРИЯ"</a></li>
+      <li><a href="#по-старой-дружбе">"ПО СТАРОЙ ДРУЖБЕ"</a></li>
+      <li><a href="#я-всё-ещё-помню">"Я ВСЁ ЕЩЁ ПОМНЮ"</a></li>
+      <li><a href="#наблюдая-наш-конец">"НАБЛЮДАЯ НАШ КОНЕЦ"</a></li>
+      <li><a href="#новый-аполлон">"НОВЫЙ АПОЛЛОН"</a></li>
+      <li><a href="#интервью">"ИНТЕРВЬЮ"</a></li>
+     </ul>
+     <li><b><a href="#особые-благодарности">Особые благодарности</a></b></li>
     </ul>
   </div>
+</div>
+</DIV>
+<!-- Toc middle -->
+<DIV class="show-toc" id="toc-2" style="display: none;">
+<div class="toc-holder" style="margin-right: 0;width: auto;">
+  <div id="toc_container">
+    <p class="toc_title">Содержание</p>
+    <ul class="toc_list" style="padding-inline-start: 10px !important;">
+     <li><b>VOLUME.2</b></li>
+     <li><a href="#бим бим бам бам">"бим бим бам бам"</a></li>
+  </div>
+</div>
+</DIV>
 </div>
 <!-- Toc End -->
 <!-- Page Start -->
 <div class="page-content">
-<h1>Обзор</h1>
-<h2 id="введение-в-хаб">Введение в хаб</h2>
-<p>Хаб УВС 19F художественный проект, который повествует об истории одноименного учреждения, его прошлом, связанных с ним персонажах, объектах и историях. Это формирует единое пространство, в котором они существуют и генерируют события. Стоит отметить, что большая часть всех персонажей и связанных с ними событий это интерпретация происходившего в нашей реальности. При этом, авторами предполагается, что события прошлого рассматриваются как фундамент для общего сюжета, и могут быть изменены в угоду существующей модели.</p>
 
-<p>Хаб не обладает жанровой идентичностью, но основные события можно описать как шпионский детектив с примесью военной драмы, и, разумеется, научная фантастика.</p>
+    <div class="notice">
+        ПРЕДСТАВЛЕННЫЕ ДАЛЕЕ МАТЕРИАЛЫ<br>
+        <div style='font-size: 150%;font-weight: bolder;'>РЕКОМЕНДУЮТСЯ К ПРОЧТЕНИЮ</div>
+        ЖЕЛАЕМ ПРИЯТНОГО ВРЕМЯПРЕПРОВОЖДЕНИЯ
+        </div>
 
-<p>Хаб рассматривает проблему самоидентичности Фонда, ставит под вопрос его методы. Можно сказать, что хаб УВС 19F претендует на переосмысление Графтового грома при условии существования Повстанцев. Также, позже в повествовании можно заметить некоторую схожесть с хабом "Воскрешение", что изначально было неинтенционально и данный хаб не ставит себя в позицию или оппозицию по отношению к хабу "Воскрешение"; хотя и исходит из похожих желаний и идей.</p>
+<div class="hub-image"><img width='100%' src="https://i.ibb.co/wYr6cwR/hub-image.png" /></div>
 
-<p><b>Время действия</b> ~ начало 2010-х - настоящее время.</p>
-
-<div class="flexed" id="персонажи">
-  <h3>Персонажи</h3>
-  <div class="line"></div>
-  <button onclick="show_1()" id="knopka-1-1" class="texted">+ показать</button>
-  <button onclick="hide_1()" id="knopka-1-2" style="display: none;" class="texted">- скрыть</button>
+<div class='main-content'><h2 style='border-bottom: 1px solid #ff4500;'>Добро пожаловать!</h2></div>
+<!-- Tabs start -->
+<div class="maintab">
+  <button class="tablinks"  onclick="openCity(event, 'vol-1');myFunction1()"><span class='vol'>VOLUME.1</span><tt> (Том 1)</tt><p>Стадия Рефлексии</p></button>
+  <button class="tablinks"  onclick="openCity(event, 'vol-2');myFunction2()"><span class='vol'>VOLUME.2</span><tt> (Том 2)</tt><p>Стадия Осмысления</p></button>
 </div>
-<div style="display: none;" id="hide-text-1">
-  <blockquote class="character">
-    <h2>Ренэйт Дивейли</h2>
-    <p>Немка, стальная женщина со стальными нервами. Не терпит болтовни и переливания из пустого в порожнее. Солдат до мозга костей, требовательна и бескомпромиссна к подчиненным, спокойна и рассудительна в беде, безжалостна к врагу и верна патрону.</p>
-  </blockquote>
-  <blockquote class="character">
-    <h2>Ричард Стаер</h2>
-    <p>Американец, целеустремлён и упёрт в своих убеждениях. Талантлив в военной сфере, отличный тактик. После “Роковой ночи” стал скептически относится к приказам вышестоящих и активно выражать свое мнение. Предпочитает работать в неформальной обстановке. Часто его упрямство и самодеятельность играют с ним злую шутку. Оценивает людей по поступкам, а не по званиям.</p>
-  </blockquote>
-  <blockquote class="character">
-    <h2>Алан Харт</h2>
-    <p>Русский, необычная фамилия досталась от отца - английского инженера. Молодой и перспективный ученый, доктор биологических наук. В УВС 19F попал по приглашению от Уильяма Ламперужа. Импульсивная и язвительная личность, хотя, когда нужно, может держать голову холодной. Плохо соблюдает субординацию, из-за чего не раз получал выговоры.</p>
-  </blockquote>
-</div>
-<div class="flexed" id="тезисы">
-  <h3>Тезисы</h3>
-  <div class="line"></div>
-  <button onclick="show_2()" id="knopka-2-1" class="texted">+ показать</button>
-  <button onclick="hide_2()" id="knopka-2-2" style="display: none;" class="texted">- скрыть</button>
-</div>
-<div style="display: none;" id="hide-text-2">
-  <p>
-    <b>Основа</b>
-    <ul>
-      <li>За стартовую точку берется одна из концовок SCP Containment Breach.</li>
-      <li>Зона 19 уничтожена в ходе нападения Повстанцев.</li>
-      <li>Во главу сюжета изначально ставится противостояние Фонда и Повстанцев.</li>
-      <li>Некоторые события могут быть преувеличены в угоду нарративу и художественности.</li>
-    </ul>
-  </p>
-  <p>
-    <b>Переплетение</b>
-    <ul>
-      <li>Внутренний лор SCP:SL не рассматривается в какой либо степени и редактируется в угоду нарративу.</li>
-      <li>Многие из игровых событий SCP:SL отражаются в письменном виде на хабе.</li>
-      <li>Персонажи и квенты участников игровых проектов FunClub и Arkham могут претендовать на упоминание в лоре хаба или полноценное вовлечение в сюжет.</li>
-    </ul>
-  </p>
+<!-- Tabs end -->
+<!-- Tab content -->
+<div id="vol-1" class="maintab-content" style="display: block;">
+
+<div class="big-notice">
+  <div class="back-notice">
+  <p>Всем, кто в данный момент читает это сообщение...</p>
+  <p>Зона 19 - более не существует как учреждение Фонда. Нет, не поймите неправильно, мы полностью восстановили контроль над тем, что когда-то называлось - Зона 19, 
+    но боюсь, что выполнять и дальше все свои функции оно не сможет.</p>
+  <p>Это исторический момент, происходящий на наших глазах, подобных прецедентов которому не было, и мы обязаны не допустить подобного впредь. Повстанцы застали 
+    нас врасплох, проведя крупнейшую операцию с момента их обнаружения нами. Мне страшно представить, каково было находиться внутри в те минуты, испытать всё это вживую. 
+    Многие из вас загорятся идеей мести, но прошу Вас, это успеется, сейчас Фонду необходимо время, чтобы зализать раны. В данный момент идет оценка ущерба и поиск, а также 
+    возврат, утерянных объектов. К сожалению, многие из них перешли в руки Повстанцев, и не факт, что мы вновь их когда либо увидим.</p>
+  <p>Но, какая бы плачевная ситуация не была, это не конец света. У Совета Смотрителей уже имеется план дальнейших действий, и имя ему - "Проект FC".</p>
+ </div>
 </div>
 
-<h2 class="trim" id="историческая-справка">Историческая справка</h2>
-<table class="heritage">
-  <tbody>
-    <tr>
-      <td class="l">
-        <h3>Падение <span class="nw">Зоны 19</span></h3>
-        <tt> ██.██.201█</tt>
-      </td>
-      <td class="r">
-        <h4>«Мы вынесем свой урок…»</h4>
-        <p>Повстанцы наносят удар, от которого будет нелегко, но жизненно необходимо оправиться. Совет постановляет о создании разгрузочных учреждений, одним из таких станет УВС 19.</p>
-      </td>
-    </tr>
-    <tr>
-      <td class="l">
-        <h3>Основание <span class="nw">УВС 19</span></h3>
-        <tt>12.04.2018</tt>
-      </td>
-      <td class="r">
-        <h4>Новая надежда</h4>
-        <p>Не первый из списка разгрузочных учреждений, но самый крупный и амбициозный, а также призванный стать по значимости "новой Зоной 19" - УВС 19 стал домом не только почти всем объектам вышеупомянутой Зоны, но и многим сотрудникам, кто до сих пор вспоминает то время с толикой грусти.</p>
-      </td>
-    </tr>
-    <tr>
-      <td class="l">
-        <h3>Период затишья</h3>
-        <tt>2018-2021</tt>
-      </td>
-      <td class="r">
-        <h4>Бюрократия</h4>
-        <p>В открывшемся окне возможностей многие увидели перспективы для развития своих проектов, что усложнило и затормозило выполнение основной задачи.</p>
-      </td>
-    </tr>
-    <tr>
-      <td class="l">
-        <h3>Инцидент <span class="nw">G-19</span></h3>
-        <tt>24.02.2021</tt>
-      </td>
-      <td class="r">
-        <h4>"Роковая ночь"</h4>
-        <p>Во время заморозки деятельности учреждения, после недавнего и неожиданного заявления Дю'Валя о собственном уходе, произошёл один из крупнейших рейдов Повстанцев. К этому не был готов никто. Благодаря эффекту неожиданности, Повстанцам удалось нанести значительный ущерб, хоть эта их победа и оказалась Пирровой.</p>
-      </td>
-    </tr>
-    <tr>
-      <td class="l">
-        <h3>Открытие <span class="nw">УВС 19F</span></h3>
-        <tt>28.06.2021</tt>
-      </td>
-      <td class="r">
-        <h4>Последняя надежда</h4>
-        <p>Переоткрытие УВС 19 под маркировкой F - ожидаемый исход игр в геополитические кошки мышки. Учреждение возводят в рекордные сроки, оно входит в ранее неизвестный "Проект FC", а в ряды сотрудников срочным образом собирают претендентов со всего мира. Кажется все идет к повторению знакомой истории… «Эта песня хороша - начинай сначала!»</p>
-      </td>
-    </tr>
-    <tr>
-      <td class="l">
-        <h3>Просперити</h3>
-        <tt>2021-2023</tt>
-      </td>
-      <td class="r">
-        <h4>Закулисные игрища</h4>
-        <p>Благодаря выгодной позиции, большой текучке объектов и кадров, а также прямой поддержке со стороны Совета, УВС 19F начинает развиватся быстрыми темпами. Открываются новые отделы, утверждаются различные проекты; растет и аппетит, который приходит, как известно, во время еды. Дополнительное содействие смежных учреждений проекта крайне положительно сказывается на общем благосостоянии, но, почему же не уходит чувство тревоги…</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-<center><tt>Время не остановить…</tt></center>
-
-<!-- Page div start -->
+<div class="act-holder">
+  <div class="act-txt"><span>ACT.1</span> <tt>(АКТ 1)</tt></div>
+  <div class="act-line"></div>
 </div>
-<!-- Page div end -->
+
+<div id='одиночные-рассказы-и-очерки' class='main-content'><h3>Одиночные рассказы и очерки</h3></div>
+
+<div id='меня-зовут-марко' class="tales-prw">
+  <a class="icon-holder" href="https://tca-19f-hub.github.io/sketch/my-name-is-marco">
+    <img width='100%' src="https://i.ibb.co/PTsknbV/marco-cover.png" />
+  </a>
+  <div class="synopsis">
+    <p class="s-head">"МЕНЯ ЗОВУТ МАРКО"<br>
+      <tt>“Он не совершит эту ошибку ещё раз. Он умрёт, если понадобится, но не ошибётся.”</tt></p>
+  </div>
+</div>
+
+<hr class="divider" style="border: 1px inset lightgrey;">
+
+<div id='первый-цербер' class="tales-prw">
+  <a class="icon-holder" href="https://tca-19f-hub.github.io/sketch/the-first-cerberus">
+    <img width='100%' src="https://i.ibb.co/cNQkx1j/cerberus.png" />
+  </a>
+  <div class="synopsis">
+    <p class="s-head">"ПЕРВЫЙ ЦЕРБЕР"<br>
+      <tt>Наша цель - создание универсальной боевый еденицы по методикам проекта “Аполлон”, и мы пройдемся по головам, но выполним её.</tt></p>
+  </div>
+</div>
+
+<hr class="divider" style="border: 1px inset lightgrey;">
+
+<div id='красное-яблоко' class="tales-prw">
+  <a class="icon-holder">
+    <img width='100%' src="https://i.ibb.co/28bQ3pD/qrcode.png" />
+  </a>
+  <div class="synopsis">
+    <p class="s-head">"КРАСНОЕ ЯБЛОКО"<br>
+      <tt><strike>Завтра</strike> Скоро...</tt></p>
+  </div>
+</div>
+
+<div id='циклы-рассказов-и-повести' class='main-content'><h3>Циклы рассказов и повести</h3></div>
+
+<div id='конфликт-интересов' class="preview-right">
+  <div class="poster-holder">
+    <img width='100%' src="https://i.ibb.co/VYMcH0T/genesis-poster.png" />
+  </div>
+  <div class="synopsis">
+    <p class="s-head">"КОНФЛИКТ ИНТЕРЕСОВ"<br>
+    <tt>Цикл о проекте "Г" и его участниках.</tt></p>
+    <p>Группе исследователей из недавно введённого в эксплуатацию УВС 19F было поручено отвественное задание - модифицировать гены SCP-939 в надежде
+      вывести более покорную особь, но, кажется, у каждого появились личные мотивы.
+    </p>
+    <p class="s-author"><b>ИНТЕРЛЮДИЯ</b> - авторы: SAYLON, Apok_rif, Fantasy</p>
+      <ul>
+        <li><a href="https://tca-19f-hub.github.io/tale/conflict-of-interests-1">Часть 1: Рождение.</a></li>
+        <li><a href="https://tca-19f-hub.github.io/tale/conflict-of-interests-2">Часть 2: Незаменимое трио.</a></li>
+      </ul>
+      
+  </div>
+</div>
+
+<div id='видео-и-аудиоматериалы' class='main-content'><h3>Видео и аудиоматериалы</h3></div>
+
+<div id='предыстория' class="preview-left">
+  <a href='https://youtu.be/wEWb3sKdWtg?si=blRybkiB8ZZiLHTD' class="poster-holder">
+    <img width='100%' src="https://i.ibb.co/1zgbwsF/poster-1.png" />
+    <caption class="poster-cap">постер кликабелен</caption>
+  </a>
+  <div class="synopsis">
+    <p class="s-head">"ПРЕДЫСТОРИЯ"<br>
+    <tt>ВИДЕОЛЕКЦИЯ ЗАКА О'ПАЙИ</tt></p>
+    <p>Отдел информирования: "<i>Цель данной видеолекции - ликвидация безграмотности
+      персонала Участка Временного Содержания 19F относительно
+      событий, повлёкших за собой учреждение, основание и
+      ввод в эксплуатацию вышеупомянутого участка.<br>   
+      Видеолекция свободна к распрастранению среди
+      сотрудников с уровнем допуска 2 и выше.</i>"</p>
+      <a class="youtube-tca" href="https://www.youtube.com/@TCA-19F-HUB">
+        <img class="video-ico" src="https://clipart-library.com/images/dc4LABqni.png" />
+        <div class='video-txt'>https://www.youtube.com/@TCA-19F-HUB</div>
+      </a>
+      <a class="dzen-tca" href="https://www.youtube.com/@TCA-19F-HUB">
+        <img class="video-ico" src="https://clipart-library.com/images/dc4LABqni.png" />
+        <div class='video-txt'>https://www.youtube.com/@TCA-19F-HUB</div>
+      </a>
+  </div>
+</div>
+
+<hr class="divider" style="border: 1px inset lightgrey;">
+
+<div id='по-старой-дружбе' class="preview-right">
+  <a href='https://youtu.be/mzazhSez7nk?si=fnA2FqK1YvOLPxqI' class="poster-holder">
+    <img width='100%' src="https://i.ibb.co/W3kmqCm/poster-prwv.png" />
+    <caption class="poster-cap">постер кликабелен</caption>
+  </a>
+  <div class="synopsis">
+    <p class="s-head">"ПО СТАРОЙ ДРУЖБЕ"<br>
+    <tt>ЗАК О'ПАЙА & ███</tt></p>
+    <p>Зак, по срочному вызову, приезжает на очную встречу с ███, с кем у него имеются неформальные связи, 
+      которые с некоторой натяжкой можно назвать "дружбой". В этот раз, дружеская просьба превращается в задание на добровольно-принудительной основе.</p>
+    <a class="youtube-tca" href="https://www.youtube.com/@TCA-19F-HUB">
+      <img class="youtube-ico" src="https://clipart-library.com/images/dc4LABqni.png" />
+      <div class='youtube-txt'>https://www.youtube.com/@TCA-19F-HUB</div>
+    </a>
+  </div>
+</div>
+
+<hr class="divider" style="border: 1px inset lightgrey;">
+
+<div id='я-всё-ещё-помню' class="preview-left">
+  <a href='https://youtu.be/uNnr-94hr8U?si=CbnvpG4LVILrh9SG' class="poster-holder">
+    <img width='100%' src="https://i.ibb.co/Xp2gByF/ioffe.png" />
+    <caption class="poster-cap">постер кликабелен</caption>
+  </a>
+  <div class="synopsis">
+    <p class="s-head">"Я ВСЁ ЕЩЁ ПОМНЮ"<br>
+    <tt>ЙОФФЕ & ЗАК О'ПАЙА</tt></p>
+    <p>"<i>Обязательная личная встреча, да? В тихом, непримечательном месте, где нашему разговору не будет помех. 
+      Что-ж, такого аудита у меня ещё не было, Зак удивлять умеет, но всё же - не с проста это, и я явно не отделаюсь вопросами и ответами. 
+      Одно понятно - по тону его голоса - что он и сам не видит полной картины, а значит это инициатива сверху, но к чему тогда формальности, я ведь не прячусь.</i>"</p>
+      <a class="youtube-tca" href="https://www.youtube.com/@TCA-19F-HUB">
+        <img class="youtube-ico" src="https://clipart-library.com/images/dc4LABqni.png" />
+        <div class='youtube-txt'>https://www.youtube.com/@TCA-19F-HUB</div>
+      </a>
+  </div>
+</div>
+
+<hr class="divider" style="border: 1px inset lightgrey;">
+
+<div id='наблюдая-наш-конец' class="preview-right">
+  <a href='https://youtu.be/U2FqxABTm3w?si=gEAmA-FPZnv0FjZn' class="poster-holder">
+    <img width='100%' src="https://i.ibb.co/T17rQxV/poster-3.png" />
+    <caption class="poster-cap">постер кликабелен</caption>
+  </a>
+  <div class="synopsis">
+    <p class="s-head">"НАБЛЮДАЯ НАШ КОНЕЦ"<br>
+    <tt>НАВАРРО & ЗАК О'ПАЙА</tt></p>
+    <p>Зак продолжает свой квест по вербовке нужных для Совета людей, на очереди - агент Наварро. 
+      Приехав на место, Зак встречает Лэйра, говорящего с кем-то по телефону. Протокол дальнейшего разровора, как и его запись, прилагается в данном файле.</p>
+    <a class="youtube-tca" href="https://www.youtube.com/@TCA-19F-HUB">
+      <img class="youtube-ico" src="https://clipart-library.com/images/dc4LABqni.png" />
+      <div class='youtube-txt'>https://www.youtube.com/@TCA-19F-HUB</div>
+    </a>
+  </div>
+</div>
+
+<hr class="divider" style="border: 1px inset lightgrey;">
+
+<div id='новый-аполлон' class="preview-left">
+  <a href='https://youtu.be/bTpXumlzVok?si=KSkqIFYYq5YAhpiM' class="poster-holder">
+    <img width='100%' src="https://i.ibb.co/bmK879c/cerberus.png" />
+    <caption class="poster-cap">постер кликабелен</caption>
+  </a>
+  <div class="synopsis">
+    <p class="s-head">"НОВЫЙ АПОЛЛОН"<br>
+    <tt>ЛАМПЕРУЖ & ЗАК О'ПАЙА</tt></p>
+    <p><b>Бытие 1:26</b> И сказал Бог: <i>Cотворим человека по образу Нашему и по подобию Нашему, 
+      и да владычествуют они над рыбами морскими, и над птицами небесными, и над скотом, и над всею землею, и над всеми гадами, пресмыкающимися по земле.</i></p>
+      <a class="youtube-tca" href="https://www.youtube.com/@TCA-19F-HUB">
+        <img class="youtube-ico" src="https://clipart-library.com/images/dc4LABqni.png" />
+        <div class='youtube-txt'>https://www.youtube.com/@TCA-19F-HUB</div>
+      </a>
+  </div>
+</div>
+
+<hr class="divider" style="border: 1px inset lightgrey;">
+
+<div id='интервью' class="preview-right">
+  <a href='https://www.youtube.com/watch?v=EyHyMLM_Kl8' class="poster-holder">
+    <img width='100%' src="https://i.ibb.co/2ZqM06N/kapitsa-qr.png" />
+    <caption class="poster-cap">постер кликабелен</caption>
+  </a>
+  <div class="synopsis">
+    <p class="s-head">"ИНТЕРВЬЮ"<br>
+    <tt>КАПИЦА & ███████</tt></p>
+    <p>"<i>УВС 19 - наш дом, и мы были готовы защитить его. Ведь если мы не готовы принять бой, когда наш дом нуждается в этом, какое право имели бы мы называть себя - первым рубежом нормальности человечества?</i>"</p>
+      <a class="youtube-tca" href="https://www.youtube.com/@TCA-19F-HUB">
+        <img class="youtube-ico" src="https://clipart-library.com/images/dc4LABqni.png" />
+        <div class='youtube-txt'>https://www.youtube.com/@TCA-19F-HUB</div>
+      </a>
+  </div>
+</div>
+
+</div>
+
+<div id="vol-2" class="maintab-content">
+
+  <div class="white-notice">
+    <div class="back-notice">
+    <p>Всем, кто в данный момент читает это сообщение...</p>
+    <p>Зона 19 - более не существует как учреждение Фонда. Нет, не поймите неправильно, мы полностью восстановили контроль над тем, что когда-то называлось - Зона 19, 
+      но боюсь, что выполнять и дальше все свои функции оно не сможет.</p>
+    <p>Это исторический момент, происходящий на наших глазах, подобных прецедентов которому не было, и мы обязаны не допустить подобного впредь. Повстанцы застали 
+      нас врасплох, проведя крупнейшую операцию с момента их обнаружения нами. Мне страшно представить, каково было находиться внутри в те минуты, испытать всё это вживую. 
+      Многие из вас загорятся идеей мести, но прошу Вас, это успеется, сейчас Фонду необходимо время, чтобы зализать раны. В данный момент идет оценка ущерба и поиск, а также 
+      возврат, утерянных объектов. К сожалению, многие из них перешли в руки Повстанцев, и не факт, что мы вновь их когда либо увидим.</p>
+    <p>Но, какая бы плачевная ситуация не была, это не конец света. У Совета Смотрителей уже имеется план дальнейших действий, и имя ему - "Проект FC".</p>
+   </div>
+  </div>
+
+</div>
+
 <!-- Page end -->
 
 </main>
@@ -206,128 +328,4 @@
   Пока не указано иное, содержимое этой страницы распространяется по лицензии <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 License.</a>
 </footer>
 </body>
-<style>
-  .heritage {
-    width: -webkit-fill-available;
-    border: 0;
-    padding: 0;
-    margin: 0 auto;
-    border-spacing: 0;
-    border-collapse: separate;
-  }
-  .trim {
-    border-bottom: #bbbbbb 1px solid;
-    padding: 0 0 0.25em;
-    margin: 0 0 0.5em;
-  }
-  .l {
-    border-right: 1px #bbbbbb solid;
-    padding: 1em 0.5em;
-    width: 50%;
-    text-align: right;
-  }
-  .r {
-    width: 50%;
-    padding: 1em 0.5em;
-  }
-  td h3 {
-    font-weight: normal;
-    font-size: 200%;
-    margin: 0;
-    padding: 0;
-    letter-spacing: 1px;
-  }
-  td h4 {
-    font-size: 110%;
-    margin: 0.5em 0;
-  }
-  td p {
-    text-align: justify;
-    margin: 0;
-  }
-  .texted {
-    border: none;
-    color: orange;
-    background: transparent;
-    font-size: 0.9em;
-    font-variant: small-caps;
-    margin: 0;
-    white-space: nowrap;
-  }
-  .texted:hover {
-    text-decoration: underline;
-  }
-  .texted:active {
-    text-decoration: underline;
-    color: orangered;
-  }
-  .flexed {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    margin: 2.5em 0 1.5em 0;
-  }
-  .flexed h3 {
-    margin: 0;
-    white-space: nowrap;
-    font-variant-caps: small-caps;
-    text-transform: uppercase;
-    font-weight: 350;
-  }
-  .line {
-    height: 1px;
-    background-color: black;
-    width: -webkit-fill-available;
-    margin: 0 1em;
-  }
-  .character {
-    margin: 1em 0em !important;
-    padding: 0.5em 1em;
-    background-color: #ffffff;
-    border: 1px solid #dcdcdc;
-    box-shadow: 0 2px 3px #ccc;
-  }
-  .character h2 {
-    font-size: 130%;
-    color: black;
-    margin-top: 0.7em;
-    padding: 0;
-    font-weight: 500;
-    font-family: sans-serif;
-  }
-  @media screen and (min-width: 0px) and (max-width: 570px) {
-    td h3 {
-    font-weight: normal;
-    font-size: 140%;
-    margin: 0;
-    padding: 0;
-    letter-spacing: 1px;
-    }
-    .r {
-    width: 70%;
-    padding: 1em 0.5em;
-    }
-    .l {
-    border-right: 1px #bbbbbb solid;
-    padding: 1em 0.5em;
-    width: 30%;
-    text-align: right;
-    }
-    .heritage {
-    width: -webkit-fill-available;
-    border: 0;
-    padding: 0;
-    margin: 0 auto;
-    border-spacing: 0;
-    border-collapse: separate;
-    font-size: small;
-    }
-    td p {
-    text-align: left;
-    margin: 0;
-    }
-  }
-
-</style>
 </html>
