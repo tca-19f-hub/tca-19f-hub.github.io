@@ -115,3 +115,7 @@
 .marker {
     background-color: yellow;
 }
+.red-bg {
+    background-color: #660500;
+    color: white;
+}
