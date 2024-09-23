@@ -349,7 +349,10 @@ h4 {
     padding: 1em;
     box-shadow: 0 2px 6px rgba(0, 0, 0, .5), inset 0 1px rgba(255, 255, 255, .3), inset 0 10px rgba(255, 255, 255, .2), inset 0 10px 20px rgba(255, 255, 255, .25), inset 0 -15px 30px rgba(0, 0, 0, .1);
 }
-
+.redacted {
+    background: black;
+    color: black;
+}
 a {
     text-decoration: none;
     color: darkorange;
