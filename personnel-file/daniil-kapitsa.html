@@ -140,11 +140,11 @@
   </div>
     <div id="отчет" class="one-paper">
     <div class="flexed-g-19">
-      <div style="max-width: 80px;margin: 0 1em">
+      <div class='gamma-5-img'>
         <img width="100%" src='https://i.postimg.cc/qqDQC6tk/gamma-5.png' />
       </div>
-      <div style="margin: 0 1em;display: flex;flex-direction: column;flex-wrap: nowrap;">
-        <span style="font-size: 250%;font-family: 'JetBrains Mono';color: darkgoldenrod;text-shadow: 2px 1px 0px black;">G-19 "Роковая ночь"</span>
+      <div class='gamma-5-flex'>
+        <span class="gamma-5-text">G-19 "Роковая ночь"</span>
         <span style="font-family: 'JetBrains Mono';font-size: x-large;">Отчёт об инциденте</span>
       </div>
     </div>
@@ -231,11 +231,46 @@
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
-}
-.one-paper {
-    border: grey 1px solid;
-    margin: 1em 0;
-    padding: 10px;
-}
+  }
+  .one-paper {
+      border: grey 1px solid;
+      margin: 1em 0;
+      padding: 10px;
+  }
+  .gamma-5-text {
+    font-size: 250%;
+    font-family: 'JetBrains Mono';
+    color: darkgoldenrod;
+    text-shadow: 2px 1px 0px black;
+  }
+  .gamma-5-flex {
+    margin: 0 1em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .gamma-5-img {
+    max-width: 80px;
+    margin: 0 1em;
+  }
+  @media screen and (min-width: 100px) and (max-width: 570px) { 
+    .flexed-g-19 {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+      margin: 1em 0;
+     }
+    .gamma-5-flex {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      text-align: center;
+    }
+    .gamma-5-text {
+      font-size: 200%;
+    }
+  }
 </style>
 </html>

@@ -122,5 +122,5 @@
 }
 .censored {
     -webkit-text-security: square;
-    overflow-wrap: break-word;
+    overflow-wrap: anywhere;
 }
