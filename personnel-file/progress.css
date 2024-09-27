@@ -120,3 +120,7 @@
     color: white;
     padding: 10px;
 }
+.censored {
+    -webkit-text-security: square;
+    overflow-wrap: break-word;
+}
